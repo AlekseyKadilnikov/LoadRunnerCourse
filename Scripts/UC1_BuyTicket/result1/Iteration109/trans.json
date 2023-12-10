@@ -1,0 +1,42 @@
+[
+    {
+        "transactionName": "home_page",
+        "rawStartTime": 1702146748564,
+        "rawEndTime": 1702146749020
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1702146749102,
+        "rawEndTime": 1702146749556
+    },
+    {
+        "transactionName": "flights_page",
+        "rawStartTime": 1702146749639,
+        "rawEndTime": 1702146750116
+    },
+    {
+        "transactionName": "search_flight",
+        "rawStartTime": 1702146750212,
+        "rawEndTime": 1702146750615
+    },
+    {
+        "transactionName": "choose_ticket",
+        "rawStartTime": 1702146750678,
+        "rawEndTime": 1702146751072
+    },
+    {
+        "transactionName": "payment_details",
+        "rawStartTime": 1702146751147,
+        "rawEndTime": 1702146751545
+    },
+    {
+        "transactionName": "itinerary",
+        "rawStartTime": 1702146751622,
+        "rawEndTime": 1702146752098
+    },
+    {
+        "transactionName": "UC1_BuyTicket",
+        "rawStartTime": 1702146748512,
+        "rawEndTime": 1702146752178
+    }
+]

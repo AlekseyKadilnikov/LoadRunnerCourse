@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\kurtk\OneDrive\ƒокументы\Controller\Scripts\UC6_Registration
+-ID:\LoadRunner\include
+-ec:\users\kurtk\onedrive\документы\controller\scripts\uc6_registration\\logfile.log
+c:\users\kurtk\onedrive\документы\controller\scripts\uc6_registration\\combined_UC6_Registration.c
+c:\users\kurtk\onedrive\документы\controller\scripts\uc6_registration\\pre_cci.c

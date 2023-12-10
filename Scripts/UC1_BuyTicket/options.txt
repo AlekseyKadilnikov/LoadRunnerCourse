@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\kurtk\OneDrive\ƒокументы\Controller\Scripts\UC1_BuyTicket
+-ID:\Loadrunner\include
+-ec:\users\kurtk\onedrive\документы\controller\scripts\uc1_buyticket\\logfile.log
+c:\users\kurtk\onedrive\документы\controller\scripts\uc1_buyticket\\combined_UC1_BuyTicket.c
+c:\users\kurtk\onedrive\документы\controller\scripts\uc1_buyticket\\pre_cci.c

@@ -1,0 +1,3 @@
+../lib/common.h(292): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MERR-26612]
+Warning: Iteration pacing cannot be reached (pace time = 80,00, actual time = 1127,58).	[MsgId: MWAR-15995]
+Warning: Iteration pacing cannot be reached (pace time = 80,00, actual time = 1123,82).	[MsgId: MWAR-15995]

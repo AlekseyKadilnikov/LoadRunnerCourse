@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "home_page",
+        "rawStartTime": 1702198085404,
+        "rawEndTime": 1702198085534
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1702198085534,
+        "rawEndTime": 1702198085622
+    },
+    {
+        "transactionName": "itinerary",
+        "rawStartTime": 1702198085636,
+        "rawEndTime": 1702198085750
+    },
+    {
+        "transactionName": "remove_ticket",
+        "rawStartTime": 1702198085751,
+        "rawEndTime": 1702198085827
+    },
+    {
+        "transactionName": "sign_off",
+        "rawStartTime": 1702198085828,
+        "rawEndTime": 1702198085930
+    },
+    {
+        "transactionName": "UC2_RemoveTicket",
+        "rawStartTime": 1702198085404,
+        "rawEndTime": 1702198085931
+    }
+]

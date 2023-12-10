@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 09 Dec 2023 19:09:49 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 08 Dec 2023 19:09:49 GMT
+Set-Cookie: MTUserInfo=firstName&Adelbert&username&fki&address2&Shijiazhuang&hash&9&address1&MONTANA%20ST&lastName&Diederrich%0A; path=/
+Keep-Alive: timeout=5, max=92
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

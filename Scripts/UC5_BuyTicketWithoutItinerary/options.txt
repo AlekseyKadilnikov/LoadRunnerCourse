@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\kurtk\OneDrive\ƒокументы\Controller\Scripts\UC5_BuyTicketWithoutItinerary
+-ID:\Loadrunner\include
+-ec:\users\kurtk\onedrive\документы\controller\scripts\uc5_buyticketwithoutitinerary\\logfile.log
+c:\users\kurtk\onedrive\документы\controller\scripts\uc5_buyticketwithoutitinerary\\combined_UC5_BuyTicketWithoutItinerary.c
+c:\users\kurtk\onedrive\документы\controller\scripts\uc5_buyticketwithoutitinerary\\pre_cci.c

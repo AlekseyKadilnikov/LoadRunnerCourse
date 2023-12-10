@@ -1,0 +1,2 @@
+Error: missing newline in C:\Users\kurtk\OneDrive\Документы\Controller\Scripts\UC2_RemoveTicket\..\datapools\users.dat	[MsgId: MERR-13874]
+Action.c(103): CancelFlightsBodyParam =1=on&flightID=82296789-817-CS&flightID=41148646-1608-CS&flightID=205741244-23213-CS&flightID=164593085-3101-CS&flightID=164593096-38552-CS&flightID=205741198-4643-CS&flightID=82296766-54004-CS&flightID=205741210-61696-CS&removeFlights.x=56&removeFlights.y=12&.cgifields=1&.cgifields=2&.cgifields=3&.cgifields=4&.cgifields=5&.cgifields=6&.cgifields=7&.cgifields=8	[MsgId: MMSG-17999]

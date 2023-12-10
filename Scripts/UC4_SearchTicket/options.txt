@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\kurtk\OneDrive\ƒокументы\Controller\Scripts\UC4_SearchTicket
+-ID:\Loadrunner\include
+-ec:\users\kurtk\onedrive\документы\controller\scripts\uc4_searchticket\\logfile.log
+c:\users\kurtk\onedrive\документы\controller\scripts\uc4_searchticket\\combined_UC4_SearchTicket.c
+c:\users\kurtk\onedrive\документы\controller\scripts\uc4_searchticket\\pre_cci.c

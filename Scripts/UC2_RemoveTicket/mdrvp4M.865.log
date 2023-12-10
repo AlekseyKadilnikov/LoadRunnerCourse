@@ -1,0 +1,2 @@
+Action.c(103): CancelFlightsBodyParam =1=on&2=on&flightID=288037462-7807-CS&flightID=246889309-1591-CS&flightID=41148574-2384-CS&flightID=205741166-3153-CS&removeFlights.x=56&removeFlights.y=12&.cgifields=1&.cgifields=2&.cgifields=3&.cgifields=4	[MsgId: MMSG-17999]
+Action.c(103): CancelFlightsBodyParam =1=on&flightID=82313068-7888-CC&removeFlights.x=56&removeFlights.y=12&.cgifields=1	[MsgId: MMSG-17999]

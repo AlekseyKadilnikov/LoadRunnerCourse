@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>UC2_RemoveTicket</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="UC2_RemoveTicket.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="UC2_RemoveTicket.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="combined_UC2_RemoveTicket.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="16190948440.idx" Filter="1" />
+    <FileEntry Name="2945483440.idx" Filter="1" />
+    <FileEntry Name="294548344_Da4.601.idx" Filter="1" />
+    <FileEntry Name="294548344_i6f.927.idx" Filter="1" />
+    <FileEntry Name="294548344_loJ.765.idx" Filter="1" />
+    <FileEntry Name="294548344_mcy.567.idx" Filter="1" />
+    <FileEntry Name="294548344_PUD.895.idx" Filter="1" />
+    <FileEntry Name="294548344_r0e.575.idx" Filter="1" />
+    <FileEntry Name="294548344_TE7.553.idx" Filter="1" />
+    <FileEntry Name="294548344_TJ7.953.idx" Filter="1" />
+    <FileEntry Name="37911569440.idx" Filter="1" />
+    <FileEntry Name="46309916440.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="host.dat" Filter="1" />
+    <FileEntry Name="lastName.dat" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv1Jh.69.log" Filter="1" />
+    <FileEntry Name="mdrv2RQ.679.log" Filter="1" />
+    <FileEntry Name="mdrv5su.609.log" Filter="1" />
+    <FileEntry Name="mdrv6HF.649.log" Filter="1" />
+    <FileEntry Name="mdrv7CU.25.log" Filter="1" />
+    <FileEntry Name="mdrv7Fk.451.log" Filter="1" />
+    <FileEntry Name="mdrv9Kn.629.log" Filter="1" />
+    <FileEntry Name="mdrv9RB.769.log" Filter="1" />
+    <FileEntry Name="mdrva7l.305.log" Filter="1" />
+    <FileEntry Name="mdrvAyw.333.log" Filter="1" />
+    <FileEntry Name="mdrvC9D.701.log" Filter="1" />
+    <FileEntry Name="mdrvCCT.401.log" Filter="1" />
+    <FileEntry Name="mdrvDaq.411.log" Filter="1" />
+    <FileEntry Name="mdrvEdn.119.log" Filter="1" />
+    <FileEntry Name="mdrvEgh.449.log" Filter="1" />
+    <FileEntry Name="mdrvGpZ.597.log" Filter="1" />
+    <FileEntry Name="mdrvhfL.253.log" Filter="1" />
+    <FileEntry Name="mdrvhMe.829.log" Filter="1" />
+    <FileEntry Name="mdrvHN5.95.log" Filter="1" />
+    <FileEntry Name="mdrvHPi.711.log" Filter="1" />
+    <FileEntry Name="mdrvK6d.599.log" Filter="1" />
+    <FileEntry Name="mdrvK7k.695.log" Filter="1" />
+    <FileEntry Name="mdrvK7L.123.log" Filter="1" />
+    <FileEntry Name="mdrvkDa.897.log" Filter="1" />
+    <FileEntry Name="mdrvKZD.933.log" Filter="1" />
+    <FileEntry Name="mdrvLbq.735.log" Filter="1" />
+    <FileEntry Name="mdrvlVi.25.log" Filter="1" />
+    <FileEntry Name="mdrvp4M.865.log" Filter="1" />
+    <FileEntry Name="mdrvPyd.85.log" Filter="1" />
+    <FileEntry Name="mdrvqsK.239.log" Filter="1" />
+    <FileEntry Name="mdrvrh6.613.log" Filter="1" />
+    <FileEntry Name="mdrvtIH.407.log" Filter="1" />
+    <FileEntry Name="mdrvtlL.981.log" Filter="1" />
+    <FileEntry Name="mdrvtqF.791.log" Filter="1" />
+    <FileEntry Name="mdrvuO9.591.log" Filter="1" />
+    <FileEntry Name="mdrvVmU.569.log" Filter="1" />
+    <FileEntry Name="mdrvY03.167.log" Filter="1" />
+    <FileEntry Name="mdrvY4I.593.log" Filter="1" />
+    <FileEntry Name="mdrvY4l.27.log" Filter="1" />
+    <FileEntry Name="mdrvyar.703.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="NewParam(1).dat" Filter="1" />
+    <FileEntry Name="NewParam.dat" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="password.dat" Filter="1" />
+    <FileEntry Name="port.dat" Filter="1" />
+    <FileEntry Name="protocol.dat" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UC2_RemoveTicket.c.pickle" Filter="1" />
+    <FileEntry Name="UC2_RemoveTicket.ci" Filter="1" />
+    <FileEntry Name="UC2_RemoveTicket.prm.bak" Filter="1" />
+    <FileEntry Name="UC2_RemoveTicket.sdf" Filter="1" />
+    <FileEntry Name="UC3_RemoveTicket.prm.bak" Filter="1" />
+    <FileEntry Name="URL.dat" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

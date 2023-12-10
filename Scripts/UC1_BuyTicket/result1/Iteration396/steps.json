@@ -1,0 +1,44 @@
+[
+    {
+        "stepId": "STEP2766",
+        "stepName": "Url: welcome.pl",
+        "infFile": "t1.inf",
+        "time": 1702150333815
+    },
+    {
+        "stepId": "STEP2767",
+        "stepName": "Submit Data: login.pl",
+        "infFile": "t2.inf",
+        "time": 1702150337283
+    },
+    {
+        "stepId": "STEP2768",
+        "stepName": "Url: Search Flights Button",
+        "infFile": "t3.inf",
+        "time": 1702150340810
+    },
+    {
+        "stepId": "STEP2769",
+        "stepName": "Submit Data: reservations.pl",
+        "infFile": "t4.inf",
+        "time": 1702150344209
+    },
+    {
+        "stepId": "STEP2770",
+        "stepName": "Submit Data: reservations.pl_2",
+        "infFile": "t5.inf",
+        "time": 1702150347671
+    },
+    {
+        "stepId": "STEP2771",
+        "stepName": "Submit Data: reservations.pl_3",
+        "infFile": "t6.inf",
+        "time": 1702150351115
+    },
+    {
+        "stepId": "STEP2772",
+        "stepName": "Url: Itinerary Button",
+        "infFile": "t7.inf",
+        "time": 1702150354642
+    }
+]

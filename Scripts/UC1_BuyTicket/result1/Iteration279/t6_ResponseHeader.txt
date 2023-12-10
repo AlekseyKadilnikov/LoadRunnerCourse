@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 09 Dec 2023 18:55:19 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 08 Dec 2023 18:55:19 GMT
+Set-Cookie: MTUserInfo=firstName&Bascom&username&ze&address2&Beijing&hash&37&address1&16TH%20ST&lastName&Cocera%0A; path=/
+Keep-Alive: timeout=5, max=92
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

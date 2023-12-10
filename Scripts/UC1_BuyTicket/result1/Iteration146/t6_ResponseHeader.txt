@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 09 Dec 2023 18:35:21 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 08 Dec 2023 18:35:21 GMT
+Set-Cookie: MTUserInfo=firstName&Harmon&username&pajd&address2&Mexico%20City&hash&36&address1&MOUNT%20VERNON%20AVE&lastName&Daldrup%0A; path=/
+Keep-Alive: timeout=5, max=92
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

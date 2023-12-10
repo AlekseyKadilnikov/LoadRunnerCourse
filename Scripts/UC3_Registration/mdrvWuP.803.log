@@ -1,0 +1,2 @@
+Action.c(74): Error -26366: "Text=lastName&El Ouardi" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(74): Error -26366: "Text=lastName&Cardeñas" not found for web_reg_find  	[MsgId: MERR-26366]

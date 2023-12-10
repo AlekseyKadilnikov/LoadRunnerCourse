@@ -1,0 +1,4 @@
+"firstName=Solomon&lastName=Ribao&address1=VALLEJO+ST&address2=Tianjin&pass1=Solomon+Ribao&cred"
+"itCard=22225555888844446666&expDate=07%2F24&oldCCOption=&numPassengers=1&seatType=First&seatPr"
+"ef=Window&outboundFlight=453%3B953%3B12%2F10%2F2023&advanceDiscount=0&returnFlight=&JSFormSubm"
+"it=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

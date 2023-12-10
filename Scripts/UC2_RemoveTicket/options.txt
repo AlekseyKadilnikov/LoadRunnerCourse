@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\kurtk\OneDrive\ƒокументы\Controller\Scripts\UC2_RemoveTicket
+-ID:\Loadrunner\include
+-ec:\users\kurtk\onedrive\документы\controller\scripts\uc2_removeticket\\logfile.log
+c:\users\kurtk\onedrive\документы\controller\scripts\uc2_removeticket\\combined_UC2_RemoveTicket.c
+c:\users\kurtk\onedrive\документы\controller\scripts\uc2_removeticket\\pre_cci.c

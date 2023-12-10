@@ -1,0 +1,2503 @@
+../lib/common.h(32): t=4000980ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26000]
+../lib/common.h(32): t=4000980ms: Connected socket [2] from 127.0.0.1:58779 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+../lib/common.h(32): t=4000980ms: 640-byte request headers for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=443)
+../lib/common.h(32):     GET /WebTours/home.html HTTP/1.1\r\n
+../lib/common.h(32):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=true\r\n
+../lib/common.h(32):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(32):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(32):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(32):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(32):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(32):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(32):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(32):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(32):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(32):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(32):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(32):     Accept: */*\r\n
+../lib/common.h(32):     Connection: Keep-Alive\r\n
+../lib/common.h(32):     Host: localhost:1080\r\n
+../lib/common.h(32):     Cookie: MSO=SID&1702115460\r\n
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4000980ms: 300-byte response headers for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=443)
+../lib/common.h(32):     HTTP/1.1 200 OK\r\n
+../lib/common.h(32):     Date: Sat, 09 Dec 2023 09:51:00 GMT\r\n
+../lib/common.h(32):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(32):     Last-Modified: Mon, 27 May 2013 11:20:22 GMT\r\n
+../lib/common.h(32):     ETag: "1e00000002f09b-551-4ddb1559ac980"\r\n
+../lib/common.h(32):     Accept-Ranges: bytes\r\n
+../lib/common.h(32):     Content-Length: 1361\r\n
+../lib/common.h(32):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(32):     Connection: Keep-Alive\r\n
+../lib/common.h(32):     Content-Type: text/html\r\n
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4000981ms: 1361-byte response body for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=443)
+../lib/common.h(32):     <HTML>\n
+../lib/common.h(32):     <HEAD>\n
+../lib/common.h(32):     \t<title>Web Tours</title>\n
+../lib/common.h(32):     </HEAD>\n
+../lib/common.h(32):     <style>\n
+../lib/common.h(32):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../lib/common.h(32):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+../lib/common.h(32):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../lib/common.h(32):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(32):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+../lib/common.h(32):     N: none}\n
+../lib/common.h(32):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+../lib/common.h(32):     CORATION: underline}\n
+../lib/common.h(32):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(32):     </style>\n
+../lib/common.h(32):     <body bgcolor="#e0e7f1">\n
+../lib/common.h(32):     <BR/>\n
+../lib/common.h(32):     <BR/>\n
+../lib/common.h(32):     <BR/>\n
+../lib/common.h(32):     <br/>\n
+../lib/common.h(32):     <table border="0">\n
+../lib/common.h(32):     <tr><td></td></tr>\n
+../lib/common.h(32):     <TR><TD></TD></TR>\n
+../lib/common.h(32):     <TR><TD>\n
+../lib/common.h(32):     <blockquote>\n
+../lib/common.h(32):     <H1><b>Web Tours</b></H1>\n
+../lib/common.h(32):     Welcome to the Web Tours site.\n
+../lib/common.h(32):     <br/>\n
+../lib/common.h(32):     To make reservations,please enter your account information to the left.\n
+../lib/common.h(32):     <br/>\n
+../lib/common.h(32):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+../lib/common.h(32):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+../lib/common.h(32):     <br/>\n
+../lib/common.h(32):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+../lib/common.h(32):     tration</b></A> link.\n
+../lib/common.h(32):     <br/><br/><br/><br/><br/><br/>\n
+../lib/common.h(32):     <br/><small>\n
+../lib/common.h(32):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+../lib/common.h(32):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+../lib/common.h(32):     </small>\n
+../lib/common.h(32):     </blockquote></TD>\n
+../lib/common.h(32):     <TD></TD></TR>\n
+../lib/common.h(32):     </table>\n
+../lib/common.h(32):     </body>\n
+../lib/common.h(32):     </HTML>\n
+../lib/common.h(32): t=4000981ms: Request done "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26000]
+../lib/common.h(32): t=4001002ms: 256-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=442)
+../lib/common.h(32):     HTTP/1.1 200 OK\r\n
+../lib/common.h(32):     Date: Sat, 09 Dec 2023 09:51:00 GMT\r\n
+../lib/common.h(32):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(32):     Expires: Fri, 08 Dec 2023 09:51:00 GMT\r\n
+../lib/common.h(32):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(32):     Connection: Keep-Alive\r\n
+../lib/common.h(32):     Transfer-Encoding: chunked\r\n
+../lib/common.h(32):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4001002ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=442)
+../lib/common.h(32):     5ca\r\n
+../lib/common.h(32): t=4001002ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=442)
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4001002ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=442)
+../lib/common.h(32):     <!DOCTYPE html\n
+../lib/common.h(32):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../lib/common.h(32):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../lib/common.h(32):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../lib/common.h(32):     <head>\n
+../lib/common.h(32):     <title>Web Tours Navigation Bar</title>\n
+../lib/common.h(32):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../lib/common.h(32):     </head>\n
+../lib/common.h(32):     <body bgcolor="#E0E7F1">\n
+../lib/common.h(32):     <style>\n
+../lib/common.h(32):     blockquote {font-family: tahoma; font-size : 10pt}\n
+../lib/common.h(32):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+../lib/common.h(32):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(32):     small {font-family: tahoma; font-size : 8pt}\n
+../lib/common.h(32):     </style>\n
+../lib/common.h(32):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+../lib/common.h(32):     <input type="hidden" name="userSession" value="137878.935601458HAQcVtHpHftcffcpiizf"/>\n
+../lib/common.h(32):     <table border="0"><tr><td>&nbsp;</td>\n
+../lib/common.h(32):     <td>&nbsp;</td></tr>\n
+../lib/common.h(32):     <tr><td>&nbsp;</td>\n
+../lib/common.h(32):     <td>&nbsp;</td></tr>\n
+../lib/common.h(32):     <tr><td>&nbsp;</td>\n
+../lib/common.h(32):     <td><small>&nbsp;Username</small></td></tr>\n
+../lib/common.h(32):     <tr><td>&nbsp;</td>\n
+../lib/common.h(32):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+../lib/common.h(32):     <tr><td>&nbsp;</td>\n
+../lib/common.h(32):     <td><small>&nbsp;Password</small></td>\n
+../lib/common.h(32):     <tr><td>&nbsp;</td>\n
+../lib/common.h(32):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+../lib/common.h(32):     <tr><td>&nbsp;</td>\n
+../lib/common.h(32):     <td>&nbsp;</td></tr>\n
+../lib/common.h(32):     <tr><td>&nbsp;</td>\n
+../lib/common.h(32):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+../lib/common.h(32):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+../lib/common.h(32):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+../lib/common.h(32):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+../lib/common.h(32):     </form>\n
+../lib/common.h(32):     \n
+../lib/common.h(32):     </body>\n
+../lib/common.h(32):     </html>\n
+../lib/common.h(32): Notify: Saving Parameter "userSession = 137878.935601458HAQcVtHpHftcffcpiizf".	[MsgId: MMSG-13798]
+../lib/common.h(32): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+../lib/common.h(32): t=4001003ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+../lib/common.h(32): t=4001003ms: 642-byte request headers for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=444)
+../lib/common.h(32):     GET /WebTours/images/mer_login.gif HTTP/1.1\r\n
+../lib/common.h(32):     Referer: http://localhost:1080/cgi-bin/nav.pl?in=home\r\n
+../lib/common.h(32):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(32):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(32):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(32):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(32):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(32):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(32):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(32):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(32):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(32):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(32):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(32):     Accept: */*\r\n
+../lib/common.h(32):     Connection: Keep-Alive\r\n
+../lib/common.h(32):     Host: localhost:1080\r\n
+../lib/common.h(32):     Cookie: MSO=SID&1702115460\r\n
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4001003ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=442)
+../lib/common.h(32):     0\r\n
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4001003ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+../lib/common.h(32): t=4001035ms: 298-byte response headers for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=444)
+../lib/common.h(32):     HTTP/1.1 200 OK\r\n
+../lib/common.h(32):     Date: Sat, 09 Dec 2023 09:51:00 GMT\r\n
+../lib/common.h(32):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(32):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+../lib/common.h(32):     ETag: "14000000031555-2a7-4b654c052c2c0"\r\n
+../lib/common.h(32):     Accept-Ranges: bytes\r\n
+../lib/common.h(32):     Content-Length: 679\r\n
+../lib/common.h(32):     Keep-Alive: timeout=5, max=99\r\n
+../lib/common.h(32):     Connection: Keep-Alive\r\n
+../lib/common.h(32):     Content-Type: image/gif\r\n
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4001035ms: 679-byte response body for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=444)
+../lib/common.h(32): t=4001035ms: Request done "http://localhost:1080/WebTours/images/mer_login.gif"  	[MsgId: MMSG-26000]
+../lib/common.h(32): Registered web_reg_find successful for "Text=A Session ID has been created and loaded into a cookie called MSO" (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(32): web_url("welcome.pl") was successful, 4208 body bytes, 1182 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(10): Notify: Transaction "home_page" ended with a "Pass" status (Duration: 0,0801 Wasted Time: 0,0010).	[MsgId: MMSG-16871]
+Action.c(12): lr_think_time: 6,00 seconds.	[MsgId: MMSG-15948]
+Starting iteration 38.	[MsgId: MMSG-15968]
+t=4002040ms: Closed connection [0] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+t=4002040ms: Closed connection [1] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Resetting all proxy auto-configuration information  	[MsgId: MMSG-26000]
+Notify: Next row for parameter seatPref = 3 [table  = seatPref].	[MsgId: MMSG-13876]
+Notify: Getting new value for parameter 'seatPref': table = '..\datapools\seatPref.dat' column = '0' row = '3'.	[MsgId: MMSG-13877]
+Notify: Next row for parameter URL = 1 [table  = URL].	[MsgId: MMSG-13876]
+Notify: Getting new value for parameter 'URL': table = '..\datapools\URL.dat' column = '0' row = '1'.	[MsgId: MMSG-13877]
+Notify: Next row for parameter seatType = 1 [table  = seatType].	[MsgId: MMSG-13876]
+Notify: Getting new value for parameter 'seatType': table = '..\datapools\seatType.dat' column = '0' row = '1'.	[MsgId: MMSG-13877]
+Notify: Next row for parameter creditCard = 6 [table  = creditCard].	[MsgId: MMSG-13876]
+Notify: Getting new value for parameter 'creditCard': table = '..\datapools\creditCard.dat' column = '0' row = '6'.	[MsgId: MMSG-13877]
+Notify: Next row for parameter street = 18 [table  = street].	[MsgId: MMSG-13876]
+Notify: Getting new value for parameter 'street': table = '..\datapools\users.dat' column = '4' row = '18'.	[MsgId: MMSG-13877]
+Notify: Next row for parameter expDate = 6 [table  = expDate].	[MsgId: MMSG-13876]
+Notify: Getting new value for parameter 'expDate': table = '..\datapools\creditCard.dat' column = '1' row = '6'.	[MsgId: MMSG-13877]
+Notify: Next row for parameter lastName = 18 [table  = lastName].	[MsgId: MMSG-13876]
+Notify: Getting new value for parameter 'lastName': table = '..\datapools\users.dat' column = '3' row = '18'.	[MsgId: MMSG-13877]
+Notify: Next row for parameter city = 18 [table  = city].	[MsgId: MMSG-13876]
+Notify: Getting new value for parameter 'city': table = '..\datapools\users.dat' column = '5' row = '18'.	[MsgId: MMSG-13877]
+Notify: Next row for parameter password = 18 [table  = password].	[MsgId: MMSG-13876]
+Notify: Getting new value for parameter 'password': table = '..\datapools\users.dat' column = '1' row = '18'.	[MsgId: MMSG-13877]
+Notify: Next row for parameter firstName = 18 [table  = firstName].	[MsgId: MMSG-13876]
+Notify: Getting new value for parameter 'firstName': table = '..\datapools\users.dat' column = '2' row = '18'.	[MsgId: MMSG-13877]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Notify: Transaction "UC4_SearchTicket" started.	[MsgId: MMSG-16999]
+Action.c(6): Notify: Transaction "home_page" started.	[MsgId: MMSG-16999]
+../lib/common.h(2): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+../lib/common.h(2): An unrecognized header ("Sec-Fetch-Dest") is being added  	[MsgId: MMSG-26595]
+../lib/common.h(2): "Sec-Fetch-Dest: frame" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+../lib/common.h(2): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+../lib/common.h(5): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+../lib/common.h(5): An unrecognized header ("Sec-Fetch-Mode") is being added  	[MsgId: MMSG-26595]
+../lib/common.h(5): "Sec-Fetch-Mode: navigate" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+../lib/common.h(5): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+../lib/common.h(8): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+../lib/common.h(8): An unrecognized header ("Sec-Fetch-Site") is being added  	[MsgId: MMSG-26595]
+../lib/common.h(8): "Sec-Fetch-Site: same-origin" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+../lib/common.h(8): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+../lib/common.h(11): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+../lib/common.h(11): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+../lib/common.h(11): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+../lib/common.h(11): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+../lib/common.h(14): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+../lib/common.h(14): An unrecognized header ("sec-ch-ua") is being added  	[MsgId: MMSG-26595]
+../lib/common.h(14): "sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+../lib/common.h(14): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+../lib/common.h(17): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+../lib/common.h(17): An unrecognized header ("sec-ch-ua-mobile") is being added  	[MsgId: MMSG-26595]
+../lib/common.h(17): "sec-ch-ua-mobile: ?0" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+../lib/common.h(17): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+../lib/common.h(20): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+../lib/common.h(20): An unrecognized header ("sec-ch-ua-platform") is being added  	[MsgId: MMSG-26595]
+../lib/common.h(20): "sec-ch-ua-platform: "Windows"" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+../lib/common.h(20): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+../lib/common.h(23): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+../lib/common.h(23): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+../lib/common.h(30): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(30): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(32): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+../lib/common.h(32): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(32): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(32): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(32): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(32): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(32): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(32): t=4002041ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(32): t=4002041ms: Connected socket [0] from 127.0.0.1:58784 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(32): t=4002041ms: 603-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=815)
+../lib/common.h(32):     GET /cgi-bin/welcome.pl?signOff=true HTTP/1.1\r\n
+../lib/common.h(32):     Referer: http://localhost:1080/WebTours/\r\n
+../lib/common.h(32):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(32):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(32):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(32):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(32):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(32):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(32):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(32):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(32):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(32):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(32):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(32):     Accept: */*\r\n
+../lib/common.h(32):     Connection: Keep-Alive\r\n
+../lib/common.h(32):     Host: localhost:1080\r\n
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4002064ms: 328-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=815)
+../lib/common.h(32):     HTTP/1.1 200 OK\r\n
+../lib/common.h(32):     Date: Sat, 09 Dec 2023 09:51:01 GMT\r\n
+../lib/common.h(32):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(32):     Set-Cookie: MSO=SID&1702115461; path=/\r\n
+../lib/common.h(32):     Set-Cookie: MTUserInfo=; path=/; expires=Fri, 08-Dec-2023 09:51:01 GMT\r\n
+../lib/common.h(32):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(32):     Connection: Keep-Alive\r\n
+../lib/common.h(32):     Transfer-Encoding: chunked\r\n
+../lib/common.h(32):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4002064ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=815)
+../lib/common.h(32):     2ae\r\n
+../lib/common.h(32): t=4002064ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=815)
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4002064ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=815)
+../lib/common.h(32):     <!-- \n
+../lib/common.h(32):      A Session ID has been created and loaded into a cookie called MSO.\n
+../lib/common.h(32):      Also, the server options have been loaded into the cookie called\n
+../lib/common.h(32):      MSO as well.  The server options can be set via the Admin page.\n
+../lib/common.h(32):      --->\n
+../lib/common.h(32):     \n
+../lib/common.h(32):     <html>\n
+../lib/common.h(32):     <title>Web Tours</title>\n
+../lib/common.h(32):        <!-- Frame Set -->\n
+../lib/common.h(32):        <frameset cols="160,*" border="1" frameborder="1">\n
+../lib/common.h(32):           <!-- Navigation Frame -->\n
+../lib/common.h(32):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+../lib/common.h(32):                 noresize="noresize" scrolling="auto"/>\n
+../lib/common.h(32):           <!-- Home Frame -->\n
+../lib/common.h(32):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+../lib/common.h(32):                 noresize="noresize" scrolling="auto"/>\n
+../lib/common.h(32):        </frameset>\n
+../lib/common.h(32):     </html>\n
+../lib/common.h(32):     \n
+../lib/common.h(32):     </body>\n
+../lib/common.h(32):     </html>
+../lib/common.h(32): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+../lib/common.h(32): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+../lib/common.h(32): t=4002064ms: Connecting [1] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(32): t=4002064ms: Connecting [2] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(32): t=4002064ms: Connected socket [1] from 127.0.0.1:58785 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(32): t=4002064ms: 644-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=816)
+../lib/common.h(32):     GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n
+../lib/common.h(32):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=true\r\n
+../lib/common.h(32):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(32):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(32):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(32):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(32):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(32):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(32):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(32):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(32):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(32):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(32):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(32):     Accept: */*\r\n
+../lib/common.h(32):     Connection: Keep-Alive\r\n
+../lib/common.h(32):     Host: localhost:1080\r\n
+../lib/common.h(32):     Cookie: MSO=SID&1702115461\r\n
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4002065ms: Connected socket [2] from 127.0.0.1:58786 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+../lib/common.h(32): t=4002065ms: 640-byte request headers for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=817)
+../lib/common.h(32):     GET /WebTours/home.html HTTP/1.1\r\n
+../lib/common.h(32):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=true\r\n
+../lib/common.h(32):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(32):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(32):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(32):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(32):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(32):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(32):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(32):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(32):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(32):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(32):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(32):     Accept: */*\r\n
+../lib/common.h(32):     Connection: Keep-Alive\r\n
+../lib/common.h(32):     Host: localhost:1080\r\n
+../lib/common.h(32):     Cookie: MSO=SID&1702115461\r\n
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4002065ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=815)
+../lib/common.h(32):     0\r\n
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4002065ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26000]
+../lib/common.h(32): t=4002065ms: 300-byte response headers for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=817)
+../lib/common.h(32):     HTTP/1.1 200 OK\r\n
+../lib/common.h(32):     Date: Sat, 09 Dec 2023 09:51:01 GMT\r\n
+../lib/common.h(32):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(32):     Last-Modified: Mon, 27 May 2013 11:20:22 GMT\r\n
+../lib/common.h(32):     ETag: "1e00000002f09b-551-4ddb1559ac980"\r\n
+../lib/common.h(32):     Accept-Ranges: bytes\r\n
+../lib/common.h(32):     Content-Length: 1361\r\n
+../lib/common.h(32):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(32):     Connection: Keep-Alive\r\n
+../lib/common.h(32):     Content-Type: text/html\r\n
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4002065ms: 1361-byte response body for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=817)
+../lib/common.h(32):     <HTML>\n
+../lib/common.h(32):     <HEAD>\n
+../lib/common.h(32):     \t<title>Web Tours</title>\n
+../lib/common.h(32):     </HEAD>\n
+../lib/common.h(32):     <style>\n
+../lib/common.h(32):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../lib/common.h(32):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+../lib/common.h(32):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../lib/common.h(32):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(32):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+../lib/common.h(32):     N: none}\n
+../lib/common.h(32):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+../lib/common.h(32):     CORATION: underline}\n
+../lib/common.h(32):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(32):     </style>\n
+../lib/common.h(32):     <body bgcolor="#e0e7f1">\n
+../lib/common.h(32):     <BR/>\n
+../lib/common.h(32):     <BR/>\n
+../lib/common.h(32):     <BR/>\n
+../lib/common.h(32):     <br/>\n
+../lib/common.h(32):     <table border="0">\n
+../lib/common.h(32):     <tr><td></td></tr>\n
+../lib/common.h(32):     <TR><TD></TD></TR>\n
+../lib/common.h(32):     <TR><TD>\n
+../lib/common.h(32):     <blockquote>\n
+../lib/common.h(32):     <H1><b>Web Tours</b></H1>\n
+../lib/common.h(32):     Welcome to the Web Tours site.\n
+../lib/common.h(32):     <br/>\n
+../lib/common.h(32):     To make reservations,please enter your account information to the left.\n
+../lib/common.h(32):     <br/>\n
+../lib/common.h(32):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+../lib/common.h(32):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+../lib/common.h(32):     <br/>\n
+../lib/common.h(32):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+../lib/common.h(32):     tration</b></A> link.\n
+../lib/common.h(32):     <br/><br/><br/><br/><br/><br/>\n
+../lib/common.h(32):     <br/><small>\n
+../lib/common.h(32):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+../lib/common.h(32):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+../lib/common.h(32):     </small>\n
+../lib/common.h(32):     </blockquote></TD>\n
+../lib/common.h(32):     <TD></TD></TR>\n
+../lib/common.h(32):     </table>\n
+../lib/common.h(32):     </body>\n
+../lib/common.h(32):     </HTML>\n
+../lib/common.h(32): t=4002066ms: Request done "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26000]
+../lib/common.h(32): t=4002087ms: 256-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=816)
+../lib/common.h(32):     HTTP/1.1 200 OK\r\n
+../lib/common.h(32):     Date: Sat, 09 Dec 2023 09:51:01 GMT\r\n
+../lib/common.h(32):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(32):     Expires: Fri, 08 Dec 2023 09:51:01 GMT\r\n
+../lib/common.h(32):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(32):     Connection: Keep-Alive\r\n
+../lib/common.h(32):     Transfer-Encoding: chunked\r\n
+../lib/common.h(32):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4002088ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=816)
+../lib/common.h(32):     5d2\r\n
+../lib/common.h(32): t=4002088ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=816)
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4002088ms: 1490-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=816)
+../lib/common.h(32):     <!DOCTYPE html\n
+../lib/common.h(32):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../lib/common.h(32):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../lib/common.h(32):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../lib/common.h(32):     <head>\n
+../lib/common.h(32):     <title>Web Tours Navigation Bar</title>\n
+../lib/common.h(32):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../lib/common.h(32):     </head>\n
+../lib/common.h(32):     <body bgcolor="#E0E7F1">\n
+../lib/common.h(32):     <style>\n
+../lib/common.h(32):     blockquote {font-family: tahoma; font-size : 10pt}\n
+../lib/common.h(32):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+../lib/common.h(32):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(32):     small {font-family: tahoma; font-size : 8pt}\n
+../lib/common.h(32):     </style>\n
+../lib/common.h(32):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+../lib/common.h(32):     <input type="hidden" name="userSession" value="137878.935682463HAQcVtHpHftVzzzHtcffcpiizfc
+../lib/common.h(32):     f"/>\n
+../lib/common.h(32):     <table border="0"><tr><td>&nbsp;</td>\n
+../lib/common.h(32):     <td>&nbsp;</td></tr>\n
+../lib/common.h(32):     <tr><td>&nbsp;</td>\n
+../lib/common.h(32):     <td>&nbsp;</td></tr>\n
+../lib/common.h(32):     <tr><td>&nbsp;</td>\n
+../lib/common.h(32):     <td><small>&nbsp;Username</small></td></tr>\n
+../lib/common.h(32):     <tr><td>&nbsp;</td>\n
+../lib/common.h(32):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+../lib/common.h(32):     <tr><td>&nbsp;</td>\n
+../lib/common.h(32):     <td><small>&nbsp;Password</small></td>\n
+../lib/common.h(32):     <tr><td>&nbsp;</td>\n
+../lib/common.h(32):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+../lib/common.h(32):     <tr><td>&nbsp;</td>\n
+../lib/common.h(32):     <td>&nbsp;</td></tr>\n
+../lib/common.h(32):     <tr><td>&nbsp;</td>\n
+../lib/common.h(32):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+../lib/common.h(32):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+../lib/common.h(32):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+../lib/common.h(32):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+../lib/common.h(32):     </form>\n
+../lib/common.h(32):     \n
+../lib/common.h(32):     </body>\n
+../lib/common.h(32):     </html>\n
+../lib/common.h(32): Notify: Saving Parameter "userSession = 137878.935682463HAQcVtHpHftVzzzHtcffcpiizfcf".	[MsgId: MMSG-13798]
+../lib/common.h(32): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+../lib/common.h(32): t=4002089ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+../lib/common.h(32): t=4002089ms: 642-byte request headers for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=818)
+../lib/common.h(32):     GET /WebTours/images/mer_login.gif HTTP/1.1\r\n
+../lib/common.h(32):     Referer: http://localhost:1080/cgi-bin/nav.pl?in=home\r\n
+../lib/common.h(32):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(32):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(32):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(32):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(32):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(32):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(32):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(32):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(32):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(32):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(32):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(32):     Accept: */*\r\n
+../lib/common.h(32):     Connection: Keep-Alive\r\n
+../lib/common.h(32):     Host: localhost:1080\r\n
+../lib/common.h(32):     Cookie: MSO=SID&1702115461\r\n
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4002089ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=816)
+../lib/common.h(32):     0\r\n
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4002089ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+../lib/common.h(32): t=4002118ms: 298-byte response headers for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=818)
+../lib/common.h(32):     HTTP/1.1 200 OK\r\n
+../lib/common.h(32):     Date: Sat, 09 Dec 2023 09:51:01 GMT\r\n
+../lib/common.h(32):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(32):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+../lib/common.h(32):     ETag: "14000000031555-2a7-4b654c052c2c0"\r\n
+../lib/common.h(32):     Accept-Ranges: bytes\r\n
+../lib/common.h(32):     Content-Length: 679\r\n
+../lib/common.h(32):     Keep-Alive: timeout=5, max=99\r\n
+../lib/common.h(32):     Connection: Keep-Alive\r\n
+../lib/common.h(32):     Content-Type: image/gif\r\n
+../lib/common.h(32):     \r\n
+../lib/common.h(32): t=4002118ms: 679-byte response body for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=818)
+../lib/common.h(32): t=4002118ms: Request done "http://localhost:1080/WebTours/images/mer_login.gif"  	[MsgId: MMSG-26000]
+../lib/common.h(32): Registered web_reg_find successful for "Text=A Session ID has been created and loaded into a cookie called MSO" (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(32): web_url("welcome.pl") was successful, 4216 body bytes, 1182 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(10): Notify: Transaction "home_page" ended with a "Pass" status (Duration: 0,0781).	[MsgId: MMSG-16873]
+Action.c(12): lr_think_time: 6,00 seconds.	[MsgId: MMSG-15948]
+Action.c(46): Notify: Transaction "sign_off" started.	[MsgId: MMSG-16999]
+../lib/common.h(304): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+../lib/common.h(304): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+../lib/common.h(304): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+../lib/common.h(306): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(306): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(308): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(308): t=4002903ms: Closed connection [0] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4002903ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4002903ms: Connected socket [0] from 127.0.0.1:58800 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4002903ms: 827-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=64)
+../lib/common.h(308):     GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1\r\n
+../lib/common.h(308):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary\r\n
+../lib/common.h(308):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(308):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(308):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(308):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(308):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(308):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(308):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(308):     Origin: http://localhost:1080\r\n
+../lib/common.h(308):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(308):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(308):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(308):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(308):     Accept: */*\r\n
+../lib/common.h(308):     Connection: Keep-Alive\r\n
+../lib/common.h(308):     Host: localhost:1080\r\n
+../lib/common.h(308):     Cookie: MSO=SID&1702115431; MTUserInfo=firstName&Gerald&address2&Jinan&username&gsgkphlnm&
+../lib/common.h(308):     hash&45&lastName&Dentas%0A&address1&I-80%20WESTBOUND&creditCard&&expDate&%0A\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4002926ms: 328-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=64)
+../lib/common.h(308):     HTTP/1.1 200 OK\r\n
+../lib/common.h(308):     Date: Sat, 09 Dec 2023 09:51:02 GMT\r\n
+../lib/common.h(308):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(308):     Set-Cookie: MSO=SID&1702115462; path=/\r\n
+../lib/common.h(308):     Set-Cookie: MTUserInfo=; path=/; expires=Fri, 08-Dec-2023 09:51:02 GMT\r\n
+../lib/common.h(308):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(308):     Connection: Keep-Alive\r\n
+../lib/common.h(308):     Transfer-Encoding: chunked\r\n
+../lib/common.h(308):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4002926ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=64)
+../lib/common.h(308):     2ae\r\n
+../lib/common.h(308): t=4002926ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=64)
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4002926ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=64)
+../lib/common.h(308):     <!-- \n
+../lib/common.h(308):      A Session ID has been created and loaded into a cookie called MSO.\n
+../lib/common.h(308):      Also, the server options have been loaded into the cookie called\n
+../lib/common.h(308):      MSO as well.  The server options can be set via the Admin page.\n
+../lib/common.h(308):      --->\n
+../lib/common.h(308):     \n
+../lib/common.h(308):     <html>\n
+../lib/common.h(308):     <title>Web Tours</title>\n
+../lib/common.h(308):        <!-- Frame Set -->\n
+../lib/common.h(308):        <frameset cols="160,*" border="1" frameborder="1">\n
+../lib/common.h(308):           <!-- Navigation Frame -->\n
+../lib/common.h(308):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+../lib/common.h(308):                 noresize="noresize" scrolling="auto"/>\n
+../lib/common.h(308):           <!-- Home Frame -->\n
+../lib/common.h(308):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+../lib/common.h(308):                 noresize="noresize" scrolling="auto"/>\n
+../lib/common.h(308):        </frameset>\n
+../lib/common.h(308):     </html>\n
+../lib/common.h(308):     \n
+../lib/common.h(308):     </body>\n
+../lib/common.h(308):     </html>
+../lib/common.h(308): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../lib/common.h(308): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../lib/common.h(308): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+../lib/common.h(308): t=4002926ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=66)
+../lib/common.h(308):     <HTML>\n
+../lib/common.h(308):     <HEAD>\n
+../lib/common.h(308):     \t<title>Web Tours</title>\n
+../lib/common.h(308):     </HEAD>\n
+../lib/common.h(308):     <style>\n
+../lib/common.h(308):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../lib/common.h(308):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+../lib/common.h(308):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../lib/common.h(308):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(308):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+../lib/common.h(308):     N: none}\n
+../lib/common.h(308):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+../lib/common.h(308):     CORATION: underline}\n
+../lib/common.h(308):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(308):     </style>\n
+../lib/common.h(308):     <body bgcolor="#e0e7f1">\n
+../lib/common.h(308):     <BR/>\n
+../lib/common.h(308):     <BR/>\n
+../lib/common.h(308):     <BR/>\n
+../lib/common.h(308):     <br/>\n
+../lib/common.h(308):     <table border="0">\n
+../lib/common.h(308):     <tr><td></td></tr>\n
+../lib/common.h(308):     <TR><TD></TD></TR>\n
+../lib/common.h(308):     <TR><TD>\n
+../lib/common.h(308):     <blockquote>\n
+../lib/common.h(308):     <H1><b>Web Tours</b></H1>\n
+../lib/common.h(308):     Welcome to the Web Tours site.\n
+../lib/common.h(308):     <br/>\n
+../lib/common.h(308):     To make reservations,please enter your account information to the left.\n
+../lib/common.h(308):     <br/>\n
+../lib/common.h(308):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+../lib/common.h(308):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+../lib/common.h(308):     <br/>\n
+../lib/common.h(308):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+../lib/common.h(308):     tration</b></A> link.\n
+../lib/common.h(308):     <br/><br/><br/><br/><br/><br/>\n
+../lib/common.h(308):     <br/><small>\n
+../lib/common.h(308):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+../lib/common.h(308):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+../lib/common.h(308):     </small>\n
+../lib/common.h(308):     </blockquote></TD>\n
+../lib/common.h(308):     <TD></TD></TR>\n
+../lib/common.h(308):     </table>\n
+../lib/common.h(308):     </body>\n
+../lib/common.h(308):     </HTML>\n
+../lib/common.h(308): t=4002927ms: Connecting [1] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4002927ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=64)
+../lib/common.h(308):     0\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4002927ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4002927ms: Connected socket [1] from 127.0.0.1:58801 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4002927ms: 672-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=65)
+../lib/common.h(308):     GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n
+../lib/common.h(308):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=1\r\n
+../lib/common.h(308):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(308):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(308):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(308):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(308):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(308):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(308):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(308):     Origin: http://localhost:1080\r\n
+../lib/common.h(308):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(308):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(308):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(308):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(308):     Accept: */*\r\n
+../lib/common.h(308):     Connection: Keep-Alive\r\n
+../lib/common.h(308):     Host: localhost:1080\r\n
+../lib/common.h(308):     Cookie: MSO=SID&1702115462\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4002949ms: 256-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=65)
+../lib/common.h(308):     HTTP/1.1 200 OK\r\n
+../lib/common.h(308):     Date: Sat, 09 Dec 2023 09:51:02 GMT\r\n
+../lib/common.h(308):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(308):     Expires: Fri, 08 Dec 2023 09:51:02 GMT\r\n
+../lib/common.h(308):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(308):     Connection: Keep-Alive\r\n
+../lib/common.h(308):     Transfer-Encoding: chunked\r\n
+../lib/common.h(308):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4002949ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=65)
+../lib/common.h(308):     5d1\r\n
+../lib/common.h(308): t=4002949ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=65)
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4002949ms: 1489-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=65)
+../lib/common.h(308):     <!DOCTYPE html\n
+../lib/common.h(308):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../lib/common.h(308):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../lib/common.h(308):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../lib/common.h(308):     <head>\n
+../lib/common.h(308):     <title>Web Tours Navigation Bar</title>\n
+../lib/common.h(308):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../lib/common.h(308):     </head>\n
+../lib/common.h(308):     <body bgcolor="#E0E7F1">\n
+../lib/common.h(308):     <style>\n
+../lib/common.h(308):     blockquote {font-family: tahoma; font-size : 10pt}\n
+../lib/common.h(308):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+../lib/common.h(308):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(308):     small {font-family: tahoma; font-size : 8pt}\n
+../lib/common.h(308):     </style>\n
+../lib/common.h(308):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+../lib/common.h(308):     <input type="hidden" name="userSession" value="137878.935763467HAQcVtHpHfiDDDDDtcffcpiizff
+../lib/common.h(308):     "/>\n
+../lib/common.h(308):     <table border="0"><tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td>&nbsp;</td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td>&nbsp;</td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><small>&nbsp;Username</small></td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><small>&nbsp;Password</small></td>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td>&nbsp;</td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+../lib/common.h(308):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+../lib/common.h(308):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+../lib/common.h(308):     </form>\n
+../lib/common.h(308):     \n
+../lib/common.h(308):     </body>\n
+../lib/common.h(308):     </html>\n
+../lib/common.h(308): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../lib/common.h(308): t=4002950ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=65)
+../lib/common.h(308):     0\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4002950ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+../lib/common.h(308): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(308): web_url("SignOff Button") was successful, 2175 body bytes, 584 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(50): Notify: Transaction "sign_off" ended with a "Pass" status (Duration: 0,0470).	[MsgId: MMSG-16873]
+Action.c(52): Notify: Transaction "UC4_SearchTicket" ended with a "Pass" status (Duration: 30,8080 Think Time: 30,0323 Wasted Time: 0,0010).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 3.	[MsgId: MMSG-15965]
+Waiting 47,1920 seconds for iteration pacing.	[MsgId: MMSG-15996]
+Action.c(38): Notify: Transaction "choose_ticket" started.	[MsgId: MMSG-16999]
+../lib/common.h(96): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(96): Notify: Next row for parameter firstName = 30 [table  = firstName].	[MsgId: MMSG-13876]
+../lib/common.h(96): Notify: Parameter Substitution: parameter "firstName" =  "Sylvester"	[MsgId: MMSG-13992]
+../lib/common.h(96): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(97): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(97): Notify: Next row for parameter lastName = 30 [table  = lastName].	[MsgId: MMSG-13876]
+../lib/common.h(97): Notify: Parameter Substitution: parameter "lastName" =  "Descamps"	[MsgId: MMSG-13992]
+../lib/common.h(97): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(98): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(98): Notify: Next row for parameter firstName = 30 [table  = firstName].	[MsgId: MMSG-13876]
+../lib/common.h(98): Notify: Parameter Substitution: parameter "firstName" =  "Sylvester"	[MsgId: MMSG-13992]
+../lib/common.h(98): Notify: Next row for parameter lastName = 30 [table  = lastName].	[MsgId: MMSG-13876]
+../lib/common.h(98): Notify: Parameter Substitution: parameter "lastName" =  "Descamps"	[MsgId: MMSG-13992]
+../lib/common.h(98): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(100): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "ticket" =  "010;559;12/10/2023"	[MsgId: MMSG-13992]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "seatType" =  "Business"	[MsgId: MMSG-13992]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "seatPref" =  "None"	[MsgId: MMSG-13992]
+../lib/common.h(100): t=4002951ms: Closed connection [0] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+../lib/common.h(100): t=4002951ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(100): t=4002951ms: Connected socket [0] from 127.0.0.1:58802 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(100): t=4002951ms: 897-byte request headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=459)
+../lib/common.h(100):     POST /cgi-bin/reservations.pl HTTP/1.1\r\n
+../lib/common.h(100):     Content-Type: application/x-www-form-urlencoded\r\n
+../lib/common.h(100):     Referer: http://localhost:1080/cgi-bin/reservations.pl\r\n
+../lib/common.h(100):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(100):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(100):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(100):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(100):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(100):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(100):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(100):     Origin: http://localhost:1080\r\n
+../lib/common.h(100):     Sec-Fetch-User: ?1\r\n
+../lib/common.h(100):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(100):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(100):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(100):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(100):     Accept: */*\r\n
+../lib/common.h(100):     Connection: Keep-Alive\r\n
+../lib/common.h(100):     Host: localhost:1080\r\n
+../lib/common.h(100):     Cookie: MSO=SID&1702115438; MTUserInfo=firstName&Sylvester&address2&Linyi&username&pyxxrf&
+../lib/common.h(100):     hash&38&lastName&Descamps%0A&address1&RETIRO%20WAY&creditCard&&expDate&%0A\r\n
+../lib/common.h(100):     Content-Length: 146\r\n
+../lib/common.h(100):     \r\n
+../lib/common.h(100): t=4002952ms: 146-byte request body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=459)
+../lib/common.h(100):     outboundFlight=010%3B559%3B12%2F10%2F2023&numPassengers=1&advanceDiscount=0&seatType=Busin
+../lib/common.h(100):     ess&seatPref=None&reserveFlights.x=54&reserveFlights.y=5
+../lib/common.h(100): t=4002980ms: 256-byte response headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=459)
+../lib/common.h(100):     HTTP/1.1 200 OK\r\n
+../lib/common.h(100):     Date: Sat, 09 Dec 2023 09:51:02 GMT\r\n
+../lib/common.h(100):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(100):     Expires: Fri, 08 Dec 2023 09:51:02 GMT\r\n
+../lib/common.h(100):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(100):     Connection: Keep-Alive\r\n
+../lib/common.h(100):     Transfer-Encoding: chunked\r\n
+../lib/common.h(100):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(100):     \r\n
+../lib/common.h(100): t=4002980ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=459)
+../lib/common.h(100):     abe\r\n
+../lib/common.h(100): t=4002980ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=459)
+../lib/common.h(100):     \r\n
+../lib/common.h(100): t=4002980ms: 2750-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=459)
+../lib/common.h(100):     <!DOCTYPE html\n
+../lib/common.h(100):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../lib/common.h(100):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../lib/common.h(100):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../lib/common.h(100):     <head>\n
+../lib/common.h(100):     <title>Flight Reservation</title>\n
+../lib/common.h(100):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../lib/common.h(100):     </head>\n
+../lib/common.h(100):     <body bgcolor="#E0E7F1">\n
+../lib/common.h(100):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+../lib/common.h(100):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+../lib/common.h(100):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+../lib/common.h(100):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Payment Details</font></b></h1
+../lib/common.h(100):     ><blockquote><form method="post" action="reservations.pl" enctype="application/x-www-form-
+../lib/common.h(100):     urlencoded" onsubmit="return true ;">\n
+../lib/common.h(100):     <table><tr><td align="right">First Name : <td><input type="text" name="firstName" value="S
+../lib/common.h(100):     ylvester" size="15" /><tr><td align="right">Last Name : <td><input type="text" name="lastN
+../lib/common.h(100):     ame" value="Descamps&#10;" size="15" /><tr><td align="right">Street Address : <td colspan=
+../lib/common.h(100):     "3"><input type="text" name="address1" value="RETIRO WAY" size="30" /><tr><td align="right
+../lib/common.h(100):     ">City/State/Zip : <td colspan="3"><input type="text" name="address2" value="Linyi" size="
+../lib/common.h(100):     30" /><tr><td align="right">Passenger Names : <td colspan="3"><input type="text" name="pas
+../lib/common.h(100):     s1" value="Sylvester Descamps&#10;" size="30" /><tr><td height="10"><tr><td height="10" al
+../lib/common.h(100):     ign="center" colspan="4">Total for 1 ticket(s) is = $ 559<tr><td align="right">Credit Card
+../lib/common.h(100):      : <td><input type="text" name="creditCard"  size="20" maxlength="20" /><td align="right">
+../lib/common.h(100):     Exp Date : <td><input type="text" name="expDate" value="&#10;" size="5" maxlength="5" /><t
+../lib/common.h(100):     r><TD><td colspan="3" align="left"><label><input type="checkbox" name="saveCC" value="on" 
+../lib/common.h(100):     />Save this Credit Card Information</label><input type="hidden" name="oldCCOption" value="
+../lib/common.h(100):     "  /></table><input type="hidden" name="numPassengers" value="1"  /><input type="hidden" n
+../lib/common.h(100):     ame="seatType" value="Business"  /><input type="hidden" name="seatPref" value="None"  /><i
+../lib/common.h(100):     nput type="hidden" name="outboundFlight" value="010;559;12/10/2023"  /><input type="hidden
+../lib/common.h(100):     " name="advanceDiscount" value="0"  /><input type="hidden" name="returnFlight" value=""  /
+../lib/common.h(100):     ><input type="hidden" name="JSFormSubmit" value="off"  /><center><table width=80% cellspac
+../lib/common.h(100):     ing=1><tr><td align=center>\n
+../lib/common.h(100):     <input type="image" name="buyFlights" src="/WebTours/images/button_next.gif" border="0" />
+../lib/common.h(100):     <div><input type="hidden" name=".cgifields" value="saveCC"  /></div></form>\n
+../lib/common.h(100):     <td>&nbsp;<td align=center><form method="post" action="reservations.pl" enctype="applicati
+../lib/common.h(100):     on/x-www-form-urlencoded" onsubmit="void(0);">\n
+../lib/common.h(100):     </form></table></center></blockquote>\n
+../lib/common.h(100):     </body>\n
+../lib/common.h(100):     </html>
+../lib/common.h(100): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../lib/common.h(100): t=4002981ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=459)
+../lib/common.h(100):     0\r\n
+../lib/common.h(100):     \r\n
+../lib/common.h(100): t=4002981ms: Request done "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26000]
+../lib/common.h(100): Registered web_reg_find successful for "Text=firstName" value="Sylvester" (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(100): Registered web_reg_find successful for "Text=lastName" value="Descamps" (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(100): Registered web_reg_find successful for "Text=value="Sylvester Descamps" (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(100): web_submit_data("reservations.pl_2") was successful, 2750 body bytes, 256 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(42): Notify: Transaction "choose_ticket" ended with a "Pass" status (Duration: 0,0300).	[MsgId: MMSG-16873]
+Action.c(44): lr_think_time: 6,00 seconds.	[MsgId: MMSG-15948]
+Action.c(46): Notify: Transaction "sign_off" started.	[MsgId: MMSG-16999]
+../lib/common.h(304): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+../lib/common.h(304): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+../lib/common.h(304): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+../lib/common.h(306): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(306): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(308): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(308): t=4003656ms: Closed connection [0] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4003656ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4003656ms: Connected socket [0] from 127.0.0.1:58803 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4003656ms: 826-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=83)
+../lib/common.h(308):     GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1\r\n
+../lib/common.h(308):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary\r\n
+../lib/common.h(308):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(308):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(308):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(308):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(308):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(308):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(308):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(308):     Origin: http://localhost:1080\r\n
+../lib/common.h(308):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(308):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(308):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(308):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(308):     Accept: */*\r\n
+../lib/common.h(308):     Connection: Keep-Alive\r\n
+../lib/common.h(308):     Host: localhost:1080\r\n
+../lib/common.h(308):     Cookie: MSO=SID&1702115432; MTUserInfo=firstName&Barton&address2&Ahmedabad&username&czxqqu
+../lib/common.h(308):     i&hash&73&lastName&Ciubotaru%0A&address1&36TH%20AVE&creditCard&&expDate&%0A\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4003679ms: 328-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=83)
+../lib/common.h(308):     HTTP/1.1 200 OK\r\n
+../lib/common.h(308):     Date: Sat, 09 Dec 2023 09:51:03 GMT\r\n
+../lib/common.h(308):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(308):     Set-Cookie: MSO=SID&1702115463; path=/\r\n
+../lib/common.h(308):     Set-Cookie: MTUserInfo=; path=/; expires=Fri, 08-Dec-2023 09:51:03 GMT\r\n
+../lib/common.h(308):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(308):     Connection: Keep-Alive\r\n
+../lib/common.h(308):     Transfer-Encoding: chunked\r\n
+../lib/common.h(308):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4003679ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=83)
+../lib/common.h(308):     2ae\r\n
+../lib/common.h(308): t=4003679ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=83)
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4003679ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=83)
+../lib/common.h(308):     <!-- \n
+../lib/common.h(308):      A Session ID has been created and loaded into a cookie called MSO.\n
+../lib/common.h(308):      Also, the server options have been loaded into the cookie called\n
+../lib/common.h(308):      MSO as well.  The server options can be set via the Admin page.\n
+../lib/common.h(308):      --->\n
+../lib/common.h(308):     \n
+../lib/common.h(308):     <html>\n
+../lib/common.h(308):     <title>Web Tours</title>\n
+../lib/common.h(308):        <!-- Frame Set -->\n
+../lib/common.h(308):        <frameset cols="160,*" border="1" frameborder="1">\n
+../lib/common.h(308):           <!-- Navigation Frame -->\n
+../lib/common.h(308):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+../lib/common.h(308):                 noresize="noresize" scrolling="auto"/>\n
+../lib/common.h(308):           <!-- Home Frame -->\n
+../lib/common.h(308):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+../lib/common.h(308):                 noresize="noresize" scrolling="auto"/>\n
+../lib/common.h(308):        </frameset>\n
+../lib/common.h(308):     </html>\n
+../lib/common.h(308):     \n
+../lib/common.h(308):     </body>\n
+../lib/common.h(308):     </html>
+../lib/common.h(308): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../lib/common.h(308): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../lib/common.h(308): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+../lib/common.h(308): t=4003679ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=85)
+../lib/common.h(308):     <HTML>\n
+../lib/common.h(308):     <HEAD>\n
+../lib/common.h(308):     \t<title>Web Tours</title>\n
+../lib/common.h(308):     </HEAD>\n
+../lib/common.h(308):     <style>\n
+../lib/common.h(308):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../lib/common.h(308):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+../lib/common.h(308):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../lib/common.h(308):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(308):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+../lib/common.h(308):     N: none}\n
+../lib/common.h(308):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+../lib/common.h(308):     CORATION: underline}\n
+../lib/common.h(308):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(308):     </style>\n
+../lib/common.h(308):     <body bgcolor="#e0e7f1">\n
+../lib/common.h(308):     <BR/>\n
+../lib/common.h(308):     <BR/>\n
+../lib/common.h(308):     <BR/>\n
+../lib/common.h(308):     <br/>\n
+../lib/common.h(308):     <table border="0">\n
+../lib/common.h(308):     <tr><td></td></tr>\n
+../lib/common.h(308):     <TR><TD></TD></TR>\n
+../lib/common.h(308):     <TR><TD>\n
+../lib/common.h(308):     <blockquote>\n
+../lib/common.h(308):     <H1><b>Web Tours</b></H1>\n
+../lib/common.h(308):     Welcome to the Web Tours site.\n
+../lib/common.h(308):     <br/>\n
+../lib/common.h(308):     To make reservations,please enter your account information to the left.\n
+../lib/common.h(308):     <br/>\n
+../lib/common.h(308):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+../lib/common.h(308):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+../lib/common.h(308):     <br/>\n
+../lib/common.h(308):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+../lib/common.h(308):     tration</b></A> link.\n
+../lib/common.h(308):     <br/><br/><br/><br/><br/><br/>\n
+../lib/common.h(308):     <br/><small>\n
+../lib/common.h(308):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+../lib/common.h(308):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+../lib/common.h(308):     </small>\n
+../lib/common.h(308):     </blockquote></TD>\n
+../lib/common.h(308):     <TD></TD></TR>\n
+../lib/common.h(308):     </table>\n
+../lib/common.h(308):     </body>\n
+../lib/common.h(308):     </HTML>\n
+../lib/common.h(308): t=4003680ms: Connecting [1] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4003680ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=83)
+../lib/common.h(308):     0\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4003680ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4003680ms: Connected socket [1] from 127.0.0.1:58804 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4003680ms: 672-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=84)
+../lib/common.h(308):     GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n
+../lib/common.h(308):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=1\r\n
+../lib/common.h(308):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(308):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(308):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(308):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(308):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(308):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(308):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(308):     Origin: http://localhost:1080\r\n
+../lib/common.h(308):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(308):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(308):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(308):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(308):     Accept: */*\r\n
+../lib/common.h(308):     Connection: Keep-Alive\r\n
+../lib/common.h(308):     Host: localhost:1080\r\n
+../lib/common.h(308):     Cookie: MSO=SID&1702115463\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4003702ms: 256-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=84)
+../lib/common.h(308):     HTTP/1.1 200 OK\r\n
+../lib/common.h(308):     Date: Sat, 09 Dec 2023 09:51:03 GMT\r\n
+../lib/common.h(308):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(308):     Expires: Fri, 08 Dec 2023 09:51:03 GMT\r\n
+../lib/common.h(308):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(308):     Connection: Keep-Alive\r\n
+../lib/common.h(308):     Transfer-Encoding: chunked\r\n
+../lib/common.h(308):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4003702ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=84)
+../lib/common.h(308):     5ce\r\n
+../lib/common.h(308): t=4003702ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=84)
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4003702ms: 1486-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=84)
+../lib/common.h(308):     <!DOCTYPE html\n
+../lib/common.h(308):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../lib/common.h(308):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../lib/common.h(308):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../lib/common.h(308):     <head>\n
+../lib/common.h(308):     <title>Web Tours Navigation Bar</title>\n
+../lib/common.h(308):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../lib/common.h(308):     </head>\n
+../lib/common.h(308):     <body bgcolor="#E0E7F1">\n
+../lib/common.h(308):     <style>\n
+../lib/common.h(308):     blockquote {font-family: tahoma; font-size : 10pt}\n
+../lib/common.h(308):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+../lib/common.h(308):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(308):     small {font-family: tahoma; font-size : 8pt}\n
+../lib/common.h(308):     </style>\n
+../lib/common.h(308):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+../lib/common.h(308):     <input type="hidden" name="userSession" value="137878.935844471HAQcVtHpHzcftcffcpiizfHf"/>
+../lib/common.h(308):     \n
+../lib/common.h(308):     <table border="0"><tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td>&nbsp;</td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td>&nbsp;</td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><small>&nbsp;Username</small></td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><small>&nbsp;Password</small></td>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td>&nbsp;</td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+../lib/common.h(308):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+../lib/common.h(308):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+../lib/common.h(308):     </form>\n
+../lib/common.h(308):     \n
+../lib/common.h(308):     </body>\n
+../lib/common.h(308):     </html>\n
+../lib/common.h(308): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../lib/common.h(308): t=4003703ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=84)
+../lib/common.h(308):     0\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4003703ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+../lib/common.h(308): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(308): web_url("SignOff Button") was successful, 2172 body bytes, 584 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(50): Notify: Transaction "sign_off" ended with a "Pass" status (Duration: 0,0470).	[MsgId: MMSG-16873]
+Action.c(52): Notify: Transaction "UC4_SearchTicket" ended with a "Pass" status (Duration: 31,1293 Think Time: 30,0323).	[MsgId: MMSG-16872]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 4.	[MsgId: MMSG-15965]
+Waiting 46,8710 seconds for iteration pacing.	[MsgId: MMSG-15996]
+Action.c(38): Notify: Transaction "choose_ticket" started.	[MsgId: MMSG-16999]
+../lib/common.h(96): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(96): Notify: Next row for parameter firstName = 27 [table  = firstName].	[MsgId: MMSG-13876]
+../lib/common.h(96): Notify: Parameter Substitution: parameter "firstName" =  "Dionicio"	[MsgId: MMSG-13992]
+../lib/common.h(96): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(97): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(97): Notify: Next row for parameter lastName = 27 [table  = lastName].	[MsgId: MMSG-13876]
+../lib/common.h(97): Notify: Parameter Substitution: parameter "lastName" =  "Jaramillo"	[MsgId: MMSG-13992]
+../lib/common.h(97): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(98): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(98): Notify: Next row for parameter firstName = 27 [table  = firstName].	[MsgId: MMSG-13876]
+../lib/common.h(98): Notify: Parameter Substitution: parameter "firstName" =  "Dionicio"	[MsgId: MMSG-13992]
+../lib/common.h(98): Notify: Next row for parameter lastName = 27 [table  = lastName].	[MsgId: MMSG-13876]
+../lib/common.h(98): Notify: Parameter Substitution: parameter "lastName" =  "Jaramillo"	[MsgId: MMSG-13992]
+../lib/common.h(98): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(100): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "ticket" =  "453;508;12/10/2023"	[MsgId: MMSG-13992]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "seatType" =  "Coach"	[MsgId: MMSG-13992]
+../lib/common.h(100): Notify: Parameter Substitution: parameter "seatPref" =  "Aisle"	[MsgId: MMSG-13992]
+../lib/common.h(100): t=4003912ms: Closed connection [0] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+../lib/common.h(100): t=4003912ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(100): t=4003912ms: Connected socket [0] from 127.0.0.1:58805 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(100): t=4003912ms: 907-byte request headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=833)
+../lib/common.h(100):     POST /cgi-bin/reservations.pl HTTP/1.1\r\n
+../lib/common.h(100):     Content-Type: application/x-www-form-urlencoded\r\n
+../lib/common.h(100):     Referer: http://localhost:1080/cgi-bin/reservations.pl\r\n
+../lib/common.h(100):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(100):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(100):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(100):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(100):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(100):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(100):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(100):     Origin: http://localhost:1080\r\n
+../lib/common.h(100):     Sec-Fetch-User: ?1\r\n
+../lib/common.h(100):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(100):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(100):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(100):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(100):     Accept: */*\r\n
+../lib/common.h(100):     Connection: Keep-Alive\r\n
+../lib/common.h(100):     Host: localhost:1080\r\n
+../lib/common.h(100):     Cookie: MSO=SID&1702115438; MTUserInfo=firstName&Dionicio&address2&Ahmedabad&username&fwgc
+../lib/common.h(100):     bwfa&hash&33&lastName&Jaramillo%0A&address1&KENSINGTON%20WAY&creditCard&&expDate&%0A\r\n
+../lib/common.h(100):     Content-Length: 144\r\n
+../lib/common.h(100):     \r\n
+../lib/common.h(100): t=4003913ms: 144-byte request body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=833)
+../lib/common.h(100):     outboundFlight=453%3B508%3B12%2F10%2F2023&numPassengers=1&advanceDiscount=0&seatType=Coach
+../lib/common.h(100):     &seatPref=Aisle&reserveFlights.x=54&reserveFlights.y=5
+../lib/common.h(100): t=4003941ms: 256-byte response headers for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=833)
+../lib/common.h(100):     HTTP/1.1 200 OK\r\n
+../lib/common.h(100):     Date: Sat, 09 Dec 2023 09:51:03 GMT\r\n
+../lib/common.h(100):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(100):     Expires: Fri, 08 Dec 2023 09:51:03 GMT\r\n
+../lib/common.h(100):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(100):     Connection: Keep-Alive\r\n
+../lib/common.h(100):     Transfer-Encoding: chunked\r\n
+../lib/common.h(100):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(100):     \r\n
+../lib/common.h(100): t=4003941ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=833)
+../lib/common.h(100):     ac4\r\n
+../lib/common.h(100): t=4003941ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=833)
+../lib/common.h(100):     \r\n
+../lib/common.h(100): t=4003941ms: 2756-byte chunked response body for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=833)
+../lib/common.h(100):     <!DOCTYPE html\n
+../lib/common.h(100):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../lib/common.h(100):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../lib/common.h(100):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../lib/common.h(100):     <head>\n
+../lib/common.h(100):     <title>Flight Reservation</title>\n
+../lib/common.h(100):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../lib/common.h(100):     </head>\n
+../lib/common.h(100):     <body bgcolor="#E0E7F1">\n
+../lib/common.h(100):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+../lib/common.h(100):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+../lib/common.h(100):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+../lib/common.h(100):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Payment Details</font></b></h1
+../lib/common.h(100):     ><blockquote><form method="post" action="reservations.pl" enctype="application/x-www-form-
+../lib/common.h(100):     urlencoded" onsubmit="return true ;">\n
+../lib/common.h(100):     <table><tr><td align="right">First Name : <td><input type="text" name="firstName" value="D
+../lib/common.h(100):     ionicio" size="15" /><tr><td align="right">Last Name : <td><input type="text" name="lastNa
+../lib/common.h(100):     me" value="Jaramillo&#10;" size="15" /><tr><td align="right">Street Address : <td colspan=
+../lib/common.h(100):     "3"><input type="text" name="address1" value="KENSINGTON WAY" size="30" /><tr><td align="r
+../lib/common.h(100):     ight">City/State/Zip : <td colspan="3"><input type="text" name="address2" value="Ahmedabad
+../lib/common.h(100):     " size="30" /><tr><td align="right">Passenger Names : <td colspan="3"><input type="text" n
+../lib/common.h(100):     ame="pass1" value="Dionicio Jaramillo&#10;" size="30" /><tr><td height="10"><tr><td height
+../lib/common.h(100):     ="10" align="center" colspan="4">Total for 1 ticket(s) is = $ 508<tr><td align="right">Cre
+../lib/common.h(100):     dit Card : <td><input type="text" name="creditCard"  size="20" maxlength="20" /><td align=
+../lib/common.h(100):     "right">Exp Date : <td><input type="text" name="expDate" value="&#10;" size="5" maxlength=
+../lib/common.h(100):     "5" /><tr><TD><td colspan="3" align="left"><label><input type="checkbox" name="saveCC" val
+../lib/common.h(100):     ue="on" />Save this Credit Card Information</label><input type="hidden" name="oldCCOption"
+../lib/common.h(100):      value=""  /></table><input type="hidden" name="numPassengers" value="1"  /><input type="h
+../lib/common.h(100):     idden" name="seatType" value="Coach"  /><input type="hidden" name="seatPref" value="Aisle"
+../lib/common.h(100):       /><input type="hidden" name="outboundFlight" value="453;508;12/10/2023"  /><input type="
+../lib/common.h(100):     hidden" name="advanceDiscount" value="0"  /><input type="hidden" name="returnFlight" value
+../lib/common.h(100):     =""  /><input type="hidden" name="JSFormSubmit" value="off"  /><center><table width=80% ce
+../lib/common.h(100):     llspacing=1><tr><td align=center>\n
+../lib/common.h(100):     <input type="image" name="buyFlights" src="/WebTours/images/button_next.gif" border="0" />
+../lib/common.h(100):     <div><input type="hidden" name=".cgifields" value="saveCC"  /></div></form>\n
+../lib/common.h(100):     <td>&nbsp;<td align=center><form method="post" action="reservations.pl" enctype="applicati
+../lib/common.h(100):     on/x-www-form-urlencoded" onsubmit="void(0);">\n
+../lib/common.h(100):     </form></table></center></blockquote>\n
+../lib/common.h(100):     </body>\n
+../lib/common.h(100):     </html>
+../lib/common.h(100): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../lib/common.h(100): t=4003942ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=833)
+../lib/common.h(100):     0\r\n
+../lib/common.h(100):     \r\n
+../lib/common.h(100): t=4003942ms: Request done "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26000]
+../lib/common.h(100): Registered web_reg_find successful for "Text=firstName" value="Dionicio" (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(100): Registered web_reg_find successful for "Text=lastName" value="Jaramillo" (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(100): Registered web_reg_find successful for "Text=value="Dionicio Jaramillo" (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(100): web_submit_data("reservations.pl_2") was successful, 2756 body bytes, 256 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(42): Notify: Transaction "choose_ticket" ended with a "Pass" status (Duration: 0,0300).	[MsgId: MMSG-16873]
+Action.c(44): lr_think_time: 6,00 seconds.	[MsgId: MMSG-15948]
+Action.c(14): Notify: Transaction "login" started.	[MsgId: MMSG-16999]
+../lib/common.h(44): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+../lib/common.h(44): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(44): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(44): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(44): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+../lib/common.h(44): "Origin: http://localhost:1080" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+../lib/common.h(44): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+../lib/common.h(47): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+../lib/common.h(47): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+../lib/common.h(47): "Sec-Fetch-User: ?1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+../lib/common.h(47): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+../lib/common.h(50): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(50): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(52): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(52): Notify: Next row for parameter firstName = 17 [table  = firstName].	[MsgId: MMSG-13876]
+../lib/common.h(52): Notify: Parameter Substitution: parameter "firstName" =  "Rollo"	[MsgId: MMSG-13992]
+../lib/common.h(52): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(56): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(56): Notify: Next row for parameter lastName = 17 [table  = lastName].	[MsgId: MMSG-13876]
+../lib/common.h(56): Notify: Parameter Substitution: parameter "lastName" =  "Claudino"	[MsgId: MMSG-13992]
+../lib/common.h(56): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(60): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "userSession" =  "137878.935601458HAQcVtHpHftcffcpiizf"	[MsgId: MMSG-13992]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "username" =  "gbkjw"	[MsgId: MMSG-13992]
+../lib/common.h(60): Notify: Next row for parameter password = 17 [table  = password].	[MsgId: MMSG-13876]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "password" =  "pbuffklw"	[MsgId: MMSG-13992]
+../lib/common.h(60): t=4007043ms: Closed connection [0] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007043ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007044ms: Connected socket [0] from 127.0.0.1:58823 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007044ms: 751-byte request headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=445)
+../lib/common.h(60):     POST /cgi-bin/login.pl HTTP/1.1\r\n
+../lib/common.h(60):     Content-Type: application/x-www-form-urlencoded\r\n
+../lib/common.h(60):     Referer: http://localhost:1080/cgi-bin/nav.pl?in=home\r\n
+../lib/common.h(60):     Origin: http://localhost:1080\r\n
+../lib/common.h(60):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(60):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(60):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(60):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(60):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(60):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(60):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(60):     Sec-Fetch-User: ?1\r\n
+../lib/common.h(60):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(60):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(60):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(60):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(60):     Accept: */*\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Host: localhost:1080\r\n
+../lib/common.h(60):     Cookie: MSO=SID&1702115460\r\n
+../lib/common.h(60):     Content-Length: 118\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007044ms: 118-byte request body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=445)
+../lib/common.h(60):     userSession=137878.935601458HAQcVtHpHftcffcpiizf&username=gbkjw&password=pbuffklw&login.x=
+../lib/common.h(60):     0&login.y=0&JSFormSubmit=off
+../lib/common.h(60): t=4007044ms: Inactive socket [1] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007044ms: Closed connection [1] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007044ms: Inactive socket [2] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007044ms: Closed connection [2] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007067ms: 397-byte response headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=445)
+../lib/common.h(60):     HTTP/1.1 200 OK\r\n
+../lib/common.h(60):     Date: Sat, 09 Dec 2023 09:51:06 GMT\r\n
+../lib/common.h(60):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(60):     Expires: 5s\r\n
+../lib/common.h(60):     Set-Cookie: MTUserInfo=firstName&Rollo&address2&Ho%20Chi%20Minh%20City&username&gbkjw&hash
+../lib/common.h(60):     &55&lastName&Claudino%0A&address1&MASON%20ST&creditCard&&expDate&%0A; path=/\r\n
+../lib/common.h(60):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Transfer-Encoding: chunked\r\n
+../lib/common.h(60):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007067ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=445)
+../lib/common.h(60):     1e1\r\n
+../lib/common.h(60): t=4007067ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=445)
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007067ms: 481-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=445)
+../lib/common.h(60):     <!--\n
+../lib/common.h(60):     User password was correct - added a cookie with the user's default\n
+../lib/common.h(60):     information.  Set the user up to make reservations...\n
+../lib/common.h(60):     \n
+../lib/common.h(60):     --->\n
+../lib/common.h(60):     \n
+../lib/common.h(60):     <html>\n
+../lib/common.h(60):     <title>Web Tours</title>\n
+../lib/common.h(60):     <frameset cols="160,*" border=1 frameborder=1>\n
+../lib/common.h(60):     <frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" nores
+../lib/common.h(60):     ize="noresize" scrolling="auto"/>\n
+../lib/common.h(60):     <frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="no
+../lib/common.h(60):     resize" scrolling="auto"/>\n
+../lib/common.h(60):     </frameset>\n
+../lib/common.h(60):     \n
+../lib/common.h(60):     </body>\n
+../lib/common.h(60):     </html>
+../lib/common.h(60): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+../lib/common.h(60): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+../lib/common.h(60): t=4007068ms: Connecting [1] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007068ms: Connecting [2] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007068ms: Connected socket [1] from 127.0.0.1:58824 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007068ms: 838-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=446)
+../lib/common.h(60):     GET /cgi-bin/nav.pl?page=menu&in=home HTTP/1.1\r\n
+../lib/common.h(60):     Referer: http://localhost:1080/cgi-bin/login.pl\r\n
+../lib/common.h(60):     Origin: http://localhost:1080\r\n
+../lib/common.h(60):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(60):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(60):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(60):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(60):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(60):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(60):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(60):     Sec-Fetch-User: ?1\r\n
+../lib/common.h(60):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(60):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(60):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(60):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(60):     Accept: */*\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Host: localhost:1080\r\n
+../lib/common.h(60):     Cookie: MSO=SID&1702115460; MTUserInfo=firstName&Rollo&address2&Ho%20Chi%20Minh%20City&use
+../lib/common.h(60):     rname&gbkjw&hash&55&lastName&Claudino%0A&address1&MASON%20ST&creditCard&&expDate&%0A\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007068ms: Connected socket [2] from 127.0.0.1:58825 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007068ms: 833-byte request headers for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=447)
+../lib/common.h(60):     GET /cgi-bin/login.pl?intro=true HTTP/1.1\r\n
+../lib/common.h(60):     Referer: http://localhost:1080/cgi-bin/login.pl\r\n
+../lib/common.h(60):     Origin: http://localhost:1080\r\n
+../lib/common.h(60):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(60):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(60):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(60):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(60):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(60):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(60):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(60):     Sec-Fetch-User: ?1\r\n
+../lib/common.h(60):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(60):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(60):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(60):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(60):     Accept: */*\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Host: localhost:1080\r\n
+../lib/common.h(60):     Cookie: MSO=SID&1702115460; MTUserInfo=firstName&Rollo&address2&Ho%20Chi%20Minh%20City&use
+../lib/common.h(60):     rname&gbkjw&hash&55&lastName&Claudino%0A&address1&MASON%20ST&creditCard&&expDate&%0A\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007069ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=445)
+../lib/common.h(60):     0\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007069ms: Request done "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007092ms: 256-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=446)
+../lib/common.h(60):     HTTP/1.1 200 OK\r\n
+../lib/common.h(60):     Date: Sat, 09 Dec 2023 09:51:06 GMT\r\n
+../lib/common.h(60):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(60):     Expires: Fri, 08 Dec 2023 09:51:06 GMT\r\n
+../lib/common.h(60):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Transfer-Encoding: chunked\r\n
+../lib/common.h(60):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007092ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=446)
+../lib/common.h(60):     5ca\r\n
+../lib/common.h(60): t=4007092ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=446)
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007092ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=446)
+../lib/common.h(60):     <!DOCTYPE html\n
+../lib/common.h(60):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../lib/common.h(60):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../lib/common.h(60):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../lib/common.h(60):     <head>\n
+../lib/common.h(60):     <title>Web Tours Navigation Bar</title>\n
+../lib/common.h(60):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../lib/common.h(60):     </head>\n
+../lib/common.h(60):     <body bgcolor="#E0E7F1">\n
+../lib/common.h(60):     \n
+../lib/common.h(60):     <style>\n
+../lib/common.h(60):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../lib/common.h(60):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+../lib/common.h(60):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../lib/common.h(60):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(60):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+../lib/common.h(60):     N: none}\n
+../lib/common.h(60):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+../lib/common.h(60):     CORATION: underline}\n
+../lib/common.h(60):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(60):     </style>\n
+../lib/common.h(60):     \n
+../lib/common.h(60):     <BR><BR><center>\n
+../lib/common.h(60):     \n
+../lib/common.h(60):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+../lib/common.h(60):     RC="/WebTours/images/flights.gif" \n
+../lib/common.h(60):     ALT="Search Flights Button"/></A>\n
+../lib/common.h(60):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+../lib/common.h(60):     WebTours/images/itinerary.gif" \n
+../lib/common.h(60):     ALT="Itinerary Button"/></A>\n
+../lib/common.h(60):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+../lib/common.h(60):     ours/images/in_home.gif" \n
+../lib/common.h(60):     ALT="Home Button"/></A>\n
+../lib/common.h(60):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+../lib/common.h(60):     es/signoff.gif" \n
+../lib/common.h(60):     ALT="SignOff Button"/></A></center>\n
+../lib/common.h(60):     \n
+../lib/common.h(60):     </body>\n
+../lib/common.h(60):     </html>\n
+../lib/common.h(60): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../lib/common.h(60): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../lib/common.h(60): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../lib/common.h(60): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../lib/common.h(60): t=4007093ms: Connecting [3] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007093ms: Connecting [4] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007093ms: Connecting [5] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007093ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007093ms: 849-byte request headers for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=448)
+../lib/common.h(60):     GET /WebTours/images/flights.gif HTTP/1.1\r\n
+../lib/common.h(60):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+../lib/common.h(60):     Origin: http://localhost:1080\r\n
+../lib/common.h(60):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(60):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(60):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(60):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(60):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(60):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(60):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(60):     Sec-Fetch-User: ?1\r\n
+../lib/common.h(60):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(60):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(60):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(60):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(60):     Accept: */*\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Host: localhost:1080\r\n
+../lib/common.h(60):     Cookie: MSO=SID&1702115460; MTUserInfo=firstName&Rollo&address2&Ho%20Chi%20Minh%20City&use
+../lib/common.h(60):     rname&gbkjw&hash&55&lastName&Claudino%0A&address1&MASON%20ST&creditCard&&expDate&%0A\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007094ms: 229-byte response headers for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=447)
+../lib/common.h(60):     HTTP/1.1 200 OK\r\n
+../lib/common.h(60):     Date: Sat, 09 Dec 2023 09:51:06 GMT\r\n
+../lib/common.h(60):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(60):     Expires: 5s\r\n
+../lib/common.h(60):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Transfer-Encoding: chunked\r\n
+../lib/common.h(60):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007094ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=447)
+../lib/common.h(60):     397\r\n
+../lib/common.h(60): t=4007094ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=447)
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007094ms: 919-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=447)
+../lib/common.h(60):     <!DOCTYPE html\n
+../lib/common.h(60):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../lib/common.h(60):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../lib/common.h(60):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../lib/common.h(60):     <head>\n
+../lib/common.h(60):     <title>Welcome to Web Tours</title>\n
+../lib/common.h(60):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../lib/common.h(60):     </head>\n
+../lib/common.h(60):     <body bgcolor="#E0E7F1">\n
+../lib/common.h(60):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+../lib/common.h(60):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+../lib/common.h(60):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+../lib/common.h(60):     black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>gbkjw</b>, to the Web Tours
+../lib/common.h(60):      reservation pages.<BR/>Using the menu to the left, you can search for new flights to book
+../lib/common.h(60):     , \n
+../lib/common.h(60):     or review/edit the flights already booked.  Don't forget to sign off when\n
+../lib/common.h(60):     you're done!\n
+../lib/common.h(60):     </blockquote>\n
+../lib/common.h(60):     </body>\n
+../lib/common.h(60):     </html>
+../lib/common.h(60): t=4007094ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=446)
+../lib/common.h(60):     0\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007094ms: Request done "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007094ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=447)
+../lib/common.h(60):     0\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007094ms: Request done "http://localhost:1080/cgi-bin/login.pl?intro=true"  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007094ms: Connected socket [3] from 127.0.0.1:58826 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007094ms: 851-byte request headers for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=449)
+../lib/common.h(60):     GET /WebTours/images/itinerary.gif HTTP/1.1\r\n
+../lib/common.h(60):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+../lib/common.h(60):     Origin: http://localhost:1080\r\n
+../lib/common.h(60):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(60):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(60):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(60):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(60):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(60):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(60):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(60):     Sec-Fetch-User: ?1\r\n
+../lib/common.h(60):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(60):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(60):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(60):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(60):     Accept: */*\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Host: localhost:1080\r\n
+../lib/common.h(60):     Cookie: MSO=SID&1702115460; MTUserInfo=firstName&Rollo&address2&Ho%20Chi%20Minh%20City&use
+../lib/common.h(60):     rname&gbkjw&hash&55&lastName&Claudino%0A&address1&MASON%20ST&creditCard&&expDate&%0A\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007095ms: Connected socket [4] from 127.0.0.1:58827 to 127.0.0.1:1080 in 2 ms  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007095ms: 849-byte request headers for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=450)
+../lib/common.h(60):     GET /WebTours/images/in_home.gif HTTP/1.1\r\n
+../lib/common.h(60):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+../lib/common.h(60):     Origin: http://localhost:1080\r\n
+../lib/common.h(60):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(60):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(60):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(60):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(60):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(60):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(60):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(60):     Sec-Fetch-User: ?1\r\n
+../lib/common.h(60):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(60):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(60):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(60):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(60):     Accept: */*\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Host: localhost:1080\r\n
+../lib/common.h(60):     Cookie: MSO=SID&1702115460; MTUserInfo=firstName&Rollo&address2&Ho%20Chi%20Minh%20City&use
+../lib/common.h(60):     rname&gbkjw&hash&55&lastName&Claudino%0A&address1&MASON%20ST&creditCard&&expDate&%0A\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007095ms: 299-byte response headers for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=449)
+../lib/common.h(60):     HTTP/1.1 200 OK\r\n
+../lib/common.h(60):     Date: Sat, 09 Dec 2023 09:51:06 GMT\r\n
+../lib/common.h(60):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(60):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+../lib/common.h(60):     ETag: "2100000002f130-2dd-4b654c052c2c0"\r\n
+../lib/common.h(60):     Accept-Ranges: bytes\r\n
+../lib/common.h(60):     Content-Length: 733\r\n
+../lib/common.h(60):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Content-Type: image/gif\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007095ms: 733-byte response body for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=449)
+../lib/common.h(60): t=4007095ms: Request done "http://localhost:1080/WebTours/images/itinerary.gif"  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007095ms: Connected socket [5] from 127.0.0.1:58828 to 127.0.0.1:1080 in 2 ms  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007095ms: 849-byte request headers for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=451)
+../lib/common.h(60):     GET /WebTours/images/signoff.gif HTTP/1.1\r\n
+../lib/common.h(60):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+../lib/common.h(60):     Origin: http://localhost:1080\r\n
+../lib/common.h(60):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(60):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(60):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(60):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(60):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(60):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(60):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(60):     Sec-Fetch-User: ?1\r\n
+../lib/common.h(60):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(60):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(60):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(60):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(60):     Accept: */*\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Host: localhost:1080\r\n
+../lib/common.h(60):     Cookie: MSO=SID&1702115460; MTUserInfo=firstName&Rollo&address2&Ho%20Chi%20Minh%20City&use
+../lib/common.h(60):     rname&gbkjw&hash&55&lastName&Claudino%0A&address1&MASON%20ST&creditCard&&expDate&%0A\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007095ms: 299-byte response headers for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=450)
+../lib/common.h(60):     HTTP/1.1 200 OK\r\n
+../lib/common.h(60):     Date: Sat, 09 Dec 2023 09:51:06 GMT\r\n
+../lib/common.h(60):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(60):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+../lib/common.h(60):     ETag: "1200000002f118-2b0-4b654c052c2c0"\r\n
+../lib/common.h(60):     Accept-Ranges: bytes\r\n
+../lib/common.h(60):     Content-Length: 688\r\n
+../lib/common.h(60):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Content-Type: image/gif\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007095ms: 688-byte response body for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=450)
+../lib/common.h(60): t=4007095ms: Request done "http://localhost:1080/WebTours/images/in_home.gif"  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007096ms: 299-byte response headers for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=451)
+../lib/common.h(60):     HTTP/1.1 200 OK\r\n
+../lib/common.h(60):     Date: Sat, 09 Dec 2023 09:51:06 GMT\r\n
+../lib/common.h(60):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(60):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+../lib/common.h(60):     ETag: "46000000031a36-2ef-4b654c052c2c0"\r\n
+../lib/common.h(60):     Accept-Ranges: bytes\r\n
+../lib/common.h(60):     Content-Length: 751\r\n
+../lib/common.h(60):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Content-Type: image/gif\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007096ms: 751-byte response body for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=451)
+../lib/common.h(60): t=4007096ms: Request done "http://localhost:1080/WebTours/images/signoff.gif"  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4007123ms: 298-byte response headers for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=448)
+../lib/common.h(60):     HTTP/1.1 200 OK\r\n
+../lib/common.h(60):     Date: Sat, 09 Dec 2023 09:51:06 GMT\r\n
+../lib/common.h(60):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(60):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+../lib/common.h(60):     ETag: "3300000002f0fd-2d6-4b654c052c2c0"\r\n
+../lib/common.h(60):     Accept-Ranges: bytes\r\n
+../lib/common.h(60):     Content-Length: 726\r\n
+../lib/common.h(60):     Keep-Alive: timeout=5, max=99\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Content-Type: image/gif\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4007123ms: 726-byte response body for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=448)
+../lib/common.h(60): t=4007123ms: Request done "http://localhost:1080/WebTours/images/flights.gif"  	[MsgId: MMSG-26000]
+../lib/common.h(60): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(60): Registered web_reg_find successful for "Text=firstName&Rollo" (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(60): Registered web_reg_find successful for "Text=lastName&Claudino" (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(60): web_submit_data("login.pl") was successful, 5780 body bytes, 2077 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(18): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,0801).	[MsgId: MMSG-16873]
+Action.c(20): lr_think_time: 6,00 seconds.	[MsgId: MMSG-15948]
+Action.c(14): Notify: Transaction "login" started.	[MsgId: MMSG-16999]
+../lib/common.h(44): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+../lib/common.h(44): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(44): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(44): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(44): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+../lib/common.h(44): "Origin: http://localhost:1080" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+../lib/common.h(44): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+../lib/common.h(47): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+../lib/common.h(47): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+../lib/common.h(47): "Sec-Fetch-User: ?1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+../lib/common.h(47): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+../lib/common.h(50): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(50): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(52): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(52): Notify: Next row for parameter firstName = 18 [table  = firstName].	[MsgId: MMSG-13876]
+../lib/common.h(52): Notify: Parameter Substitution: parameter "firstName" =  "Roswell"	[MsgId: MMSG-13992]
+../lib/common.h(52): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(56): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(56): Notify: Next row for parameter lastName = 18 [table  = lastName].	[MsgId: MMSG-13876]
+../lib/common.h(56): Notify: Parameter Substitution: parameter "lastName" =  "Deval"	[MsgId: MMSG-13992]
+../lib/common.h(56): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(60): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "userSession" =  "137878.935682463HAQcVtHpHftVzzzHtcffcpiizfcf"	[MsgId: MMSG-13992]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "username" =  "atwbzxlg"	[MsgId: MMSG-13992]
+../lib/common.h(60): Notify: Next row for parameter password = 18 [table  = password].	[MsgId: MMSG-13876]
+../lib/common.h(60): Notify: Parameter Substitution: parameter "password" =  "jbyayjbgei"	[MsgId: MMSG-13992]
+../lib/common.h(60): t=4008128ms: Closed connection [0] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008128ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008128ms: Connected socket [0] from 127.0.0.1:58833 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008128ms: 751-byte request headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=819)
+../lib/common.h(60):     POST /cgi-bin/login.pl HTTP/1.1\r\n
+../lib/common.h(60):     Content-Type: application/x-www-form-urlencoded\r\n
+../lib/common.h(60):     Referer: http://localhost:1080/cgi-bin/nav.pl?in=home\r\n
+../lib/common.h(60):     Origin: http://localhost:1080\r\n
+../lib/common.h(60):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(60):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(60):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(60):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(60):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(60):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(60):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(60):     Sec-Fetch-User: ?1\r\n
+../lib/common.h(60):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(60):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(60):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(60):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(60):     Accept: */*\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Host: localhost:1080\r\n
+../lib/common.h(60):     Cookie: MSO=SID&1702115461\r\n
+../lib/common.h(60):     Content-Length: 131\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008129ms: 131-byte request body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=819)
+../lib/common.h(60):     userSession=137878.935682463HAQcVtHpHftVzzzHtcffcpiizfcf&username=atwbzxlg&password=jbyayj
+../lib/common.h(60):     bgei&login.x=0&login.y=0&JSFormSubmit=off
+../lib/common.h(60): t=4008129ms: Inactive socket [1] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008129ms: Closed connection [1] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008129ms: Inactive socket [2] was closed by localhost:1080, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008129ms: Closed connection [2] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008152ms: 394-byte response headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=819)
+../lib/common.h(60):     HTTP/1.1 200 OK\r\n
+../lib/common.h(60):     Date: Sat, 09 Dec 2023 09:51:07 GMT\r\n
+../lib/common.h(60):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(60):     Expires: 5s\r\n
+../lib/common.h(60):     Set-Cookie: MTUserInfo=firstName&Roswell&address2&Shenzhen&username&atwbzxlg&hash&103&last
+../lib/common.h(60):     Name&Deval%0A&address1&SANTA%20ROSA%20AVE&creditCard&&expDate&%0A; path=/\r\n
+../lib/common.h(60):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Transfer-Encoding: chunked\r\n
+../lib/common.h(60):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008152ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=819)
+../lib/common.h(60):     1e1\r\n
+../lib/common.h(60): t=4008152ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=819)
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008152ms: 481-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=819)
+../lib/common.h(60):     <!--\n
+../lib/common.h(60):     User password was correct - added a cookie with the user's default\n
+../lib/common.h(60):     information.  Set the user up to make reservations...\n
+../lib/common.h(60):     \n
+../lib/common.h(60):     --->\n
+../lib/common.h(60):     \n
+../lib/common.h(60):     <html>\n
+../lib/common.h(60):     <title>Web Tours</title>\n
+../lib/common.h(60):     <frameset cols="160,*" border=1 frameborder=1>\n
+../lib/common.h(60):     <frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" nores
+../lib/common.h(60):     ize="noresize" scrolling="auto"/>\n
+../lib/common.h(60):     <frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="no
+../lib/common.h(60):     resize" scrolling="auto"/>\n
+../lib/common.h(60):     </frameset>\n
+../lib/common.h(60):     \n
+../lib/common.h(60):     </body>\n
+../lib/common.h(60):     </html>
+../lib/common.h(60): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+../lib/common.h(60): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+../lib/common.h(60): t=4008153ms: Connecting [1] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008153ms: Connecting [2] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008153ms: Connected socket [1] from 127.0.0.1:58834 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008153ms: 835-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=820)
+../lib/common.h(60):     GET /cgi-bin/nav.pl?page=menu&in=home HTTP/1.1\r\n
+../lib/common.h(60):     Referer: http://localhost:1080/cgi-bin/login.pl\r\n
+../lib/common.h(60):     Origin: http://localhost:1080\r\n
+../lib/common.h(60):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(60):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(60):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(60):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(60):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(60):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(60):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(60):     Sec-Fetch-User: ?1\r\n
+../lib/common.h(60):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(60):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(60):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(60):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(60):     Accept: */*\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Host: localhost:1080\r\n
+../lib/common.h(60):     Cookie: MSO=SID&1702115461; MTUserInfo=firstName&Roswell&address2&Shenzhen&username&atwbzx
+../lib/common.h(60):     lg&hash&103&lastName&Deval%0A&address1&SANTA%20ROSA%20AVE&creditCard&&expDate&%0A\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008153ms: Connected socket [2] from 127.0.0.1:58835 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008153ms: 830-byte request headers for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=821)
+../lib/common.h(60):     GET /cgi-bin/login.pl?intro=true HTTP/1.1\r\n
+../lib/common.h(60):     Referer: http://localhost:1080/cgi-bin/login.pl\r\n
+../lib/common.h(60):     Origin: http://localhost:1080\r\n
+../lib/common.h(60):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(60):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(60):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(60):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(60):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(60):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(60):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(60):     Sec-Fetch-User: ?1\r\n
+../lib/common.h(60):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(60):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(60):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(60):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(60):     Accept: */*\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Host: localhost:1080\r\n
+../lib/common.h(60):     Cookie: MSO=SID&1702115461; MTUserInfo=firstName&Roswell&address2&Shenzhen&username&atwbzx
+../lib/common.h(60):     lg&hash&103&lastName&Deval%0A&address1&SANTA%20ROSA%20AVE&creditCard&&expDate&%0A\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008153ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=819)
+../lib/common.h(60):     0\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008154ms: Request done "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008176ms: 256-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=820)
+../lib/common.h(60):     HTTP/1.1 200 OK\r\n
+../lib/common.h(60):     Date: Sat, 09 Dec 2023 09:51:07 GMT\r\n
+../lib/common.h(60):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(60):     Expires: Fri, 08 Dec 2023 09:51:07 GMT\r\n
+../lib/common.h(60):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Transfer-Encoding: chunked\r\n
+../lib/common.h(60):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008176ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=820)
+../lib/common.h(60):     5ca\r\n
+../lib/common.h(60): t=4008176ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=820)
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008176ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=820)
+../lib/common.h(60):     <!DOCTYPE html\n
+../lib/common.h(60):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../lib/common.h(60):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../lib/common.h(60):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../lib/common.h(60):     <head>\n
+../lib/common.h(60):     <title>Web Tours Navigation Bar</title>\n
+../lib/common.h(60):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../lib/common.h(60):     </head>\n
+../lib/common.h(60):     <body bgcolor="#E0E7F1">\n
+../lib/common.h(60):     \n
+../lib/common.h(60):     <style>\n
+../lib/common.h(60):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../lib/common.h(60):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+../lib/common.h(60):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../lib/common.h(60):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(60):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+../lib/common.h(60):     N: none}\n
+../lib/common.h(60):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+../lib/common.h(60):     CORATION: underline}\n
+../lib/common.h(60):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(60):     </style>\n
+../lib/common.h(60):     \n
+../lib/common.h(60):     <BR><BR><center>\n
+../lib/common.h(60):     \n
+../lib/common.h(60):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+../lib/common.h(60):     RC="/WebTours/images/flights.gif" \n
+../lib/common.h(60):     ALT="Search Flights Button"/></A>\n
+../lib/common.h(60):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+../lib/common.h(60):     WebTours/images/itinerary.gif" \n
+../lib/common.h(60):     ALT="Itinerary Button"/></A>\n
+../lib/common.h(60):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+../lib/common.h(60):     ours/images/in_home.gif" \n
+../lib/common.h(60):     ALT="Home Button"/></A>\n
+../lib/common.h(60):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+../lib/common.h(60):     es/signoff.gif" \n
+../lib/common.h(60):     ALT="SignOff Button"/></A></center>\n
+../lib/common.h(60):     \n
+../lib/common.h(60):     </body>\n
+../lib/common.h(60):     </html>\n
+../lib/common.h(60): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../lib/common.h(60): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../lib/common.h(60): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../lib/common.h(60): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../lib/common.h(60): t=4008177ms: Connecting [3] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008177ms: Connecting [4] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008177ms: Connecting [5] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008177ms: Already connected [0] to localhost:1080  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008177ms: 846-byte request headers for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=822)
+../lib/common.h(60):     GET /WebTours/images/flights.gif HTTP/1.1\r\n
+../lib/common.h(60):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+../lib/common.h(60):     Origin: http://localhost:1080\r\n
+../lib/common.h(60):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(60):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(60):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(60):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(60):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(60):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(60):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(60):     Sec-Fetch-User: ?1\r\n
+../lib/common.h(60):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(60):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(60):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(60):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(60):     Accept: */*\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Host: localhost:1080\r\n
+../lib/common.h(60):     Cookie: MSO=SID&1702115461; MTUserInfo=firstName&Roswell&address2&Shenzhen&username&atwbzx
+../lib/common.h(60):     lg&hash&103&lastName&Deval%0A&address1&SANTA%20ROSA%20AVE&creditCard&&expDate&%0A\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008177ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=820)
+../lib/common.h(60):     0\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008177ms: Request done "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008177ms: Connected socket [3] from 127.0.0.1:58836 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008177ms: 848-byte request headers for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=823)
+../lib/common.h(60):     GET /WebTours/images/itinerary.gif HTTP/1.1\r\n
+../lib/common.h(60):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+../lib/common.h(60):     Origin: http://localhost:1080\r\n
+../lib/common.h(60):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(60):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(60):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(60):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(60):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(60):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(60):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(60):     Sec-Fetch-User: ?1\r\n
+../lib/common.h(60):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(60):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(60):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(60):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(60):     Accept: */*\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Host: localhost:1080\r\n
+../lib/common.h(60):     Cookie: MSO=SID&1702115461; MTUserInfo=firstName&Roswell&address2&Shenzhen&username&atwbzx
+../lib/common.h(60):     lg&hash&103&lastName&Deval%0A&address1&SANTA%20ROSA%20AVE&creditCard&&expDate&%0A\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008178ms: Connected socket [4] from 127.0.0.1:58837 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008178ms: 846-byte request headers for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=824)
+../lib/common.h(60):     GET /WebTours/images/in_home.gif HTTP/1.1\r\n
+../lib/common.h(60):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+../lib/common.h(60):     Origin: http://localhost:1080\r\n
+../lib/common.h(60):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(60):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(60):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(60):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(60):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(60):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(60):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(60):     Sec-Fetch-User: ?1\r\n
+../lib/common.h(60):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(60):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(60):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(60):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(60):     Accept: */*\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Host: localhost:1080\r\n
+../lib/common.h(60):     Cookie: MSO=SID&1702115461; MTUserInfo=firstName&Roswell&address2&Shenzhen&username&atwbzx
+../lib/common.h(60):     lg&hash&103&lastName&Deval%0A&address1&SANTA%20ROSA%20AVE&creditCard&&expDate&%0A\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008178ms: 229-byte response headers for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=821)
+../lib/common.h(60):     HTTP/1.1 200 OK\r\n
+../lib/common.h(60):     Date: Sat, 09 Dec 2023 09:51:07 GMT\r\n
+../lib/common.h(60):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(60):     Expires: 5s\r\n
+../lib/common.h(60):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Transfer-Encoding: chunked\r\n
+../lib/common.h(60):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008178ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=821)
+../lib/common.h(60):     39a\r\n
+../lib/common.h(60): t=4008178ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=821)
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008178ms: 922-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=821)
+../lib/common.h(60):     <!DOCTYPE html\n
+../lib/common.h(60):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../lib/common.h(60):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../lib/common.h(60):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../lib/common.h(60):     <head>\n
+../lib/common.h(60):     <title>Welcome to Web Tours</title>\n
+../lib/common.h(60):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../lib/common.h(60):     </head>\n
+../lib/common.h(60):     <body bgcolor="#E0E7F1">\n
+../lib/common.h(60):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+../lib/common.h(60):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+../lib/common.h(60):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+../lib/common.h(60):     black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>atwbzxlg</b>, to the Web To
+../lib/common.h(60):     urs reservation pages.<BR/>Using the menu to the left, you can search for new flights to b
+../lib/common.h(60):     ook, \n
+../lib/common.h(60):     or review/edit the flights already booked.  Don't forget to sign off when\n
+../lib/common.h(60):     you're done!\n
+../lib/common.h(60):     </blockquote>\n
+../lib/common.h(60):     </body>\n
+../lib/common.h(60):     </html>
+../lib/common.h(60): t=4008178ms: 299-byte response headers for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=823)
+../lib/common.h(60):     HTTP/1.1 200 OK\r\n
+../lib/common.h(60):     Date: Sat, 09 Dec 2023 09:51:07 GMT\r\n
+../lib/common.h(60):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(60):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+../lib/common.h(60):     ETag: "2100000002f130-2dd-4b654c052c2c0"\r\n
+../lib/common.h(60):     Accept-Ranges: bytes\r\n
+../lib/common.h(60):     Content-Length: 733\r\n
+../lib/common.h(60):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Content-Type: image/gif\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008178ms: 733-byte response body for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=823)
+../lib/common.h(60): t=4008179ms: Request done "http://localhost:1080/WebTours/images/itinerary.gif"  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008179ms: 299-byte response headers for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=824)
+../lib/common.h(60):     HTTP/1.1 200 OK\r\n
+../lib/common.h(60):     Date: Sat, 09 Dec 2023 09:51:07 GMT\r\n
+../lib/common.h(60):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(60):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+../lib/common.h(60):     ETag: "1200000002f118-2b0-4b654c052c2c0"\r\n
+../lib/common.h(60):     Accept-Ranges: bytes\r\n
+../lib/common.h(60):     Content-Length: 688\r\n
+../lib/common.h(60):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Content-Type: image/gif\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008179ms: 688-byte response body for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=824)
+../lib/common.h(60): t=4008179ms: Request done "http://localhost:1080/WebTours/images/in_home.gif"  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008179ms: Connected socket [5] from 127.0.0.1:58838 to 127.0.0.1:1080 in 2 ms  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008179ms: 846-byte request headers for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=825)
+../lib/common.h(60):     GET /WebTours/images/signoff.gif HTTP/1.1\r\n
+../lib/common.h(60):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+../lib/common.h(60):     Origin: http://localhost:1080\r\n
+../lib/common.h(60):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(60):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(60):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(60):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(60):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(60):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(60):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(60):     Sec-Fetch-User: ?1\r\n
+../lib/common.h(60):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(60):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(60):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(60):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(60):     Accept: */*\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Host: localhost:1080\r\n
+../lib/common.h(60):     Cookie: MSO=SID&1702115461; MTUserInfo=firstName&Roswell&address2&Shenzhen&username&atwbzx
+../lib/common.h(60):     lg&hash&103&lastName&Deval%0A&address1&SANTA%20ROSA%20AVE&creditCard&&expDate&%0A\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008179ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=821)
+../lib/common.h(60):     0\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008179ms: Request done "http://localhost:1080/cgi-bin/login.pl?intro=true"  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008179ms: 299-byte response headers for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=825)
+../lib/common.h(60):     HTTP/1.1 200 OK\r\n
+../lib/common.h(60):     Date: Sat, 09 Dec 2023 09:51:07 GMT\r\n
+../lib/common.h(60):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(60):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+../lib/common.h(60):     ETag: "46000000031a36-2ef-4b654c052c2c0"\r\n
+../lib/common.h(60):     Accept-Ranges: bytes\r\n
+../lib/common.h(60):     Content-Length: 751\r\n
+../lib/common.h(60):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Content-Type: image/gif\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008179ms: 751-byte response body for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=825)
+../lib/common.h(60): t=4008179ms: Request done "http://localhost:1080/WebTours/images/signoff.gif"  	[MsgId: MMSG-26000]
+../lib/common.h(60): t=4008208ms: 298-byte response headers for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=822)
+../lib/common.h(60):     HTTP/1.1 200 OK\r\n
+../lib/common.h(60):     Date: Sat, 09 Dec 2023 09:51:07 GMT\r\n
+../lib/common.h(60):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(60):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+../lib/common.h(60):     ETag: "3300000002f0fd-2d6-4b654c052c2c0"\r\n
+../lib/common.h(60):     Accept-Ranges: bytes\r\n
+../lib/common.h(60):     Content-Length: 726\r\n
+../lib/common.h(60):     Keep-Alive: timeout=5, max=99\r\n
+../lib/common.h(60):     Connection: Keep-Alive\r\n
+../lib/common.h(60):     Content-Type: image/gif\r\n
+../lib/common.h(60):     \r\n
+../lib/common.h(60): t=4008208ms: 726-byte response body for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=822)
+../lib/common.h(60): t=4008208ms: Request done "http://localhost:1080/WebTours/images/flights.gif"  	[MsgId: MMSG-26000]
+../lib/common.h(60): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(60): Registered web_reg_find successful for "Text=firstName&Roswell" (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(60): Registered web_reg_find successful for "Text=lastName&Deval" (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(60): web_submit_data("login.pl") was successful, 5783 body bytes, 2074 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(18): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,0801).	[MsgId: MMSG-16873]
+Action.c(20): lr_think_time: 6,00 seconds.	[MsgId: MMSG-15948]
+Action.c(46): Notify: Transaction "sign_off" started.	[MsgId: MMSG-16999]
+../lib/common.h(304): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+../lib/common.h(304): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+../lib/common.h(304): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+../lib/common.h(306): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(306): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(308): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(308): t=4008988ms: Closed connection [0] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4008988ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4008988ms: Connected socket [0] from 127.0.0.1:58847 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4008988ms: 825-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=460)
+../lib/common.h(308):     GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1\r\n
+../lib/common.h(308):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary\r\n
+../lib/common.h(308):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(308):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(308):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(308):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(308):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(308):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(308):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(308):     Origin: http://localhost:1080\r\n
+../lib/common.h(308):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(308):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(308):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(308):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(308):     Accept: */*\r\n
+../lib/common.h(308):     Connection: Keep-Alive\r\n
+../lib/common.h(308):     Host: localhost:1080\r\n
+../lib/common.h(308):     Cookie: MSO=SID&1702115438; MTUserInfo=firstName&Sylvester&address2&Linyi&username&pyxxrf&
+../lib/common.h(308):     hash&38&lastName&Descamps%0A&address1&RETIRO%20WAY&creditCard&&expDate&%0A\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4009011ms: 328-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=460)
+../lib/common.h(308):     HTTP/1.1 200 OK\r\n
+../lib/common.h(308):     Date: Sat, 09 Dec 2023 09:51:08 GMT\r\n
+../lib/common.h(308):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(308):     Set-Cookie: MSO=SID&1702115468; path=/\r\n
+../lib/common.h(308):     Set-Cookie: MTUserInfo=; path=/; expires=Fri, 08-Dec-2023 09:51:08 GMT\r\n
+../lib/common.h(308):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(308):     Connection: Keep-Alive\r\n
+../lib/common.h(308):     Transfer-Encoding: chunked\r\n
+../lib/common.h(308):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4009011ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=460)
+../lib/common.h(308):     2ae\r\n
+../lib/common.h(308): t=4009011ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=460)
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4009011ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=460)
+../lib/common.h(308):     <!-- \n
+../lib/common.h(308):      A Session ID has been created and loaded into a cookie called MSO.\n
+../lib/common.h(308):      Also, the server options have been loaded into the cookie called\n
+../lib/common.h(308):      MSO as well.  The server options can be set via the Admin page.\n
+../lib/common.h(308):      --->\n
+../lib/common.h(308):     \n
+../lib/common.h(308):     <html>\n
+../lib/common.h(308):     <title>Web Tours</title>\n
+../lib/common.h(308):        <!-- Frame Set -->\n
+../lib/common.h(308):        <frameset cols="160,*" border="1" frameborder="1">\n
+../lib/common.h(308):           <!-- Navigation Frame -->\n
+../lib/common.h(308):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+../lib/common.h(308):                 noresize="noresize" scrolling="auto"/>\n
+../lib/common.h(308):           <!-- Home Frame -->\n
+../lib/common.h(308):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+../lib/common.h(308):                 noresize="noresize" scrolling="auto"/>\n
+../lib/common.h(308):        </frameset>\n
+../lib/common.h(308):     </html>\n
+../lib/common.h(308):     \n
+../lib/common.h(308):     </body>\n
+../lib/common.h(308):     </html>
+../lib/common.h(308): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../lib/common.h(308): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../lib/common.h(308): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+../lib/common.h(308): t=4009012ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=462)
+../lib/common.h(308):     <HTML>\n
+../lib/common.h(308):     <HEAD>\n
+../lib/common.h(308):     \t<title>Web Tours</title>\n
+../lib/common.h(308):     </HEAD>\n
+../lib/common.h(308):     <style>\n
+../lib/common.h(308):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../lib/common.h(308):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+../lib/common.h(308):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../lib/common.h(308):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(308):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+../lib/common.h(308):     N: none}\n
+../lib/common.h(308):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+../lib/common.h(308):     CORATION: underline}\n
+../lib/common.h(308):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(308):     </style>\n
+../lib/common.h(308):     <body bgcolor="#e0e7f1">\n
+../lib/common.h(308):     <BR/>\n
+../lib/common.h(308):     <BR/>\n
+../lib/common.h(308):     <BR/>\n
+../lib/common.h(308):     <br/>\n
+../lib/common.h(308):     <table border="0">\n
+../lib/common.h(308):     <tr><td></td></tr>\n
+../lib/common.h(308):     <TR><TD></TD></TR>\n
+../lib/common.h(308):     <TR><TD>\n
+../lib/common.h(308):     <blockquote>\n
+../lib/common.h(308):     <H1><b>Web Tours</b></H1>\n
+../lib/common.h(308):     Welcome to the Web Tours site.\n
+../lib/common.h(308):     <br/>\n
+../lib/common.h(308):     To make reservations,please enter your account information to the left.\n
+../lib/common.h(308):     <br/>\n
+../lib/common.h(308):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+../lib/common.h(308):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+../lib/common.h(308):     <br/>\n
+../lib/common.h(308):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+../lib/common.h(308):     tration</b></A> link.\n
+../lib/common.h(308):     <br/><br/><br/><br/><br/><br/>\n
+../lib/common.h(308):     <br/><small>\n
+../lib/common.h(308):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+../lib/common.h(308):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+../lib/common.h(308):     </small>\n
+../lib/common.h(308):     </blockquote></TD>\n
+../lib/common.h(308):     <TD></TD></TR>\n
+../lib/common.h(308):     </table>\n
+../lib/common.h(308):     </body>\n
+../lib/common.h(308):     </HTML>\n
+../lib/common.h(308): t=4009012ms: Connecting [1] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4009012ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=460)
+../lib/common.h(308):     0\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4009012ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4009012ms: Connected socket [1] from 127.0.0.1:58848 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4009012ms: 672-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=461)
+../lib/common.h(308):     GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n
+../lib/common.h(308):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=1\r\n
+../lib/common.h(308):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(308):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(308):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(308):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(308):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(308):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(308):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(308):     Origin: http://localhost:1080\r\n
+../lib/common.h(308):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(308):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(308):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(308):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(308):     Accept: */*\r\n
+../lib/common.h(308):     Connection: Keep-Alive\r\n
+../lib/common.h(308):     Host: localhost:1080\r\n
+../lib/common.h(308):     Cookie: MSO=SID&1702115468\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4009035ms: 256-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=461)
+../lib/common.h(308):     HTTP/1.1 200 OK\r\n
+../lib/common.h(308):     Date: Sat, 09 Dec 2023 09:51:08 GMT\r\n
+../lib/common.h(308):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(308):     Expires: Fri, 08 Dec 2023 09:51:08 GMT\r\n
+../lib/common.h(308):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(308):     Connection: Keep-Alive\r\n
+../lib/common.h(308):     Transfer-Encoding: chunked\r\n
+../lib/common.h(308):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4009035ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=461)
+../lib/common.h(308):     5d0\r\n
+../lib/common.h(308): t=4009035ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=461)
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4009035ms: 1488-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=461)
+../lib/common.h(308):     <!DOCTYPE html\n
+../lib/common.h(308):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../lib/common.h(308):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../lib/common.h(308):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../lib/common.h(308):     <head>\n
+../lib/common.h(308):     <title>Web Tours Navigation Bar</title>\n
+../lib/common.h(308):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../lib/common.h(308):     </head>\n
+../lib/common.h(308):     <body bgcolor="#E0E7F1">\n
+../lib/common.h(308):     <style>\n
+../lib/common.h(308):     blockquote {font-family: tahoma; font-size : 10pt}\n
+../lib/common.h(308):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+../lib/common.h(308):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(308):     small {font-family: tahoma; font-size : 8pt}\n
+../lib/common.h(308):     </style>\n
+../lib/common.h(308):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+../lib/common.h(308):     <input type="hidden" name="userSession" value="137878.936249494HAQcVtHpHiDDDDDDtcffcpiizH"
+../lib/common.h(308):     />\n
+../lib/common.h(308):     <table border="0"><tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td>&nbsp;</td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td>&nbsp;</td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><small>&nbsp;Username</small></td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><small>&nbsp;Password</small></td>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td>&nbsp;</td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+../lib/common.h(308):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+../lib/common.h(308):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+../lib/common.h(308):     </form>\n
+../lib/common.h(308):     \n
+../lib/common.h(308):     </body>\n
+../lib/common.h(308):     </html>\n
+../lib/common.h(308): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../lib/common.h(308): t=4009036ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=461)
+../lib/common.h(308):     0\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4009037ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+../lib/common.h(308): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(308): web_url("SignOff Button") was successful, 2174 body bytes, 584 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(50): Notify: Transaction "sign_off" ended with a "Pass" status (Duration: 0,0490).	[MsgId: MMSG-16873]
+Action.c(52): Notify: Transaction "UC4_SearchTicket" ended with a "Pass" status (Duration: 30,3976 Think Time: 30,0353).	[MsgId: MMSG-16872]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=4009037ms: Closed connection [0] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+t=4009037ms: Closed connection [1] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=7, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 3 (thread 14348), ended OK."	[MsgId: MMSG-10695]
+Action.c(46): Notify: Transaction "sign_off" started.	[MsgId: MMSG-16999]
+../lib/common.h(304): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+../lib/common.h(304): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+../lib/common.h(304): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+../lib/common.h(306): web_reg_find started  	[MsgId: MMSG-26355]
+../lib/common.h(306): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+../lib/common.h(308): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "protocol" =  "http"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "host" =  "localhost"	[MsgId: MMSG-13992]
+../lib/common.h(308): Notify: Parameter Substitution: parameter "port" =  "1080"	[MsgId: MMSG-13992]
+../lib/common.h(308): t=4009945ms: Closed connection [0] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4009945ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4009945ms: Connected socket [0] from 127.0.0.1:58852 to 127.0.0.1:1080 in 0 ms  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4009945ms: 835-byte request headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=834)
+../lib/common.h(308):     GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1\r\n
+../lib/common.h(308):     Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary\r\n
+../lib/common.h(308):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(308):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(308):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(308):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(308):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(308):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(308):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(308):     Origin: http://localhost:1080\r\n
+../lib/common.h(308):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(308):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(308):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(308):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(308):     Accept: */*\r\n
+../lib/common.h(308):     Connection: Keep-Alive\r\n
+../lib/common.h(308):     Host: localhost:1080\r\n
+../lib/common.h(308):     Cookie: MSO=SID&1702115438; MTUserInfo=firstName&Dionicio&address2&Ahmedabad&username&fwgc
+../lib/common.h(308):     bwfa&hash&33&lastName&Jaramillo%0A&address1&KENSINGTON%20WAY&creditCard&&expDate&%0A\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4009967ms: 328-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=834)
+../lib/common.h(308):     HTTP/1.1 200 OK\r\n
+../lib/common.h(308):     Date: Sat, 09 Dec 2023 09:51:09 GMT\r\n
+../lib/common.h(308):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(308):     Set-Cookie: MSO=SID&1702115469; path=/\r\n
+../lib/common.h(308):     Set-Cookie: MTUserInfo=; path=/; expires=Fri, 08-Dec-2023 09:51:09 GMT\r\n
+../lib/common.h(308):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(308):     Connection: Keep-Alive\r\n
+../lib/common.h(308):     Transfer-Encoding: chunked\r\n
+../lib/common.h(308):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4009968ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=834)
+../lib/common.h(308):     2ae\r\n
+../lib/common.h(308): t=4009968ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=834)
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4009968ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=834)
+../lib/common.h(308):     <!-- \n
+../lib/common.h(308):      A Session ID has been created and loaded into a cookie called MSO.\n
+../lib/common.h(308):      Also, the server options have been loaded into the cookie called\n
+../lib/common.h(308):      MSO as well.  The server options can be set via the Admin page.\n
+../lib/common.h(308):      --->\n
+../lib/common.h(308):     \n
+../lib/common.h(308):     <html>\n
+../lib/common.h(308):     <title>Web Tours</title>\n
+../lib/common.h(308):        <!-- Frame Set -->\n
+../lib/common.h(308):        <frameset cols="160,*" border="1" frameborder="1">\n
+../lib/common.h(308):           <!-- Navigation Frame -->\n
+../lib/common.h(308):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+../lib/common.h(308):                 noresize="noresize" scrolling="auto"/>\n
+../lib/common.h(308):           <!-- Home Frame -->\n
+../lib/common.h(308):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+../lib/common.h(308):                 noresize="noresize" scrolling="auto"/>\n
+../lib/common.h(308):        </frameset>\n
+../lib/common.h(308):     </html>\n
+../lib/common.h(308):     \n
+../lib/common.h(308):     </body>\n
+../lib/common.h(308):     </html>
+../lib/common.h(308): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../lib/common.h(308): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../lib/common.h(308): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+../lib/common.h(308): t=4009968ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=836)
+../lib/common.h(308):     <HTML>\n
+../lib/common.h(308):     <HEAD>\n
+../lib/common.h(308):     \t<title>Web Tours</title>\n
+../lib/common.h(308):     </HEAD>\n
+../lib/common.h(308):     <style>\n
+../lib/common.h(308):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+../lib/common.h(308):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+../lib/common.h(308):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+../lib/common.h(308):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(308):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+../lib/common.h(308):     N: none}\n
+../lib/common.h(308):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+../lib/common.h(308):     CORATION: underline}\n
+../lib/common.h(308):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(308):     </style>\n
+../lib/common.h(308):     <body bgcolor="#e0e7f1">\n
+../lib/common.h(308):     <BR/>\n
+../lib/common.h(308):     <BR/>\n
+../lib/common.h(308):     <BR/>\n
+../lib/common.h(308):     <br/>\n
+../lib/common.h(308):     <table border="0">\n
+../lib/common.h(308):     <tr><td></td></tr>\n
+../lib/common.h(308):     <TR><TD></TD></TR>\n
+../lib/common.h(308):     <TR><TD>\n
+../lib/common.h(308):     <blockquote>\n
+../lib/common.h(308):     <H1><b>Web Tours</b></H1>\n
+../lib/common.h(308):     Welcome to the Web Tours site.\n
+../lib/common.h(308):     <br/>\n
+../lib/common.h(308):     To make reservations,please enter your account information to the left.\n
+../lib/common.h(308):     <br/>\n
+../lib/common.h(308):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+../lib/common.h(308):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+../lib/common.h(308):     <br/>\n
+../lib/common.h(308):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+../lib/common.h(308):     tration</b></A> link.\n
+../lib/common.h(308):     <br/><br/><br/><br/><br/><br/>\n
+../lib/common.h(308):     <br/><small>\n
+../lib/common.h(308):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+../lib/common.h(308):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+../lib/common.h(308):     </small>\n
+../lib/common.h(308):     </blockquote></TD>\n
+../lib/common.h(308):     <TD></TD></TR>\n
+../lib/common.h(308):     </table>\n
+../lib/common.h(308):     </body>\n
+../lib/common.h(308):     </HTML>\n
+../lib/common.h(308): t=4009968ms: Connecting [1] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4009969ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=834)
+../lib/common.h(308):     0\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4009969ms: Request done "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4009969ms: Connected socket [1] from 127.0.0.1:58853 to 127.0.0.1:1080 in 1 ms  	[MsgId: MMSG-26000]
+../lib/common.h(308): t=4009969ms: 672-byte request headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=835)
+../lib/common.h(308):     GET /cgi-bin/nav.pl?in=home HTTP/1.1\r\n
+../lib/common.h(308):     Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=1\r\n
+../lib/common.h(308):     Sec-Fetch-Dest: frame\r\n
+../lib/common.h(308):     Sec-Fetch-Mode: navigate\r\n
+../lib/common.h(308):     Sec-Fetch-Site: same-origin\r\n
+../lib/common.h(308):     Upgrade-Insecure-Requests: 1\r\n
+../lib/common.h(308):     sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"\r\n
+../lib/common.h(308):     sec-ch-ua-mobile: ?0\r\n
+../lib/common.h(308):     sec-ch-ua-platform: "Windows"\r\n
+../lib/common.h(308):     Origin: http://localhost:1080\r\n
+../lib/common.h(308):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+../lib/common.h(308):     o) Chrome/105.0.0.0 Safari/537.36\r\n
+../lib/common.h(308):     Accept-Encoding: gzip, deflate, br\r\n
+../lib/common.h(308):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+../lib/common.h(308):     Accept: */*\r\n
+../lib/common.h(308):     Connection: Keep-Alive\r\n
+../lib/common.h(308):     Host: localhost:1080\r\n
+../lib/common.h(308):     Cookie: MSO=SID&1702115469\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4009991ms: 256-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=835)
+../lib/common.h(308):     HTTP/1.1 200 OK\r\n
+../lib/common.h(308):     Date: Sat, 09 Dec 2023 09:51:09 GMT\r\n
+../lib/common.h(308):     Server: Apache/2.2.21 (Win32)\r\n
+../lib/common.h(308):     Expires: Fri, 08 Dec 2023 09:51:09 GMT\r\n
+../lib/common.h(308):     Keep-Alive: timeout=5, max=100\r\n
+../lib/common.h(308):     Connection: Keep-Alive\r\n
+../lib/common.h(308):     Transfer-Encoding: chunked\r\n
+../lib/common.h(308):     Content-Type: text/html; charset=ISO-8859-1\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4009991ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=835)
+../lib/common.h(308):     5ce\r\n
+../lib/common.h(308): t=4009991ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=835)
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4009991ms: 1486-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=835)
+../lib/common.h(308):     <!DOCTYPE html\n
+../lib/common.h(308):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+../lib/common.h(308):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+../lib/common.h(308):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+../lib/common.h(308):     <head>\n
+../lib/common.h(308):     <title>Web Tours Navigation Bar</title>\n
+../lib/common.h(308):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+../lib/common.h(308):     </head>\n
+../lib/common.h(308):     <body bgcolor="#E0E7F1">\n
+../lib/common.h(308):     <style>\n
+../lib/common.h(308):     blockquote {font-family: tahoma; font-size : 10pt}\n
+../lib/common.h(308):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+../lib/common.h(308):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+../lib/common.h(308):     small {font-family: tahoma; font-size : 8pt}\n
+../lib/common.h(308):     </style>\n
+../lib/common.h(308):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+../lib/common.h(308):     <input type="hidden" name="userSession" value="137878.936330498HAQcVtHpHiHftcffcpiizHcf"/>
+../lib/common.h(308):     \n
+../lib/common.h(308):     <table border="0"><tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td>&nbsp;</td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td>&nbsp;</td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><small>&nbsp;Username</small></td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><small>&nbsp;Password</small></td>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td>&nbsp;</td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td>\n
+../lib/common.h(308):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+../lib/common.h(308):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+../lib/common.h(308):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+../lib/common.h(308):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+../lib/common.h(308):     </form>\n
+../lib/common.h(308):     \n
+../lib/common.h(308):     </body>\n
+../lib/common.h(308):     </html>\n
+../lib/common.h(308): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+../lib/common.h(308): t=4009992ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=835)
+../lib/common.h(308):     0\r\n
+../lib/common.h(308):     \r\n
+../lib/common.h(308): t=4009992ms: Request done "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+../lib/common.h(308): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
+../lib/common.h(308): web_url("SignOff Button") was successful, 2172 body bytes, 584 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(50): Notify: Transaction "sign_off" ended with a "Pass" status (Duration: 0,0470).	[MsgId: MMSG-16873]
+Action.c(52): Notify: Transaction "UC4_SearchTicket" ended with a "Pass" status (Duration: 30,5107 Think Time: 30,0433).	[MsgId: MMSG-16872]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=4009992ms: Closed connection [0] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+t=4009992ms: Closed connection [1] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=7, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 11184), ended OK."	[MsgId: MMSG-10695]
+Action was aborted.	[MsgId: MMSG-10694]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Action.c(20): Notify: Transaction "UC4_SearchTicket" ended with a "Stop" status (Duration: 9,1283 Think Time: 6,0075 Wasted Time: 0,0010).	[MsgId: MMSG-16870]
+Vuser Terminated.	[MsgId: MMSG-15963]
+../lib/common.h(100): t=4010083ms: Closed connection [0] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+t=4010083ms: Closed connection [0] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+../lib/common.h(100): t=4010083ms: Closed connection [1] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Action.c(20): Notify: Transaction "UC4_SearchTicket" ended with a "Stop" status (Duration: 8,0433 Think Time: 6,0095).	[MsgId: MMSG-16872]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Action.c(20): t=4010083ms: Closed connection [0] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Action.c(20): t=4010083ms: Closed connection [1] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+t=4010083ms: Closed connection [1] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Action.c(20): t=4010084ms: Closed connection [0] to localhost:1080 after completing 2 request(s)  	[MsgId: MMSG-26000]
+Action.c(20): t=4010084ms: Closed connection [2] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(20): t=4010084ms: Closed connection [1] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(20): t=4010084ms: Closed connection [3] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(20): t=4010084ms: Closed connection [2] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(20): t=4010084ms: Closed connection [4] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(20): t=4010084ms: Closed connection [5] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(20): t=4010084ms: Closed connection [3] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(20): t=4010084ms: Closed connection [4] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(20): t=4010084ms: Closed connection [5] to localhost:1080 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=7, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=7, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=7, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 5 (thread 17628), ended OK."	[MsgId: MMSG-10695]
+HTML-Mode memory management statistics: Reusable=7, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 2 (thread 20056), ended OK."	[MsgId: MMSG-10695]
+Vuser 1 (thread 9800), ended OK."	[MsgId: MMSG-10695]
+Vuser 4 (thread 2140), ended OK."	[MsgId: MMSG-10695]

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 09 Dec 2023 18:44:04 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 08 Dec 2023 18:44:04 GMT
+Set-Cookie: MTUserInfo=firstName&Darwin&username&otlgaq&address2&Seoul&hash&81&address1&SHAFTER%20AVE&lastName&Rohirse%0A; path=/
+Keep-Alive: timeout=5, max=92
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
