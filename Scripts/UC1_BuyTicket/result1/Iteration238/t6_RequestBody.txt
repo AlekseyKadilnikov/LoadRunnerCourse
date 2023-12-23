@@ -1,4 +1,0 @@
-"firstName=Oscar&lastName=Choya&address1=PERU+AVE&address2=Shanghai&pass1=Oscar+Choya&pass2=Zac"
-"k+Erostarbe&pass3=Nellie+Ernesto&creditCard=22223333444455556666&expDate=09%2F24&oldCCOption=&"
-"numPassengers=3&seatType=Coach&seatPref=None&outboundFlight=451%3B553%3B12%2F10%2F2023&advance"
-"Discount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

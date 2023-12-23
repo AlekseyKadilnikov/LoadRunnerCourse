@@ -1,4 +1,0 @@
-"firstName=Theadore&lastName=Chocholensk&address1=LAGUNA+ST&address2=Foshan&pass1=Theadore+Choc"
-"holensk&pass2=Don+Rissol&creditCard=99991111777733332222&expDate=06%2F25&oldCCOption=&numPasse"
-"ngers=2&seatType=First&seatPref=None&outboundFlight=670%3B162%3B12%2F10%2F2023&advanceDiscount"
-"=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

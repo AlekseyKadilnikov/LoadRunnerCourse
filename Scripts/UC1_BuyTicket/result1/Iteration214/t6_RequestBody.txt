@@ -1,5 +1,0 @@
-"firstName=Thomas&lastName=Rivilla&address1=LA+SALLE+AVE&address2=Chennai&pass1=Thomas+Rivilla&"
-"pass2=Vicente+Rogatkin&pass3=Babe+Escalero&creditCard=77778888555544441111&expDate=08%2F24&old"
-"CCOption=&numPassengers=3&seatType=Coach&seatPref=Window&outboundFlight=671%3B77%3B12%2F10%2F2"
-"023&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields"
-"=saveCC"

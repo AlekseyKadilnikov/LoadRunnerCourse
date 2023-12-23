@@ -1,5 +1,0 @@
-"firstName=Ivy&lastName=Iraragorri&address1=STANFORD+HEIGHTS+AVE&address2=Luanda&pass1=Ivy+Irar"
-"agorri&pass2=Fayette+Rolffs&pass3=Moses+Ripoll&creditCard=22225555888899997777&expDate=12%2F24"
-"&oldCCOption=&numPassengers=3&seatType=Business&seatPref=Window&outboundFlight=010%3B559%3B12%"
-"2F10%2F2023&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.c"
-"gifields=saveCC"

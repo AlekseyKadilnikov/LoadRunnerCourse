@@ -1,0 +1,4 @@
+../lib/common.h(281): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MERR-26612]
+../lib/common.h(281): Error -26366: "Text=Flight 232 leaves London  for Los Angeles" not found for web_reg_find  	[MsgId: MERR-26366]
+../lib/common.h(281): Error -26366: "Text=<b>AlvyRonn's Flight Invoice" not found for web_reg_find  	[MsgId: MERR-26366]
+../lib/common.h(281): Error -26366: "Text=$2193" not found for web_reg_find  	[MsgId: MERR-26366]

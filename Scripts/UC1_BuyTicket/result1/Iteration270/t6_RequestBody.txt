@@ -1,4 +1,0 @@
-"firstName=Napoleon&lastName=Cantarinho&address1=MABINI+ST&address2=Kinshasa&pass1=Napoleon+Can"
-"tarinho&pass2=Octave+Ritzenhoff&creditCard=99991111777733332222&expDate=06%2F25&oldCCOption=&n"
-"umPassengers=2&seatType=First&seatPref=Aisle&outboundFlight=892%3B1903%3B12%2F10%2F2023&advanc"
-"eDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

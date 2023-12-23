@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\kurtk\OneDrive\ƒокументы\Controller\Scripts\UC6_Registration
--ID:\LoadRunner\include
--ec:\users\kurtk\onedrive\документы\controller\scripts\uc6_registration\\logfile.log
-c:\users\kurtk\onedrive\документы\controller\scripts\uc6_registration\\combined_UC6_Registration.c
-c:\users\kurtk\onedrive\документы\controller\scripts\uc6_registration\\pre_cci.c
+-IC:\Users\kurtk\OneDrive\ƒокументы\Controller\Scripts\UC3_Registration
+-ID:\Loadrunner\include
+-ec:\users\kurtk\onedrive\документы\controller\scripts\uc3_registration\\logfile.log
+c:\users\kurtk\onedrive\документы\controller\scripts\uc3_registration\\combined_UC3_Registration.c
+c:\users\kurtk\onedrive\документы\controller\scripts\uc3_registration\\pre_cci.c

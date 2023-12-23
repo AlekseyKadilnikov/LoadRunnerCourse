@@ -1,4 +1,0 @@
-"firstName=Gerald&lastName=Dentas&address1=I-80+WESTBOUND&address2=Jinan&pass1=Gerald+Dentas&pa"
-"ss2=Harve+Erry&creditCard=77778888999944445555&expDate=12%2F25&oldCCOption=&numPassengers=2&se"
-"atType=Business&seatPref=Aisle&outboundFlight=232%3B1060%3B12%2F10%2F2023&advanceDiscount=0&re"
-"turnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

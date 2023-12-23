@@ -1,4 +1,0 @@
-"firstName=Tom&lastName=Alde&address1=MARYLAND+ST&address2=Paris&pass1=Tom+Alde&creditCard=7777"
-"8888555544441111&expDate=08%2F24&oldCCOption=&numPassengers=1&seatType=Business&seatPref=Windo"
-"w&outboundFlight=232%3B1060%3B12%2F10%2F2023&advanceDiscount=0&returnFlight=&JSFormSubmit=off&"
-"buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

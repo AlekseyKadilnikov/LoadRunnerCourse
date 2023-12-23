@@ -1,0 +1,6 @@
+Action.c(103): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/login.pl?intro=true"  	[MsgId: MERR-26612]
+Action.c(103): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MERR-26612]
+Action.c(70): Error -26366: "Text=lastName&Ribič" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(103): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MERR-26612]
+Action.c(70): Error -26366: "Text=lastName&Roçadas" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(70): Error -26366: "Text=lastName&Robleño" not found for web_reg_find  	[MsgId: MERR-26366]

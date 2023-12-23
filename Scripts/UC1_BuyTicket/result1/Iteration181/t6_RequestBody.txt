@@ -1,4 +1,0 @@
-"firstName=Worth&lastName=Aostoa&address1=VIRGINIA+AVE&address2=Weifang&pass1=Worth+Aostoa&pass"
-"2=Lucious+Ertel&creditCard=22225555888844446666&expDate=07%2F24&oldCCOption=&numPassengers=2&s"
-"eatType=First&seatPref=None&outboundFlight=013%3B592%3B12%2F10%2F2023&advanceDiscount=0&return"
-"Flight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

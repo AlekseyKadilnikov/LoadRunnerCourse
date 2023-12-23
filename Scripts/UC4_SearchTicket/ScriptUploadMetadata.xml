@@ -19,6 +19,10 @@
     <FileEntry Name="106437651440.idx" Filter="1" />
     <FileEntry Name="120205105440.idx" Filter="1" />
     <FileEntry Name="126887393440.idx" Filter="1" />
+    <FileEntry Name="12688739344_a2e.637.idx" Filter="1" />
+    <FileEntry Name="12688739344_Bvi.733.idx" Filter="1" />
+    <FileEntry Name="12688739344_nZx.7.idx" Filter="1" />
+    <FileEntry Name="12688739344_PtE.847.idx" Filter="1" />
     <FileEntry Name="143980211440.idx" Filter="1" />
     <FileEntry Name="149923014440.idx" Filter="1" />
     <FileEntry Name="162103941440.idx" Filter="1" />
@@ -50,6 +54,7 @@
     <FileEntry Name="mdrv0EL.973.log" Filter="1" />
     <FileEntry Name="mdrv0i5.741.log" Filter="1" />
     <FileEntry Name="mdrv2NH.529.log" Filter="1" />
+    <FileEntry Name="mdrv3UP.387.log" Filter="1" />
     <FileEntry Name="mdrv4z0.141.log" Filter="1" />
     <FileEntry Name="mdrv6qB.71.log" Filter="1" />
     <FileEntry Name="mdrv7gy.499.log" Filter="1" />
@@ -59,10 +64,13 @@
     <FileEntry Name="mdrvBYu.995.log" Filter="1" />
     <FileEntry Name="mdrvc0H.385.log" Filter="1" />
     <FileEntry Name="mdrvCEe.467.log" Filter="1" />
+    <FileEntry Name="mdrvcy9.907.log" Filter="1" />
     <FileEntry Name="mdrvelI.321.log" Filter="1" />
     <FileEntry Name="mdrvfMg.883.log" Filter="1" />
     <FileEntry Name="mdrvh6p.19.log" Filter="1" />
+    <FileEntry Name="mdrvHqy.905.log" Filter="1" />
     <FileEntry Name="mdrvJ3K.459.log" Filter="1" />
+    <FileEntry Name="mdrvkjd.423.log" Filter="1" />
     <FileEntry Name="mdrvktV.281.log" Filter="1" />
     <FileEntry Name="mdrvLcu.305.log" Filter="1" />
     <FileEntry Name="mdrvlIW.369.log" Filter="1" />
@@ -88,11 +96,9 @@
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
-    <FileEntry Name="replay.har" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="returnDate.dat" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
-    <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UC1_BuyTicket.prm.bak" Filter="1" />

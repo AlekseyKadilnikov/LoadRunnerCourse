@@ -1,5 +1,0 @@
-"firstName=Roswell&lastName=Deval&address1=SANTA+ROSA+AVE&address2=Shenzhen&pass1=Roswell+Deval"
-"&pass2=Steven+Ensesa&pass3=Haywood+Ritterrath&creditCard=77778888555544441111&expDate=08%2F24&"
-"oldCCOption=&numPassengers=3&seatType=Coach&seatPref=Window&outboundFlight=450%3B621%3B12%2F10"
-"%2F2023&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifi"
-"elds=saveCC"

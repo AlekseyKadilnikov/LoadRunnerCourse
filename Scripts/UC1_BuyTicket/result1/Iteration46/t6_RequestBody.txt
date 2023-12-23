@@ -1,4 +1,0 @@
-"firstName=Harmon&lastName=Daldrup&address1=MOUNT+VERNON+AVE&address2=Mexico+City&pass1=Harmon+"
-"Daldrup&pass2=Paul+Rodas&creditCard=11112222333344445555&expDate=12%2F23&oldCCOption=&numPasse"
-"ngers=2&seatType=Coach&seatPref=Window&outboundFlight=013%3B315%3B12%2F10%2F2023&advanceDiscou"
-"nt=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

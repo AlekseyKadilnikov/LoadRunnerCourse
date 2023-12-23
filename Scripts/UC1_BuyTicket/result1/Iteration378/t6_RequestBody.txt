@@ -1,4 +1,0 @@
-"firstName=Solomon&lastName=Ribao&address1=VALLEJO+ST&address2=Tianjin&pass1=Solomon+Ribao&pass"
-"2=Bernard+Agosti&creditCard=77778888999944445555&expDate=12%2F25&oldCCOption=&numPassengers=2&"
-"seatType=Coach&seatPref=None&outboundFlight=452%3B587%3B12%2F10%2F2023&advanceDiscount=0&retur"
-"nFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

@@ -1,4 +1,0 @@
-"firstName=Alonza&lastName=Andreani&address1=VASQUEZ+AVE&address2=Delhi&pass1=Alonza+Andreani&p"
-"ass2=Wilhelm+Errington&creditCard=77778888555544441111&expDate=08%2F24&oldCCOption=&numPasseng"
-"ers=2&seatType=First&seatPref=None&outboundFlight=013%3B592%3B12%2F10%2F2023&advanceDiscount=0"
-"&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

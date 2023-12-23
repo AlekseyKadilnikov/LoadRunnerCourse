@@ -1,4 +1,0 @@
-"firstName=Gaines&lastName=Roscoe&address1=PRATT+PL&address2=Kinshasa&pass1=Gaines+Roscoe&pass2"
-"=Alfonso+Riesco&creditCard=22223333444455556666&expDate=09%2F24&oldCCOption=&numPassengers=2&s"
-"eatType=Coach&seatPref=Aisle&outboundFlight=232%3B731%3B12%2F10%2F2023&advanceDiscount=0&retur"
-"nFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

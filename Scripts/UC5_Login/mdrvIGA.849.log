@@ -1,0 +1,5 @@
+../lib/common.h(93): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MERR-26612]
+../lib/common.h(66): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/login.pl?intro=true"  	[MsgId: MERR-26612]
+Warning: Iteration pacing cannot be reached (pace time = 100,00, actual time = 100,62).	[MsgId: MWAR-15995]
+Warning: Iteration pacing cannot be reached (pace time = 100,00, actual time = 100,77).	[MsgId: MWAR-15995]
+Warning: Iteration pacing cannot be reached (pace time = 100,00, actual time = 102,09).	[MsgId: MWAR-15995]

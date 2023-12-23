@@ -1,0 +1,4 @@
+../lib/common.h(66): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MERR-26612]
+../lib/common.h(66): Error -26366: "Text=User password was correct" not found for web_reg_find  	[MsgId: MERR-26366]
+../lib/common.h(66): Error -26366: "Text=firstName&Tom" not found for web_reg_find  	[MsgId: MERR-26366]
+../lib/common.h(66): Error -26366: "Text=lastName&Alde" not found for web_reg_find  	[MsgId: MERR-26366]

@@ -1,4 +1,0 @@
-"firstName=Rollo&lastName=Claudino&address1=MASON+ST&address2=Ho+Chi+Minh+City&pass1=Rollo+Clau"
-"dino&pass2=Edward+Erostegui&creditCard=22225555888899997777&expDate=12%2F24&oldCCOption=&numPa"
-"ssengers=2&seatType=Business&seatPref=None&outboundFlight=230%3B1121%3B12%2F10%2F2023&advanceD"
-"iscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

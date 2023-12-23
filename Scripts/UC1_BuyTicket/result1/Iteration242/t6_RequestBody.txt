@@ -1,4 +1,0 @@
-"firstName=Drew&lastName=Altuna&address1=06TH+AVE&address2=New+York&pass1=Drew+Altuna&pass2=Alv"
-"ie+Riemekasten&creditCard=66669999888877774444&expDate=11%2F24&oldCCOption=&numPassengers=2&se"
-"atType=First&seatPref=None&outboundFlight=233%3B1186%3B12%2F10%2F2023&advanceDiscount=0&return"
-"Flight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

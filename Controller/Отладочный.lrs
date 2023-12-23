@@ -19,10 +19,10 @@ Author=kurtk
 Subject=Scenario2
 Description=
 Hosts=1
-Scripts=5
-Groups=5
-Vusers=7
-Tranzactions=19
+Scripts=6
+Groups=6
+Vusers=10
+Tranzactions=21
 Rendezvous=0
 Result_file=D:\Temp\res\res.lrr
 ResCleanName=res
@@ -201,8 +201,8 @@ ScriptType=10
 Path=..\Scripts\UC2_RemoveTicket\UC2_RemoveTicket.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nAnalogMode="0"\r\nSearchForImages="1"\r\nDisableNTLM2SS="No"\r\nProxyPassword=""\r\nMaxSelfMetaRefreshCount="2"\r\nBrowserAcceptLanguage_extra_arg_3="ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"\r\nBrowserAcceptLanguage_extra_arg_2="en-us"\r\nBrowserAcceptLanguage_extra_arg_1="None"\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nPrintBufEscape0="No"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"\r\nZlibHeadersInCompressedRequestBody="Yes"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nMaxRedirectionDepth="10"\r\nLoadChilEngine="No"\r\nProxyUseAutoConfigScript="0"\r\nHeavyKDCLoad="No"\r\nProxyUseSame="1"\r\nLogMaxResponseSize="100"\r\nProxyUserName=""\r\nSnapshotOnErrorActive=0\r\nJsForTransportRuntimeSize="51200"\r\nSPNAddNoneDefPort="No"\r\nScreenAvailHeight="1040"\r\nTreeViewRequestBodyLimit="2047"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nEnableJsForTransport="No"\r\nDisableAED=0\r\nProxyHTTPSPort=443\r\nKeepAlive="Yes"\r\nSaveSnapshotResources="0"\r\nFailNonCriticalItem="0"\r\nSPNCNameLookup="Yes"\r\nOverrideNTLMCreds="No"\r\nJsForTransportStackSize="32"\r\nKeepAliveTimeout="60"\r\nUseCustomAgent=1\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="443"\r\nMaxConnections="0"\r\nRetry401ThinkTime="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=\r\nEnableIPCache="No"\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage=""\r\nWebSyncRetryIntervalMs="1000"\r\nClearCacheForSimulateNewUser="1"\r\nScreenHeight="1080"\r\nIPVersionPolicy="2"\r\nProxyUseProxyServer="0"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nEnableSnapshotsInReplay="Yes"\r\nResetContext="1"\r\nSimulateCache="1"\r\nStartRecordingGMT="2022/10/13 17:57:55"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="No"\r\nWebSocketCallBackTimerIntervalMS="500"\r\nParseHtmlContentType="TEXT"\r\nPrefetchPrerenderCallBackTimerIntervalMS="500"\r\nNetBufSize="12288"\r\nHttpErrorsAsWarnings="No"\r\nUseNativeNTLM="No"\r\nReceiveTimeout="120"\r\nDeleteCacheUnreferencedIterations="1"\r\nLogEnableResponseLimit="0"\r\nPageDownloadTimeout="120"\r\nPrintBufLineLen="99"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nResourcePageTimeoutIsWarning="No"\r\nSimulatePrefetchPrerender="0"\r\nMaxErrorMatchesAsERRORS="10"\r\nAedUtf8Values="No"\r\nConnectTimeout="120"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate, br"\r\nWinInetReplay="0"\r\nIntegratedAuthentication="No"\r\nPrintNTLMLog="No"\r\nProxyAutoConfigScriptURL=""\r\nWebSyncRetryTimeoutMs="3000"\r\nGraphPagesPerSecond="0"\r\nSSLVersionKey="2"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost=""\r\nHttpVer="1.1"\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nPrintSSLLog="No"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent=0\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=0\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\niter_ends_val=fixed\r\nDefaultRunLogic="uspxAh.658"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nSaveStreamSnapshot="0"\r\nStreamTimeout="30"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=1.000000\r\nThinkTimeRandomHigh=150\r\nThinkTimeRandomLow=50\r\nLimit=1\r\nLimitFlag=0\r\n
-ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="35,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
+Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nAnalogMode="0"\r\nSearchForImages="1"\r\nDisableNTLM2SS="No"\r\nProxyPassword=""\r\nMaxSelfMetaRefreshCount="2"\r\nBrowserAcceptLanguage_extra_arg_3="ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"\r\nBrowserAcceptLanguage_extra_arg_2="en-us"\r\nBrowserAcceptLanguage_extra_arg_1="None"\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nPrintBufEscape0="No"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"\r\nZlibHeadersInCompressedRequestBody="Yes"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nMaxRedirectionDepth="10"\r\nLoadChilEngine="No"\r\nProxyUseAutoConfigScript="0"\r\nHeavyKDCLoad="No"\r\nProxyUseSame="1"\r\nLogMaxResponseSize="100"\r\nProxyUserName=""\r\nSnapshotOnErrorActive=0\r\nJsForTransportRuntimeSize="51200"\r\nSPNAddNoneDefPort="No"\r\nScreenAvailHeight="1040"\r\nTreeViewRequestBodyLimit="2047"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nEnableJsForTransport="No"\r\nDisableAED=0\r\nProxyHTTPSPort=443\r\nKeepAlive="Yes"\r\nSaveSnapshotResources="0"\r\nFailNonCriticalItem="0"\r\nSPNCNameLookup="Yes"\r\nOverrideNTLMCreds="No"\r\nJsForTransportStackSize="32"\r\nKeepAliveTimeout="60"\r\nUseCustomAgent=1\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="443"\r\nMaxConnections="0"\r\nRetry401ThinkTime="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=\r\nEnableIPCache="No"\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage=""\r\nWebSyncRetryIntervalMs="1000"\r\nClearCacheForSimulateNewUser="1"\r\nScreenHeight="1080"\r\nIPVersionPolicy="2"\r\nProxyUseProxyServer="0"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nStartRecordingGMT="2022/10/13 17:57:55"\r\nSimulateCache="1"\r\nResetContext="1"\r\nEnableSnapshotsInReplay="Yes"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="No"\r\nWebSocketCallBackTimerIntervalMS="500"\r\nParseHtmlContentType="TEXT"\r\nPrefetchPrerenderCallBackTimerIntervalMS="500"\r\nNetBufSize="12288"\r\nHttpErrorsAsWarnings="No"\r\nUseNativeNTLM="No"\r\nReceiveTimeout="120"\r\nDeleteCacheUnreferencedIterations="1"\r\nPageDownloadTimeout="120"\r\nLogEnableResponseLimit="0"\r\nPrintBufLineLen="99"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nResourcePageTimeoutIsWarning="No"\r\nAedUtf8Values="No"\r\nMaxErrorMatchesAsERRORS="10"\r\nConnectTimeout="120"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate, br"\r\nWinInetReplay="0"\r\nPrintNTLMLog="No"\r\nIntegratedAuthentication="No"\r\nWebSyncRetryTimeoutMs="3000"\r\nProxyAutoConfigScriptURL=""\r\nSSLVersionKey="2"\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost=""\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nPrintSSLLog="No"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent=0\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=0\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\niter_ends_val=fixed\r\nDefaultRunLogic="uspeyl.205"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nSaveStreamSnapshot="0"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=1.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=1\r\nLimitFlag=0\r\n
+ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="50,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
 TDServer=
@@ -225,47 +225,59 @@ ScriptType=11
 Path=..\Scripts\UC4_SearchTicket\UC4_SearchTicket.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nAnalogMode="0"\r\nSearchForImages="1"\r\nProxyPassword=""\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nProxyUserName=""\r\nSnapshotOnErrorActive=0\r\nScreenAvailHeight="1040"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nDisableAED=0\r\nProxyHTTPSPort=443\r\nKeepAlive="1"\r\nSaveSnapshotResources="0"\r\nFailNonCriticalItem="0"\r\nUseCustomAgent=1\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="443"\r\nMaxConnections="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage=""\r\nClearCacheForSimulateNewUser="1"\r\nScreenHeight="1080"\r\nProxyUseProxyServer="0"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nSimulateCache="1"\r\nStartRecordingGMT="2022/10/02 16:24:40"\r\nResetContext="1"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="0"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate, br"\r\nWinInetReplay="0"\r\nProxyAutoConfigScriptURL=""\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost=""\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent=0\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=0\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\niter_ends_val=fixed\r\nDefaultRunLogic="uspNkv.653"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=1.000000\r\nThinkTimeRandomHigh=150\r\nThinkTimeRandomLow=50\r\nLimit=1\r\nLimitFlag=0\r\n
-ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="38,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
+Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nAnalogMode="0"\r\nSearchForImages="1"\r\nProxyPassword=""\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nProxyUserName=""\r\nSnapshotOnErrorActive=0\r\nScreenAvailHeight="1040"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nDisableAED=0\r\nProxyHTTPSPort=443\r\nKeepAlive="1"\r\nSaveSnapshotResources="0"\r\nFailNonCriticalItem="0"\r\nUseCustomAgent=1\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="443"\r\nMaxConnections="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage=""\r\nClearCacheForSimulateNewUser="1"\r\nScreenHeight="1080"\r\nProxyUseProxyServer="0"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nSimulateCache="1"\r\nStartRecordingGMT="2022/10/02 16:24:40"\r\nResetContext="1"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="0"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate, br"\r\nWinInetReplay="0"\r\nProxyAutoConfigScriptURL=""\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost=""\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent=0\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=0\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\niter_ends_val=fixed\r\nDefaultRunLogic="uspxic.199"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=1.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=1\r\nLimitFlag=0\r\n
+ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="85,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
 TDServer=
 TDDatabase=
 Platform=All
 AstraSubType=0
-Trans=sign_off
 Trans=flights_page
+Trans=sign_off
 Trans=login
-Trans=choose_ticket
 Trans=UC4_SearchTicket
+Trans=choose_ticket
 Trans=search_flight
 Trans=home_page
 }
 
-{uc5_buyticketwithoutitinerary_1
-UiName=uc5_buyticketwithoutitinerary_1
+{uc5_login_1
+UiName=uc5_login_1
 Type=1
 SubType=Multi+QTWeb
-ScriptType=11
-Path=..\Scripts\UC5_BuyTicketWithoutItinerary\UC5_BuyTicketWithoutItinerary.usr
+ScriptType=10
+Path=..\Scripts\UC5_Login\UC5_Login.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nAnalogMode="0"\r\nSearchForImages="1"\r\nProxyPassword=""\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nProxyUserName=""\r\nSnapshotOnErrorActive=0\r\nScreenAvailHeight="1040"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nDisableAED=0\r\nProxyHTTPSPort=443\r\nKeepAlive="1"\r\nSaveSnapshotResources="0"\r\nFailNonCriticalItem="0"\r\nUseCustomAgent=1\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="443"\r\nMaxConnections="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage=""\r\nClearCacheForSimulateNewUser="1"\r\nScreenHeight="1080"\r\nProxyUseProxyServer="0"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nSimulateCache="1"\r\nStartRecordingGMT="2022/10/02 16:24:40"\r\nResetContext="1"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="0"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate, br"\r\nWinInetReplay="0"\r\nProxyAutoConfigScriptURL=""\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost=""\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent=0\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=0\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\niter_ends_val=fixed\r\nDefaultRunLogic="usp86P.647"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogExtended\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=1.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=1\r\nLimitFlag=0\r\n
-ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="40,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
+Config=[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[WEB]\r\nIgnoreContentCachingTypes="1"\r\nCacheAlwaysCheckForNewerPages="0"\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent=0\r\nBrowserLanguageCode=""\r\nNavigatorBrowserLanguage="ru-RU"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="ru-RU"\r\nRecorderWinCodePage="1251"\r\nUseCustomAgent=1\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="0"\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nBrowserPlatform="Windows"\r\nResetContext="1"\r\nStartRecordingGMT="2022/10/02 16:24:40"\r\nProxyUseAutoConfigScript="0"\r\nBrowserVer="10.0"\r\nProxyUseSame="1"\r\nUserHomePage=""\r\nScreenWidth="1920"\r\nScreenAvailHeight="1040"\r\nBrowserAcceptLanguage="ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"\r\nProxyHTTPSHost=\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nSimulatePrefetchPrerender="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="ru-RU"\r\nSimulateCache="1"\r\nEnableChecks="0"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate, br"\r\nProxyBypass=""\r\nUseDataFormatExtensions="0"\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nKeepAlive="1"\r\nProxyUserName=""\r\nCacheHtmlPages="1"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nSnapshotOnErrorActive=0\r\nProxyHTTPSPort=443\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nClearCacheForSimulateNewUser="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36\r\nDisableAED=0\r\nGraphHitsPerSecondHttpStatusCodes=1\r\nGraphPagesPerSecond=0\r\nGraphBytesPerSecond=1\r\nWinInetReplay=0\r\nAutoTransFileLine=1\r\nFailNonCriticalItem=0\r\nEnableDynatrace=0\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=0\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\nDefaultRunLogic="uspMLn.211"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\niter_begins_val=fixed\r\niter_ends_val=fixed\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=1.000000\r\nThinkTimeRandomHigh=150\r\nThinkTimeRandomLow=50\r\nLimit=1\r\nLimitFlag=0\r\n[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed=0\r\nEnableCustomModemSpeed=0\r\nModemSpeed=128000\r\nCustomModemSpeed=1000\r\n[Streaming]\r\nStreamSeekMethod=ByVideoSize\r\nStreamTimeout=30\r\nStreamRetryTime=10\r\nStreamLog=1\r\n[FILTERS]\r\nFilterType=1\r\nExcludeFiltersInList=\r\n
+ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="100,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
 TDServer=
 TDDatabase=
 Platform=All
 AstraSubType=0
-Trans=sign_off
-Trans=flights_page
-Trans=login
-Trans=choose_ticket
-Trans=payment_details
-Trans=search_flight
-Trans=UC5_BuyTicketWithoutItinerary
-Trans=home_page
+Trans=UC5_Login
+}
+
+{uc6_itinerary_1_1_1
+UiName=uc6_itinerary_1_1_1
+Type=1
+SubType=Multi+QTWeb
+ScriptType=10
+Path=..\Scripts\UC6_Itinerary\UC6_Itinerary.usr
+EmulatedLocation=None
+NVAnalytics=0
+Config=[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[WEB]\r\nIgnoreContentCachingTypes="1"\r\nCacheAlwaysCheckForNewerPages="0"\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent=0\r\nBrowserLanguageCode=""\r\nNavigatorBrowserLanguage="ru-RU"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="ru-RU"\r\nRecorderWinCodePage="1251"\r\nUseCustomAgent=1\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="0"\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nBrowserPlatform="Windows"\r\nResetContext="1"\r\nStartRecordingGMT="2022/10/02 16:24:40"\r\nProxyUseAutoConfigScript="0"\r\nBrowserVer="10.0"\r\nProxyUseSame="1"\r\nUserHomePage=""\r\nScreenWidth="1920"\r\nScreenAvailHeight="1040"\r\nBrowserAcceptLanguage="ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"\r\nProxyHTTPSHost=\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nSimulatePrefetchPrerender="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="ru-RU"\r\nSimulateCache="1"\r\nEnableChecks="0"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate, br"\r\nProxyBypass=""\r\nUseDataFormatExtensions="0"\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nKeepAlive="1"\r\nProxyUserName=""\r\nCacheHtmlPages="1"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nSnapshotOnErrorActive=0\r\nProxyHTTPSPort=443\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nClearCacheForSimulateNewUser="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36\r\nDisableAED=0\r\nGraphHitsPerSecondHttpStatusCodes=1\r\nGraphPagesPerSecond=0\r\nGraphBytesPerSecond=1\r\nWinInetReplay=0\r\nAutoTransFileLine=1\r\nFailNonCriticalItem=0\r\nEnableDynatrace=0\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=0\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\nDefaultRunLogic="uspVfD.207"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\niter_begins_val=fixed\r\niter_ends_val=fixed\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=1.000000\r\nThinkTimeRandomHigh=150\r\nThinkTimeRandomLow=50\r\nLimit=1\r\nLimitFlag=0\r\n[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed=0\r\nEnableCustomModemSpeed=0\r\nModemSpeed=128000\r\nCustomModemSpeed=1000\r\n[Streaming]\r\nStreamSeekMethod=ByVideoSize\r\nStreamTimeout=30\r\nStreamRetryTime=10\r\nStreamLog=1\r\n[FILTERS]\r\nFilterType=1\r\nExcludeFiltersInList=\r\n
+ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="90,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
+Param=
+TDPath=
+TDServer=
+TDDatabase=
+Platform=All
+AstraSubType=0
+Trans=UC6_Itinerary
 }
 
 {uc3_registration_1
@@ -276,8 +288,8 @@ ScriptType=10
 Path=..\Scripts\UC3_Registration\UC3_Registration.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[CommandArguments]\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[WEB]\r\nIgnoreContentCachingTypes="1"\r\nCacheAlwaysCheckForNewerPages="0"\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent=0\r\nGraphBytesPerSecond="1"\r\nNavigatorBrowserLanguage="ru-RU"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nEnableDynatrace="0"\r\nUTF8InputOutput="0"\r\nAutoTransFileLine="1"\r\nNavigatorUserLanguage="ru-RU"\r\nRecorderWinCodePage="1251"\r\nUseCustomAgent=1\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="0"\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="1"\r\nStartRecordingGMT="2022/10/09 07:41:30"\r\nGraphPagesPerSecond="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage=""\r\nScreenWidth="1920"\r\nScreenAvailHeight="1040"\r\nBrowserAcceptLanguage="ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"\r\nProxyHTTPSHost=\r\nWinInetReplay="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nSimulatePrefetchPrerender="0"\r\nProxyHTTPHost=""\r\nDisableAED=0\r\nSimulateCache="1"\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate, br"\r\nUseDataFormatExtensions="0"\r\nProxyBypass=""\r\nKeepAlive="1"\r\nProxyUserName=""\r\nCacheHtmlPages="1"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nSnapshotOnErrorActive=0\r\nProxyHTTPSPort=443\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nFailNonCriticalItem="0"\r\nClearCacheForSimulateNewUser="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=0\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\niter_ends_val=fixed\r\nDefaultRunLogic="uspBvs.649"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\n[Streaming]\r\nStreamTimeout="30"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=0\r\nLogOptions=LogBrief\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=0\r\nAutoLog=1\r\nMsgClassData=0\r\nLogDetail="0"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=1.000000\r\nThinkTimeRandomHigh=150\r\nThinkTimeRandomLow=50\r\nLimit=1\r\nLimitFlag=0\r\n
-ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="80,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
+Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nIgnoreContentCachingTypes="1"\r\nCacheAlwaysCheckForNewerPages="0"\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent=0\r\nGraphBytesPerSecond="1"\r\nNavigatorBrowserLanguage="ru-RU"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nUTF8InputOutput="0"\r\nEnableDynatrace="0"\r\nNavigatorUserLanguage="ru-RU"\r\nAutoTransFileLine="1"\r\nRecorderWinCodePage="1251"\r\nUseCustomAgent=1\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="0"\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="1"\r\nStartRecordingGMT="2022/10/09 07:41:30"\r\nGraphPagesPerSecond="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage=""\r\nScreenWidth="1920"\r\nScreenAvailHeight="1040"\r\nBrowserAcceptLanguage="ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"\r\nProxyHTTPSHost=\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nWinInetReplay="0"\r\nProxyNoLocal="0"\r\nSimulatePrefetchPrerender="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="ru-RU"\r\nSimulateCache="1"\r\nDisableAED=0\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate, br"\r\nProxyBypass=""\r\nUseDataFormatExtensions="0"\r\nKeepAlive="1"\r\nProxyUserName=""\r\nCacheHtmlPages="1"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nSnapshotOnErrorActive=0\r\nProxyHTTPSPort=443\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nFailNonCriticalItem="0"\r\nClearCacheForSimulateNewUser="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=0\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\niter_ends_val=fixed\r\nDefaultRunLogic="uspt45.209"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\n[Streaming]\r\nStreamTimeout="30"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[Log]\r\nMsgClassParameters=0\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=0\r\nAutoLog=1\r\nMsgClassData=0\r\nLogDetail=0\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=1.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=1\r\nLimitFlag=0\r\n
+ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="74,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
 TDServer=
@@ -298,8 +310,8 @@ ScriptType=10
 Path=..\Scripts\UC1_BuyTicket\UC1_BuyTicket.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nAnalogMode="0"\r\nSearchForImages="1"\r\nProxyPassword=""\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nProxyUserName=""\r\nSnapshotOnErrorActive=0\r\nScreenAvailHeight="1040"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nDisableAED=0\r\nProxyHTTPSPort=443\r\nKeepAlive="1"\r\nSaveSnapshotResources="0"\r\nFailNonCriticalItem="0"\r\nUseCustomAgent=1\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="443"\r\nMaxConnections="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage=""\r\nClearCacheForSimulateNewUser="1"\r\nScreenHeight="1080"\r\nProxyUseProxyServer="0"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nSimulateCache="1"\r\nStartRecordingGMT="2022/10/02 16:24:40"\r\nResetContext="1"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="0"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate, br"\r\nWinInetReplay="0"\r\nProxyAutoConfigScriptURL=""\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost=""\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent=0\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=0\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\niter_ends_val=fixed\r\nDefaultRunLogic="uspgz6.645"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=1.000000\r\nThinkTimeRandomHigh=150\r\nThinkTimeRandomLow=50\r\nLimit=3\r\nLimitFlag=0\r\n
-ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="40,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
+Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nAnalogMode="0"\r\nSearchForImages="1"\r\nProxyPassword=""\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nProxyUserName=""\r\nSnapshotOnErrorActive=0\r\nScreenAvailHeight="1040"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nDisableAED=0\r\nProxyHTTPSPort=443\r\nKeepAlive="1"\r\nSaveSnapshotResources="0"\r\nFailNonCriticalItem="0"\r\nUseCustomAgent=1\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="443"\r\nMaxConnections="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage=""\r\nClearCacheForSimulateNewUser="1"\r\nScreenHeight="1080"\r\nProxyUseProxyServer="0"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nSimulateCache="1"\r\nStartRecordingGMT="2022/10/02 16:24:40"\r\nResetContext="1"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="0"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate, br"\r\nWinInetReplay="0"\r\nProxyAutoConfigScriptURL=""\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost=""\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent=0\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=0\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\niter_ends_val=fixed\r\nDefaultRunLogic="usptqq.201"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=1.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=3\r\nLimitFlag=0\r\n
+ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="62,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
 TDServer=
@@ -307,8 +319,8 @@ TDDatabase=
 Platform=All
 AstraSubType=0
 Trans=flights_page
-Trans=login
 Trans=UC1_BuyTicket
+Trans=login
 Trans=choose_ticket
 Trans=payment_details
 Trans=search_flight
@@ -318,24 +330,6 @@ Trans=itinerary
 }
 
 {GroupChief
-
-{UC1_BuyTicket
-
-{1
-5=uc1_buyticket_1
-9=localhost
-SEED_NUM=0
-}
-
-{ChiefSettings
-5=uc1_buyticket_1
-9=localhost
-GroupParam=
-Enabled=1
-EmulatedLocation=None
-NVAnalytics=0
-}
-}
 
 {UC4_SearchTicket
 
@@ -353,6 +347,36 @@ SEED_NUM=0
 
 {ChiefSettings
 5=uc4_searchticket_1_1_1_1_1_1_1_1_1
+9=localhost
+GroupParam=
+Enabled=1
+EmulatedLocation=None
+NVAnalytics=0
+}
+}
+
+{UC1_BuyTicket
+
+{3
+5=uc1_buyticket_1
+9=localhost
+SEED_NUM=0
+}
+
+{2
+5=uc1_buyticket_1
+9=localhost
+SEED_NUM=0
+}
+
+{1
+5=uc1_buyticket_1
+9=localhost
+SEED_NUM=0
+}
+
+{ChiefSettings
+5=uc1_buyticket_1
 9=localhost
 GroupParam=
 Enabled=1
@@ -379,7 +403,31 @@ NVAnalytics=0
 }
 }
 
+{UC6_Itinerary
+
+{1
+5=uc6_itinerary_1_1_1
+9=localhost
+SEED_NUM=0
+}
+
+{ChiefSettings
+5=uc6_itinerary_1_1_1
+9=localhost
+GroupParam=
+Enabled=1
+EmulatedLocation=None
+NVAnalytics=0
+}
+}
+
 {UC3_Registration
+
+{2
+5=uc3_registration_1
+9=localhost
+SEED_NUM=0
+}
 
 {1
 5=uc3_registration_1
@@ -397,22 +445,16 @@ NVAnalytics=0
 }
 }
 
-{UC5_BuyTicketWithoutItinerary
-
-{2
-5=uc5_buyticketwithoutitinerary_1
-9=localhost
-SEED_NUM=0
-}
+{uc5_login
 
 {1
-5=uc5_buyticketwithoutitinerary_1
+5=uc5_login_1
 9=localhost
 SEED_NUM=0
 }
 
 {ChiefSettings
-5=uc5_buyticketwithoutitinerary_1
+5=uc5_login_1
 9=localhost
 GroupParam=
 Enabled=1
@@ -878,11 +920,13 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=2
+MeasurementCount=3
 Measurement_0=|||34|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
 MeasurementFullPath_0=uc5_buyticketwithoutitinerary_1:Action:254
 Measurement_1=|||12|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
 MeasurementFullPath_1=uc6_registration_1:Action:74
+Measurement_2=|||28|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_2=uc3_registration_1:Action:70
 Description=Displays details about the number of errors that accrue during each second of the scenario or session step run.
 [11]
 MeasurementsDelimiter=|||
@@ -921,11 +965,13 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=2
+MeasurementCount=3
 Measurement_0=|||13|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
 MeasurementFullPath_0=uc6_registration_1:Action:74
 Measurement_1=|||26|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
 MeasurementFullPath_1=uc5_buyticketwithoutitinerary_1:Action:254
+Measurement_2=|||29|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
+MeasurementFullPath_2=uc3_registration_1:Action:70
 Description=Displays details about the number of Vusers that generate errors during scenario or session step execution.
 [12]
 MeasurementsDelimiter=|||
@@ -1121,7 +1167,7 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=24
+MeasurementCount=27
 Measurement_0=|||0|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
 MeasurementFullPath_0=UC4_SearchTicket
 Measurement_1=|||33|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
@@ -1138,38 +1184,44 @@ Measurement_6=|||7|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
 MeasurementFullPath_6=Action_Transaction
 Measurement_7=|||22|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
 MeasurementFullPath_7=itinerary
-Measurement_8=|||14|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_8=sign_up
-Measurement_9=|||6|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_9=choose_ticket
-Measurement_10=|||15|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_10=UC1_BuyTicket
-Measurement_11=|||9|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_11=home_page
-Measurement_12=|||14|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_12=payment_details
-Measurement_13=|||1|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_13=vuser_end_Transaction
-Measurement_14=|||2|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_14=search_flight
-Measurement_15=|||3|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_15=sign_up_page
-Measurement_16=|||18|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_16=remove_ticket
-Measurement_17=|||30|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_17=find_flight
-Measurement_18=|||15|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_18=continue
-Measurement_19=|||16|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_19=UC6_Registration
-Measurement_20=|||26|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_20=flights_page
-Measurement_21=|||4|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_21=sign_off
-Measurement_22=|||25|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_22=UC5_BuyTicketWithoutItinerary
-Measurement_23=|||19|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_23=login
+Measurement_8=|||16|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_8=UC5_Login
+Measurement_9=|||14|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_9=sign_up
+Measurement_10=|||6|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_10=choose_ticket
+Measurement_11=|||15|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_11=UC6_Itinerary
+Measurement_12=|||15|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_12=UC1_BuyTicket
+Measurement_13=|||9|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_13=home_page
+Measurement_14=|||14|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_14=payment_details
+Measurement_15=|||1|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_15=vuser_end_Transaction
+Measurement_16=|||2|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_16=search_flight
+Measurement_17=|||3|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_17=sign_up_page
+Measurement_18=|||7|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_18=click_continue
+Measurement_19=|||18|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_19=remove_ticket
+Measurement_20=|||30|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_20=find_flight
+Measurement_21=|||15|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_21=continue
+Measurement_22=|||16|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_22=UC6_Registration
+Measurement_23=|||26|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_23=flights_page
+Measurement_24=|||4|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_24=sign_off
+Measurement_25=|||25|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_25=UC5_BuyTicketWithoutItinerary
+Measurement_26=|||19|||1|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_26=login
 Description=Displays the average time taken to perform transactions during each second of the load test. This graph helps you determine whether the performance of the server is within acceptable minimum and maximum transaction performance time ranges defined for your system.
 [17]
 MeasurementsDelimiter=|||
@@ -1247,7 +1299,7 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=24
+MeasurementCount=27
 Measurement_0=|||28|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_0=find_flight
 Measurement_1=|||6|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
@@ -1278,24 +1330,30 @@ Measurement_13=|||17|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_13=login
 Measurement_14=|||16|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_14=continue
-Measurement_15=|||1|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
-MeasurementFullPath_15=UC5_BuyTicketWithoutItinerary
-Measurement_16=|||7|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
-MeasurementFullPath_16=UC4_SearchTicket
-Measurement_17=|||34|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
-MeasurementFullPath_17=vuser_end_Transaction
-Measurement_18=|||12|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
-MeasurementFullPath_18=payment_details
-Measurement_19=|||17|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
-MeasurementFullPath_19=UC6_Registration
-Measurement_20=|||16|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
-MeasurementFullPath_20=remove_ticket
-Measurement_21=|||15|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
-MeasurementFullPath_21=sign_up
-Measurement_22=|||31|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
-MeasurementFullPath_22=UC3_Itinerary
-Measurement_23=|||21|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
-MeasurementFullPath_23=UC2_RemoveTicket
+Measurement_15=|||15|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+MeasurementFullPath_15=UC6_Itinerary
+Measurement_16=|||1|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+MeasurementFullPath_16=UC5_BuyTicketWithoutItinerary
+Measurement_17=|||7|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+MeasurementFullPath_17=UC4_SearchTicket
+Measurement_18=|||34|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+MeasurementFullPath_18=vuser_end_Transaction
+Measurement_19=|||16|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+MeasurementFullPath_19=UC5_Login
+Measurement_20=|||12|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+MeasurementFullPath_20=payment_details
+Measurement_21=|||17|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+MeasurementFullPath_21=UC6_Registration
+Measurement_22=|||16|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+MeasurementFullPath_22=remove_ticket
+Measurement_23=|||7|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+MeasurementFullPath_23=click_continue
+Measurement_24=|||15|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+MeasurementFullPath_24=sign_up
+Measurement_25=|||31|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+MeasurementFullPath_25=UC3_Itinerary
+Measurement_26=|||21|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+MeasurementFullPath_26=UC2_RemoveTicket
 Description=Displays the number of successful transactions performed during each second of a load test. This graph helps you determine the actual transaction load on your system at any given moment.
 [19]
 MeasurementsDelimiter=|||
@@ -1373,13 +1431,19 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=3
+MeasurementCount=6
 Measurement_0=|||33|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
 MeasurementFullPath_0=UC5_BuyTicketWithoutItinerary::Failed
 Measurement_1=|||0|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
 MeasurementFullPath_1=UC6_Registration::Failed
-Measurement_2=|||27|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
-MeasurementFullPath_2=choose_ticket::Failed
+Measurement_2=|||32|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_2=sign_up::Failed
+Measurement_3=|||31|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_3=Action_Transaction::Failed
+Measurement_4=|||30|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_4=UC3_Registration::Failed
+Measurement_5=|||27|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_5=choose_ticket::Failed
 Description=Displays the number of unsuccessful transactions performed during each second of a load test.
 [21]
 MeasurementsDelimiter=|||
@@ -1541,7 +1605,7 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=24
+MeasurementCount=27
 Measurement_0=|||20|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
 MeasurementFullPath_0=UC1_BuyTicket
 Measurement_1=|||13|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
@@ -1556,40 +1620,46 @@ Measurement_5=|||16|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
 MeasurementFullPath_5=UC6_Registration
 Measurement_6=|||2|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
 MeasurementFullPath_6=search_flight
-Measurement_7=|||25|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_7=flights_page
-Measurement_8=|||5|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_8=choose_ticket
-Measurement_9=|||7|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_9=home_page
-Measurement_10=|||15|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_10=UC3_Registration
-Measurement_11=|||18|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_11=login
-Measurement_12=|||15|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_12=continue
-Measurement_13=|||21|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_13=itinerary
-Measurement_14=|||22|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_14=UC2_RemoveTicket
-Measurement_15=|||14|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_15=sign_up
-Measurement_16=|||3|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_16=sign_off
-Measurement_17=|||32|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_17=UC3_Itinerary
-Measurement_18=|||25|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_18=flights
-Measurement_19=|||4|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_19=vuser_init_Transaction
-Measurement_20=|||29|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_20=find_flight
-Measurement_21=|||24|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_21=UC5_BuyTicketWithoutItinerary
-Measurement_22=|||3|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_22=sign_up_page
-Measurement_23=|||8|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_23=UC4_SearchTicket
+Measurement_7=|||15|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_7=UC6_Itinerary
+Measurement_8=|||25|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_8=flights_page
+Measurement_9=|||5|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_9=choose_ticket
+Measurement_10=|||7|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_10=home_page
+Measurement_11=|||15|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_11=UC3_Registration
+Measurement_12=|||18|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_12=login
+Measurement_13=|||15|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_13=continue
+Measurement_14=|||21|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_14=itinerary
+Measurement_15=|||7|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_15=click_continue
+Measurement_16=|||22|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_16=UC2_RemoveTicket
+Measurement_17=|||14|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_17=sign_up
+Measurement_18=|||3|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_18=sign_off
+Measurement_19=|||32|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_19=UC3_Itinerary
+Measurement_20=|||25|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_20=flights
+Measurement_21=|||4|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_21=vuser_init_Transaction
+Measurement_22=|||29|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_22=find_flight
+Measurement_23=|||24|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_23=UC5_BuyTicketWithoutItinerary
+Measurement_24=|||3|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_24=sign_up_page
+Measurement_25=|||16|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_25=UC5_Login
+Measurement_26=|||8|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_26=UC4_SearchTicket
 Description=Total Pass transaction graph
 [25]
 MeasurementsDelimiter=|||
@@ -1629,13 +1699,19 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=3
+MeasurementCount=6
 Measurement_0=|||0|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
 MeasurementFullPath_0=UC6_Registration
-Measurement_1=|||28|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
-MeasurementFullPath_1=choose_ticket
-Measurement_2=|||34|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
-MeasurementFullPath_2=UC5_BuyTicketWithoutItinerary
+Measurement_1=|||0|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_1=sign_up
+Measurement_2=|||28|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_2=choose_ticket
+Measurement_3=|||34|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_3=UC5_BuyTicketWithoutItinerary
+Measurement_4=|||32|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_4=Action_Transaction
+Measurement_5=|||31|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_5=UC3_Registration
 Description=Trans/Sec (FAIL)
 [26]
 MeasurementsDelimiter=|||
@@ -2001,9 +2077,7 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=1
-Measurement_0=|||27|||0|||1|||Not_In_Use|||0|||-1|||Retries
-MeasurementFullPath_0="Connection closed by server"
+MeasurementCount=0
 Description=Displays the number of attempted server connections during each second of the scenario run. A server connection is retried when the initial connection was unauthorized, when proxy authentication is required, when the initial connection was closed by the server, when the initial connection to the server could not be made, or when the server was initially unable to resolve the load generator’s IP address.
 [35]
 MeasurementsDelimiter=|||
@@ -6103,7 +6177,7 @@ ItemsNumber=IntV1|0
 }
 
 {ScenarioDiagnostics
-XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="6576209ee" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
+XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="657cb9dae" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
 }
 
 {ScenarioAlertsConfig
@@ -6139,7 +6213,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                   <Count>9</Count>
                   <Interval>1</Interval>
                 </Batch>
-                <TotalVusersNumber>7</TotalVusersNumber>
+                <TotalVusersNumber>10</TotalVusersNumber>
               </RampUp>
               <Duration>
                 <StartCondition>
@@ -6266,7 +6340,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
             </Scheduling>
           </GroupScheduler>
           <GroupScheduler>
-            <GroupName>uc5_buyticketwithoutitinerary</GroupName>
+            <GroupName>uc5_login</GroupName>
             <StartupMode>
               <StartAtScenarioBegining />
             </StartupMode>
@@ -6337,6 +6411,42 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
               </DynamicScheduling>
             </Scheduling>
           </GroupScheduler>
+          <GroupScheduler>
+            <GroupName>uc6_itinerary</GroupName>
+            <StartupMode>
+              <StartAtScenarioBegining />
+            </StartupMode>
+            <Scheduling>
+              <IsDefaultScheduler>true</IsDefaultScheduler>
+              <DynamicScheduling>
+                <RampUp>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>15</Interval>
+                  </Batch>
+                  <TotalVusersNumber>1</TotalVusersNumber>
+                </RampUp>
+                <Duration>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <RunFor>300</RunFor>
+                </Duration>
+                <RampDownAll>
+                  <StartCondition>
+                    <PrevAction />
+                  </StartCondition>
+                  <Batch>
+                    <Count>1</Count>
+                    <Interval>30</Interval>
+                  </Batch>
+                </RampDownAll>
+              </DynamicScheduling>
+            </Scheduling>
+          </GroupScheduler>
         </Groups>
       </Manual>
     </Scheduler>
@@ -6345,7 +6455,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
 }
 
 {ScenarioSLAConfig
-<?xml version="1.0" encoding="UTF-8"?><SLA Version="1.0"><TxList><Tx>flights_page</Tx><Tx>sign_off</Tx><Tx>vuser_end_Transaction</Tx><Tx>UC1_BuyTicket</Tx><Tx>login</Tx><Tx>choose_ticket</Tx><Tx>UC4_SearchTicket</Tx><Tx>remove_ticket</Tx><Tx>payment_details</Tx><Tx>UC2_RemoveTicket</Tx><Tx>vuser_init_Transaction</Tx><Tx>sign_up_page</Tx><Tx>UC3_Registration</Tx><Tx>search_flight</Tx><Tx>sign_up</Tx><Tx>UC5_BuyTicketWithoutItinerary</Tx><Tx>home_page</Tx><Tx>Action_Transaction</Tx><Tx>itinerary</Tx></TxList><SLARules><TrackingPeriodType>Default</TrackingPeriodType><TrackingPeriodValue></TrackingPeriodValue><TrackingPeriodTimeScale></TrackingPeriodTimeScale></SLARules></SLA>
+<?xml version="1.0" encoding="UTF-8"?><SLA Version="1.0"><TxList><Tx>vuser_end_Transaction</Tx><Tx>UC1_BuyTicket</Tx><Tx>UC4_SearchTicket</Tx><Tx>remove_ticket</Tx><Tx>UC2_RemoveTicket</Tx><Tx>vuser_init_Transaction</Tx><Tx>sign_up_page</Tx><Tx>UC6_Itinerary</Tx><Tx>UC5_Login</Tx><Tx>UC3_Registration</Tx><Tx>sign_up</Tx><Tx>click_continue</Tx><Tx>Action_Transaction</Tx></TxList><SLARules><TrackingPeriodType>Default</TrackingPeriodType><TrackingPeriodValue></TrackingPeriodValue><TrackingPeriodTimeScale></TrackingPeriodTimeScale></SLARules></SLA>
 }
 
 {ScenarioSEVConfig
@@ -6372,7 +6482,8 @@ UC1_BuyTicket=00000000-0000-0000-0000-000000000000
 UC2_RemoveTicket=00000000-0000-0000-0000-000000000000
 UC3_Registration=00000000-0000-0000-0000-000000000000
 UC4_SearchTicket=00000000-0000-0000-0000-000000000000
-UC5_BuyTicketWithoutItinerary=00000000-0000-0000-0000-000000000000
+UC6_Itinerary=00000000-0000-0000-0000-000000000000
+uc5_login=00000000-0000-0000-0000-000000000000
 }
 
 {LocAssignedToTest
@@ -6380,6 +6491,7 @@ uc1_buyticket_1=00000000-0000-0000-0000-000000000000
 uc2_removeticket_1=00000000-0000-0000-0000-000000000000
 uc3_registration_1=00000000-0000-0000-0000-000000000000
 uc4_searchticket_1_1_1_1_1_1_1_1_1=00000000-0000-0000-0000-000000000000
-uc5_buyticketwithoutitinerary_1=00000000-0000-0000-0000-000000000000
+uc5_login_1=00000000-0000-0000-0000-000000000000
+uc6_itinerary_1_1_1=00000000-0000-0000-0000-000000000000
 }
 }

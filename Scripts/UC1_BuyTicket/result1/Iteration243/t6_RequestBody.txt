@@ -1,4 +1,0 @@
-"firstName=Leland&lastName=Sagoo&address1=ORTEGA+ST&address2=Zhengzhou&pass1=Leland+Sagoo&pass2"
-"=Burl+Ribeira&creditCard=77778888555544441111&expDate=08%2F24&oldCCOption=&numPassengers=2&sea"
-"tType=Coach&seatPref=None&outboundFlight=451%3B553%3B12%2F10%2F2023&advanceDiscount=0&returnFl"
-"ight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

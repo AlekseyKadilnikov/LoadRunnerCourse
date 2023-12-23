@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC3_Registration__*delimiter*__home_page__*delimiter*__sign_up_page__*delimiter*__sign_up__*delimiter*__home_page"
+Order="UC3_Registration__*delimiter*__click_continue__*delimiter*__sign_up_page__*delimiter*__sign_up"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -60,6 +60,6 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 UC3_Registration=
-home_page=
+click_continue=
 sign_up_page=
 sign_up=

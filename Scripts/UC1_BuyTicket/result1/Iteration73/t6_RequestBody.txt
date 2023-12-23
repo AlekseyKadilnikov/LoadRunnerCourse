@@ -1,4 +1,0 @@
-"firstName=Billie&lastName=Crouzet&address1=PERALTA+AVE&address2=Ahmedabad&pass1=Billie+Crouzet"
-"&creditCard=11112222333344445555&expDate=12%2F23&oldCCOption=&numPassengers=1&seatType=First&s"
-"eatPref=None&outboundFlight=453%3B953%3B12%2F10%2F2023&advanceDiscount=0&returnFlight=&JSFormS"
-"ubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

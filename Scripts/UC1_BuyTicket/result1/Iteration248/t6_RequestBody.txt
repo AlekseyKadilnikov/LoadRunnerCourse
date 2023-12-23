@@ -1,4 +1,0 @@
-"firstName=Ernst&lastName=Casco&address1=PACHECO+ST&address2=Luanda&pass1=Ernst+Casco&pass2=Ter"
-"ry+Roji&creditCard=22223333444455556666&expDate=09%2F24&oldCCOption=&numPassengers=2&seatType="
-"First&seatPref=None&outboundFlight=451%3B1038%3B12%2F10%2F2023&advanceDiscount=0&returnFlight="
-"&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

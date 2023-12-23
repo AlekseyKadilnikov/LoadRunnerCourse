@@ -1,4 +1,0 @@
-"firstName=Vester&lastName=Donicht&address1=OLMSTEAD+ST&address2=Mexico+City&pass1=Vester+Donic"
-"ht&pass2=Alberto+Rivallo&creditCard=22225555888844446666&expDate=07%2F24&oldCCOption=&numPasse"
-"ngers=2&seatType=Business&seatPref=Window&outboundFlight=232%3B1060%3B12%2F10%2F2023&advanceDi"
-"scount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

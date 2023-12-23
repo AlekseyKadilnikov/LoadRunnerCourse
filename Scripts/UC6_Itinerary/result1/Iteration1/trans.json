@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "home_page",
+        "rawStartTime": 1702659864745,
+        "rawEndTime": 1702659864916
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1702659864916,
+        "rawEndTime": 1702659865018
+    },
+    {
+        "transactionName": "itinerary",
+        "rawStartTime": 1702659865018,
+        "rawEndTime": 1702659865130
+    },
+    {
+        "transactionName": "sign_off",
+        "rawStartTime": 1702659865131,
+        "rawEndTime": 1702659865192
+    },
+    {
+        "transactionName": "UC6_Itinerary",
+        "rawStartTime": 1702659864745,
+        "rawEndTime": 1702659865192
+    }
+]

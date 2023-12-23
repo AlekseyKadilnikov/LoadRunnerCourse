@@ -1,37 +1,37 @@
 [
     {
         "transactionName": "home_page",
-        "rawStartTime": 1701962938314,
-        "rawEndTime": 1701962938491
+        "rawStartTime": 1702659305573,
+        "rawEndTime": 1702659305715
     },
     {
         "transactionName": "login",
-        "rawStartTime": 1701962938566,
-        "rawEndTime": 1701962938704
+        "rawStartTime": 1702659305715,
+        "rawEndTime": 1702659305816
     },
     {
         "transactionName": "flights_page",
-        "rawStartTime": 1701962938791,
-        "rawEndTime": 1701962938942
+        "rawStartTime": 1702659305816,
+        "rawEndTime": 1702659305928
     },
     {
         "transactionName": "search_flight",
-        "rawStartTime": 1701962939023,
-        "rawEndTime": 1701962939104
+        "rawStartTime": 1702659305928,
+        "rawEndTime": 1702659305973
     },
     {
         "transactionName": "choose_ticket",
-        "rawStartTime": 1701962939177,
-        "rawEndTime": 1701962939262
+        "rawStartTime": 1702659305973,
+        "rawEndTime": 1702659306051
     },
     {
         "transactionName": "sign_off",
-        "rawStartTime": 1701962939337,
-        "rawEndTime": 1701962939468
+        "rawStartTime": 1702659306051,
+        "rawEndTime": 1702659306148
     },
     {
         "transactionName": "UC4_SearchTicket",
-        "rawStartTime": 1701962938276,
-        "rawEndTime": 1701962939542
+        "rawStartTime": 1702659305573,
+        "rawEndTime": 1702659306149
     }
 ]

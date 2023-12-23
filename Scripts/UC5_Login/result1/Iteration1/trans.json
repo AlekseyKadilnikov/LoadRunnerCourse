@@ -1,0 +1,37 @@
+[
+    {
+        "transactionName": "home_page",
+        "rawStartTime": 1702660235275,
+        "rawEndTime": 1702660235420
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1702660235420,
+        "rawEndTime": 1702660235522
+    },
+    {
+        "transactionName": "flights_page",
+        "rawStartTime": 1702660235522,
+        "rawEndTime": 1702660235630
+    },
+    {
+        "transactionName": "search_flight",
+        "rawStartTime": 1702660235630,
+        "rawEndTime": 1702660235672
+    },
+    {
+        "transactionName": "choose_ticket",
+        "rawStartTime": 1702660235672,
+        "rawEndTime": 1702660235759
+    },
+    {
+        "transactionName": "sign_off",
+        "rawStartTime": 1702660235759,
+        "rawEndTime": 1702660235870
+    },
+    {
+        "transactionName": "UC5_Login",
+        "rawStartTime": 1702660235275,
+        "rawEndTime": 1702660235870
+    }
+]

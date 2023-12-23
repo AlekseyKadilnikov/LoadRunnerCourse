@@ -1,4 +1,0 @@
-"firstName=Rollo&lastName=Claudino&address1=MASON+ST&address2=Ho+Chi+Minh+City&pass1=Rollo+Clau"
-"dino&creditCard=11112222333344445555&expDate=12%2F23&oldCCOption=&numPassengers=1&seatType=Bus"
-"iness&seatPref=None&outboundFlight=230%3B1121%3B12%2F10%2F2023&advanceDiscount=0&returnFlight="
-"&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

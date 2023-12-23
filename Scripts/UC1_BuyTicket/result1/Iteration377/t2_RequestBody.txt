@@ -1,2 +1,0 @@
-"userSession=137881.723693803HAQccQVpVzcftcffDpHtzQHf&username=fwgcbwfa&password=npy&login.x=0&"
-"login.y=0&JSFormSubmit=off"

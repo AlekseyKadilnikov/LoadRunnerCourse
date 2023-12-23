@@ -1,14 +1,1 @@
-Action.c(29): Error: Failed to get transaction identifiers for 'search_flight' from NV transaction manager. Reason: 'Unable to connect to the NV Agent because no emulation is running.'.
-Action.c(37): Error: Failed to get transaction identifiers for 'choose_ticket' from NV transaction manager. Reason: 'Unable to connect to the NV Agent because no emulation is running.'.
-Action.c(45): Error: Failed to get transaction identifiers for 'payment_details' from NV transaction manager. Reason: 'Unable to connect to the NV Agent because no emulation is running.'.
-Action.c(53): Error: Failed to get transaction identifiers for 'itinerary' from NV transaction manager. Reason: 'Unable to connect to the NV Agent because no emulation is running.'.
-Error: Failed to get transaction identifiers for 'Action_Transaction' from NV transaction manager. Reason: 'Unable to connect to the NV Agent because no emulation is running.'.
-Action.c(3): Error: Failed to get transaction identifiers for 'UC1_BuyTicket' from NV transaction manager. Reason: 'Unable to connect to the NV Agent because no emulation is running.'.
-Action.c(5): Error: Failed to get transaction identifiers for 'home_page' from NV transaction manager. Reason: 'Unable to connect to the NV Agent because no emulation is running.'.
-Action.c(13): Error: Failed to get transaction identifiers for 'login' from NV transaction manager. Reason: 'Unable to connect to the NV Agent because no emulation is running.'.
-Action.c(21): Error: Failed to get transaction identifiers for 'flights_page' from NV transaction manager. Reason: 'Unable to connect to the NV Agent because no emulation is running.'.
-Action.c(29): Error: Failed to get transaction identifiers for 'search_flight' from NV transaction manager. Reason: 'Unable to connect to the NV Agent because no emulation is running.'.
-Action.c(37): Error: Failed to get transaction identifiers for 'choose_ticket' from NV transaction manager. Reason: 'Unable to connect to the NV Agent because no emulation is running.'.
-Action.c(45): Error: Failed to get transaction identifiers for 'payment_details' from NV transaction manager. Reason: 'Unable to connect to the NV Agent because no emulation is running.'.
-Error: Failed to get transaction identifiers for 'vuser_end_Transaction' from NV transaction manager. Reason: 'Unable to connect to the NV Agent because no emulation is running.'.
-Warning: The transaction 'vuser_end_Transaction' is not started on NV transaction manager.
+Error: missing newline in C:\Users\kurtk\OneDrive\Документы\Controller\Scripts\UC1_BuyTicket\..\datapools\users.dat

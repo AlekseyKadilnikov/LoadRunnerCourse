@@ -1,4 +1,0 @@
-"firstName=Jimmie&lastName=Rosenova&address1=LARKIN+ST&address2=Mexico+City&pass1=Jimmie+Roseno"
-"va&pass2=Clark+Roitegui&creditCard=22223333444455556666&expDate=09%2F24&oldCCOption=&numPassen"
-"gers=2&seatType=Coach&seatPref=Window&outboundFlight=670%3B86%3B12%2F10%2F2023&advanceDiscount"
-"=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

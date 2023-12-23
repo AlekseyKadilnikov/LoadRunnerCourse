@@ -1,4 +1,0 @@
-"firstName=Pearley&lastName=Caplliure&address1=RALSTON+ST&address2=Jakarta&pass1=Pearley+Caplli"
-"ure&pass2=Alvin+Rivacoba&creditCard=11112222333344445555&expDate=12%2F23&oldCCOption=&numPasse"
-"ngers=2&seatType=Business&seatPref=Window&outboundFlight=671%3B112%3B12%2F10%2F2023&advanceDis"
-"count=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

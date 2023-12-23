@@ -1,4 +1,0 @@
-"firstName=Barton&lastName=Ciubotaru&address1=36TH+AVE&address2=Ahmedabad&pass1=Barton+Ciubotar"
-"u&pass2=Edmund+Rogla&creditCard=22225555888844446666&expDate=07%2F24&oldCCOption=&numPassenger"
-"s=2&seatType=Coach&seatPref=None&outboundFlight=010%3B386%3B12%2F10%2F2023&advanceDiscount=0&r"
-"eturnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

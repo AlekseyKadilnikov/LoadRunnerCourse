@@ -1,27 +1,32 @@
 [
     {
-        "transactionName": "main_page",
-        "rawStartTime": 1701595140307,
-        "rawEndTime": 1701595140487
+        "transactionName": "home_page",
+        "rawStartTime": 1702658940355,
+        "rawEndTime": 1702658940502
     },
     {
         "transactionName": "sign_up_page",
-        "rawStartTime": 1701595140560,
-        "rawEndTime": 1701595140635
+        "rawStartTime": 1702658940502,
+        "rawEndTime": 1702658940540
     },
     {
         "transactionName": "sign_up",
-        "rawStartTime": 1701595140711,
-        "rawEndTime": 1701595140791
+        "rawStartTime": 1702658940555,
+        "rawEndTime": 1702658940631
     },
     {
-        "transactionName": "continue",
-        "rawStartTime": 1701595140868,
-        "rawEndTime": 1701595141003
+        "transactionName": "click_continue",
+        "rawStartTime": 1702658940631,
+        "rawEndTime": 1702658940762
     },
     {
-        "transactionName": "UC6_Registration",
-        "rawStartTime": 1701595140270,
-        "rawEndTime": 1701595141082
+        "transactionName": "sign_off",
+        "rawStartTime": 1702658940762,
+        "rawEndTime": 1702658940821
+    },
+    {
+        "transactionName": "UC3_Registration",
+        "rawStartTime": 1702658940355,
+        "rawEndTime": 1702658940822
     }
 ]

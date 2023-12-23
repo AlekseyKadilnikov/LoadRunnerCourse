@@ -2581,6 +2581,8 @@ void
 
 # 1 "../lib/common.h" 1
 void home_page() {
+	lr_start_transaction("home_page");
+	
 	web_add_auto_header("Sec-Fetch-Dest", 
 		"frame");
 
@@ -2620,9 +2622,13 @@ void home_page() {
 		"Snapshot=t1.inf", 
 		"Mode=HTML", 
 		"LAST");
+		
+	lr_end_transaction("home_page",2);
 }
 
 void login() {
+	lr_start_transaction("login");
+	
 	web_add_header("Origin", 
 		"{protocol}://{host}:{port}");
 
@@ -2655,9 +2661,13 @@ void login() {
 		"Name=login.y", "Value=0", "ENDITEM",
 		"Name=JSFormSubmit", "Value=off", "ENDITEM",
 		"LAST");
+		
+	lr_end_transaction("login",2);
 }
 
 void flights_page() {
+	lr_start_transaction("flights_page");
+	
 	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
 	
 	web_reg_find("Text=User has returned to the search page", "LAST");
@@ -2672,9 +2682,12 @@ void flights_page() {
 		"Mode=HTML", 
 		"LAST");
 
+	lr_end_transaction("flights_page",2);
 }
 
 void choose_ticket() {
+	lr_start_transaction("choose_ticket");
+	
 	web_reg_find("Text=firstName\" value=\"{firstName}", "LAST");
 	web_reg_find("Text=lastName\" value=\"{lastName}", "LAST");
 	web_reg_find("Text=value=\"{firstName} {lastName}", "LAST");
@@ -2696,9 +2709,12 @@ void choose_ticket() {
 		"Name=reserveFlights.x", "Value=54", "ENDITEM", 
 		"Name=reserveFlights.y", "Value=5", "ENDITEM", 
 		"LAST");
+		
+	lr_end_transaction("choose_ticket",2);
 }
 
-void search_flight(int numPassengers) {
+void search_flight() {
+	
 	char* ticket;
 	char ticketArr[20];
 	char* flightNumber;
@@ -2706,7 +2722,11 @@ void search_flight(int numPassengers) {
 	int return_value;
 	char* departureCity;
 	char* arrivalCity;
+	int numPassengers;
 	
+	lr_start_transaction("search_flight");
+	
+	numPassengers = atoi(lr_eval_string("{numPassengers}"));
 	departureCity = lr_eval_string("{cityToChoose}");
 	lr_save_string(departureCity, "departureCity");
 	arrivalCity = lr_eval_string("{cityToChoose}");
@@ -2765,9 +2785,16 @@ void search_flight(int numPassengers) {
 	lr_save_string(ticket, "ticket");
 	lr_save_string(flightNumber, "flightNumber");
 	lr_save_int(flightPrice, "flightPrice");
+	
+	lr_end_transaction("search_flight",2);
 }
 
-void payment_details(int numPassengers) {
+void payment_details() {
+	int numPassengers;
+	
+	lr_start_transaction("payment_details");
+	
+	numPassengers = atoi(lr_eval_string("{numPassengers}"));
 	
 	web_reg_find("Text=Flight {flightNumber} leaves {departureCity}  for {arrivalCity}", "LAST");
 	web_reg_find("Text=<b>{firstName}{lastName}'s Flight Invoice", "LAST");
@@ -2864,9 +2891,13 @@ void payment_details(int numPassengers) {
 		"Name=.cgifields", "Value=saveCC", "ENDITEM", 
 		"LAST");
 	}
+	
+	lr_end_transaction("payment_details",2);
 }
 
 void itinerary() {
+	lr_start_transaction("itinerary");
+	
 	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
 	
 	web_reg_find("Text=User wants the intineraries", "LAST");
@@ -2880,9 +2911,13 @@ void itinerary() {
 		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		"LAST");
+		
+	lr_end_transaction("itinerary",2);
 }
 
 void sign_off() {
+	lr_start_transaction("sign_off");
+	
 	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
 
 	web_reg_find("Text=Welcome to the Web Tours site.", "LAST");
@@ -2896,6 +2931,8 @@ void sign_off() {
 		"Snapshot=t5.inf", 
 		"Mode=HTML", 
 		"LAST");
+		
+	lr_end_transaction("sign_off",2);
 }
 # 9 "globals.h" 2
 
@@ -2928,23 +2965,13 @@ Action()
 	
 	lr_start_transaction("UC2_RemoveTicket");
 
-	lr_start_transaction("home_page");
-
 	home_page();
-
-	lr_end_transaction("home_page",2);
 	
-	lr_think_time(4);
-
-	lr_start_transaction("login");
+	lr_think_time(1.5);
 
 	login();
-
-	lr_end_transaction("login",2);
 	
-	lr_think_time(4);
-
-	lr_start_transaction("itinerary");
+	lr_think_time(1.5);
 	
 	web_reg_save_param_ex(
 		"ParamName=flightID",
@@ -2955,10 +2982,8 @@ Action()
 		"LAST");
 	
 	itinerary();
-
-	lr_end_transaction("itinerary",2);
 	
-	lr_think_time(4);
+	lr_think_time(1.5);
 
 	strcpy(cancel_flights_body, "");
 	
@@ -3026,11 +3051,11 @@ Action()
 			"Ordinal=All",
 		"LAST");
 		
-		if(flight_count_to_be_left == 0) {
-			web_reg_find("Text=No flights have been reserved.", "LAST");
-		} else {
-			web_reg_find("Text=A total of {flightsCountToBeLeft} scheduled flights.", "LAST");
-		}
+		 
+
+
+
+
 		
 		web_custom_request("itinerary.pl_2",
 			"URL={protocol}://{host}:{port}/cgi-bin/itinerary.pl", 
@@ -3059,24 +3084,18 @@ Action()
 		}
 		
 		 
-# 155 "Action.c"
+# 143 "Action.c"
 		
 		 
-# 181 "Action.c"
+# 169 "Action.c"
 	
 		lr_end_transaction("remove_ticket",2);
 		
-		lr_think_time(4);
+		lr_think_time(1.5);
 	}
-	
-	
-
-	lr_start_transaction("sign_off");
 
 	sign_off();
 
-	lr_end_transaction("sign_off",2);
-	
 	lr_end_transaction("UC2_RemoveTicket",2);
 
 	return 0;

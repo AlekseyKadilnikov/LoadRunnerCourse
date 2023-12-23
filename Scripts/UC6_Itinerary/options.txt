@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\kurtk\OneDrive\ƒокументы\Controller\Scripts\UC0_Itinerary
+-ID:\Loadrunner\include
+-ec:\users\kurtk\onedrive\документы\controller\scripts\uc0_itinerary\\logfile.log
+c:\users\kurtk\onedrive\документы\controller\scripts\uc0_itinerary\\combined_UC3_Itinerary.c
+c:\users\kurtk\onedrive\документы\controller\scripts\uc0_itinerary\\pre_cci.c

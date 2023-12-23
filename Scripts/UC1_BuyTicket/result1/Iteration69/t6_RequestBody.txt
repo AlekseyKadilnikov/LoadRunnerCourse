@@ -1,4 +1,0 @@
-"firstName=Darwin&lastName=Rohirse&address1=SHAFTER+AVE&address2=Seoul&pass1=Darwin+Rohirse&pas"
-"s2=Ward+Roerig&creditCard=55554444333322221111&expDate=12%2F24&oldCCOption=&numPassengers=2&se"
-"atType=Business&seatPref=None&outboundFlight=670%3B126%3B12%2F10%2F2023&advanceDiscount=0&retu"
-"rnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

@@ -1,4 +1,0 @@
-"firstName=Fate&lastName=Salisbury&address1=SANDPIPER+LN&address2=Tianjin&pass1=Fate+Salisbury&"
-"creditCard=22225555888899997777&expDate=12%2F24&oldCCOption=&numPassengers=1&seatType=First&se"
-"atPref=Window&outboundFlight=670%3B162%3B12%2F10%2F2023&advanceDiscount=0&returnFlight=&JSForm"
-"Submit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

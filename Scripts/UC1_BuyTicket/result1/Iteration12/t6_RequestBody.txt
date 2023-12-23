@@ -1,4 +1,0 @@
-"firstName=Lawson&lastName=Cladellas&address1=15TH+AVE&address2=Ho+Chi+Minh+City&pass1=Lawson+C"
-"ladellas&pass2=Garry+Ricacho&creditCard=22225555888844446666&expDate=07%2F24&oldCCOption=&numP"
-"assengers=2&seatType=First&seatPref=Aisle&outboundFlight=232%3B1370%3B12%2F10%2F2023&advanceDi"
-"scount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

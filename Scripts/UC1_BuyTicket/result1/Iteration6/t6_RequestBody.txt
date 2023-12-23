@@ -1,5 +1,0 @@
-"firstName=Barton&lastName=Ciubotaru&address1=36TH+AVE&address2=Ahmedabad&pass1=Barton+Ciubotar"
-"u&pass2=Rome+Riopedre&pass3=Marcus+Engraf&creditCard=44445555666611112222&expDate=10%2F24&oldC"
-"COption=&numPassengers=3&seatType=Coach&seatPref=Window&outboundFlight=013%3B315%3B12%2F10%2F2"
-"023&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields"
-"=saveCC"

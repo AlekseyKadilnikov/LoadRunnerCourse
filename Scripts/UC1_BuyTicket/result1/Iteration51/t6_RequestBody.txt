@@ -1,4 +1,0 @@
-"firstName=Ivy&lastName=Iraragorri&address1=STANFORD+HEIGHTS+AVE&address2=Luanda&pass1=Ivy+Irar"
-"agorri&pass2=Rush+Riseborough&creditCard=77778888999944445555&expDate=12%2F25&oldCCOption=&num"
-"Passengers=2&seatType=First&seatPref=Window&outboundFlight=012%3B684%3B12%2F10%2F2023&advanceD"
-"iscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

@@ -1,4 +1,0 @@
-"firstName=Hallie&lastName=Demosti&address1=LAGUNA+ST&address2=London&pass1=Hallie+Demosti&pass"
-"2=Julious+Robin&pass3=Emmett+Erti&creditCard=77778888555544441111&expDate=08%2F24&oldCCOption="
-"&numPassengers=3&seatType=Coach&seatPref=Window&outboundFlight=893%3B878%3B12%2F10%2F2023&adva"
-"nceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

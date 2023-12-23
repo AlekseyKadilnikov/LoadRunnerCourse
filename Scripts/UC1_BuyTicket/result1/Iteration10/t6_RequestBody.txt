@@ -1,4 +1,0 @@
-"firstName=Joshua&lastName=Altarejos&address1=MARK+TWAIN+PL&address2=Fuyang&pass1=Joshua+Altare"
-"jos&pass2=Dana+Riedle&creditCard=11112222333344445555&expDate=12%2F23&oldCCOption=&numPassenge"
-"rs=2&seatType=First&seatPref=None&outboundFlight=893%3B1647%3B12%2F10%2F2023&advanceDiscount=0"
-"&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

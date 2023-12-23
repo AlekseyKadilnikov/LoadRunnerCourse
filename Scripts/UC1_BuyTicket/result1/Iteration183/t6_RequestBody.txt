@@ -1,5 +1,0 @@
-"firstName=Adelbert&lastName=Diederrich&address1=MONTANA+ST&address2=Shijiazhuang&pass1=Adelber"
-"t+Diederrich&pass2=Garland+Ritzman&pass3=Edgar+Rogov&creditCard=22225555888899997777&expDate=1"
-"2%2F24&oldCCOption=&numPassengers=3&seatType=First&seatPref=None&outboundFlight=453%3B953%3B12"
-"%2F10%2F2023&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&."
-"cgifields=saveCC"

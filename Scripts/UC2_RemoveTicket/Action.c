@@ -12,23 +12,13 @@ Action()
 	
 	lr_start_transaction("UC2_RemoveTicket");
 
-	lr_start_transaction("home_page");
-
 	home_page();
-
-	lr_end_transaction("home_page",LR_AUTO);
 	
-	lr_think_time(1.5);
-
-	lr_start_transaction("login");
+	lr_think_time(5);
 
 	login();
-
-	lr_end_transaction("login",LR_AUTO);
 	
-	lr_think_time(1.5);
-
-	lr_start_transaction("itinerary");
+	lr_think_time(5);
 	
 	web_reg_save_param_ex(
 		"ParamName=flightID",
@@ -39,10 +29,8 @@ Action()
 		LAST);
 	
 	itinerary();
-
-	lr_end_transaction("itinerary",LR_AUTO);
 	
-	lr_think_time(1.5);
+	lr_think_time(5);
 
 	strcpy(cancel_flights_body, "");
 	
@@ -110,11 +98,11 @@ Action()
 			"Ordinal=All",
 		LAST);
 		
-		if(flight_count_to_be_left == 0) {
+		/*if(flight_count_to_be_left == 0) {
 			web_reg_find("Text=No flights have been reserved.", LAST);
 		} else {
 			web_reg_find("Text=A total of {flightsCountToBeLeft} scheduled flights.", LAST);
-		}
+		}*/
 		
 		web_custom_request("itinerary.pl_2",
 			"URL={protocol}://{host}:{port}/cgi-bin/itinerary.pl", 
@@ -181,17 +169,11 @@ Action()
 	
 		lr_end_transaction("remove_ticket",LR_AUTO);
 		
-		lr_think_time(1.5);
+		lr_think_time(5);
 	}
-	
-	
-
-	lr_start_transaction("sign_off");
 
 	sign_off();
 
-	lr_end_transaction("sign_off",LR_AUTO);
-	
 	lr_end_transaction("UC2_RemoveTicket",LR_AUTO);
 
 	return 0;

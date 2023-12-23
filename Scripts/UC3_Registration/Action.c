@@ -26,13 +26,9 @@ Action()
 		
 	lr_start_transaction("UC3_Registration");
 
-	lr_start_transaction("home_page");
-
 	home_page();
-
-	lr_end_transaction("home_page",LR_AUTO);
 	
-	lr_think_time(12);
+	lr_think_time(7.5);
 
 	lr_start_transaction("sign_up_page");
 
@@ -53,7 +49,7 @@ Action()
 
 	lr_end_transaction("sign_up_page",LR_AUTO);
 	
-	lr_think_time(12);
+	lr_think_time(7.5);
 
 	lr_start_transaction("sign_up");
 
@@ -93,9 +89,9 @@ Action()
 
 	lr_end_transaction("sign_up",LR_AUTO);
 	
-	lr_think_time(12);
+	lr_think_time(7.5);
 
-	lr_start_transaction("home_page");
+	lr_start_transaction("click_continue");
 
 	web_revert_auto_header("Sec-Fetch-User");
 
@@ -114,7 +110,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("home_page",LR_AUTO);
+	lr_end_transaction("click_continue",LR_AUTO);
 		
 	if((file=fopen(filename,"a"))==NULL) {
 		lr_error_message("Cannot open %s", filename);
@@ -136,6 +132,8 @@ Action()
 	
 	strcpy(rand_username, "");
 	strcpy(rand_password, "");
+	
+	sign_off();
 	
 	lr_end_transaction("UC3_Registration",LR_AUTO);
 

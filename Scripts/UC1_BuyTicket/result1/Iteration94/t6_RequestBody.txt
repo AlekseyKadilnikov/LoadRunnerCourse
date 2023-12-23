@@ -1,5 +1,0 @@
-"firstName=Dudley&lastName=Alcantara&address1=BENNINGTON+ST&address2=Dhaka&pass1=Dudley+Alcanta"
-"ra&pass2=Elzie+Ritzenhofer&pass3=Newman+Richaud&creditCard=44445555666611112222&expDate=10%2F2"
-"4&oldCCOption=&numPassengers=3&seatType=First&seatPref=Aisle&outboundFlight=670%3B162%3B12%2F1"
-"0%2F2023&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgif"
-"ields=saveCC"

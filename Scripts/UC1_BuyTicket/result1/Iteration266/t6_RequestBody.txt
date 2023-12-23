@@ -1,4 +1,0 @@
-"firstName=Arch&lastName=Dondrup&address1=41ST+AVE&address2=Chengdu&pass1=Arch+Dondrup&pass2=Ra"
-"ndle+Ricote&pass3=Avery+Rocaspana&creditCard=22225555888899997777&expDate=12%2F24&oldCCOption="
-"&numPassengers=3&seatType=First&seatPref=Window&outboundFlight=012%3B684%3B12%2F10%2F2023&adva"
-"nceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"

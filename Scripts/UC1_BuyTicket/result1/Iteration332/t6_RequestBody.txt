@@ -1,5 +1,0 @@
-"firstName=Gerald&lastName=Dentas&address1=I-80+WESTBOUND&address2=Jinan&pass1=Gerald+Dentas&pa"
-"ss2=Egbert+Rohweder&pass3=Paul+Erlenbusch&creditCard=44445555666611112222&expDate=10%2F24&oldC"
-"COption=&numPassengers=3&seatType=Coach&seatPref=Window&outboundFlight=230%3B773%3B12%2F10%2F2"
-"023&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields"
-"=saveCC"

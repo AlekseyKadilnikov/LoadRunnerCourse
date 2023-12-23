@@ -1,4 +1,0 @@
-"firstName=Fate&lastName=Estallo&address1=VASQUEZ+AVE&address2=Changchun&pass1=Fate+Estallo&cre"
-"ditCard=22225555888844446666&expDate=07%2F24&oldCCOption=&numPassengers=1&seatType=First&seatP"
-"ref=Window&outboundFlight=890%3B2013%3B12%2F10%2F2023&advanceDiscount=0&returnFlight=&JSFormSu"
-"bmit=off&buyFlights.x=20&buyFlights.y=7&.cgifields=saveCC"
